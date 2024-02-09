@@ -1,0 +1,399 @@
+INFO 2024-02-07 16:12:51,937 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-02-07 16:16:39,817 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-02-07 16:17:45,205 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-02-07 16:18:41,109 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\settings\dev.py changed, reloading.
+INFO 2024-02-07 16:20:52,069 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-02-07 16:21:05,056 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\settings\dev.py changed, reloading.
+INFO 2024-02-07 16:21:06,337 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-02-07 16:21:11,364 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\settings\dev.py changed, reloading.
+INFO 2024-02-07 16:21:12,671 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-02-07 16:21:19,994 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\settings\dev.py changed, reloading.
+INFO 2024-02-07 16:21:30,352 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-02-07 17:16:48,529 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-02-07 17:18:25,130 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\settings\dev.py changed, reloading.
+INFO 2024-02-07 17:18:26,453 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-02-07 17:19:31,657 autoreload:598 Watching for file changes with StatReloader
+INFO 2024-02-07 17:20:54,199 autoreload:598 Watching for file changes with StatReloader
+INFO 2024-02-07 17:21:23,160 autoreload:598 Watching for file changes with StatReloader
+INFO 2024-02-07 17:21:38,965 autoreload:598 Watching for file changes with StatReloader
+INFO 2024-02-07 17:22:00,803 autoreload:598 Watching for file changes with StatReloader
+INFO 2024-02-07 19:00:13,530 autoreload:598 Watching for file changes with StatReloader
+ERROR 2024-02-07 19:14:49,596 log:222 Internal Server Error: /users/login/
+Traceback (most recent call last):
+  File "D:\001-software\Anconda\envs\uric_api\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\001-software\Anconda\envs\uric_api\lib\site-packages\corsheaders\middleware.py", line 54, in __call__
+    response: HttpResponseBase | None = self.check_preflight(request)
+  File "D:\001-software\Anconda\envs\uric_api\lib\site-packages\corsheaders\middleware.py", line 81, in check_preflight
+    return HttpResponse(headers={"content-length": "0"})
+  File "D:\001-software\Anconda\envs\uric_api\lib\site-packages\django\http\response.py", line 291, in __init__
+    super().__init__(*args, **kwargs)
+TypeError: __init__() got an unexpected keyword argument 'headers'
+ERROR 2024-02-07 19:14:49,598 basehttp:157 "OPTIONS /users/login/ HTTP/1.1" 500 84895
+ERROR 2024-02-07 19:14:57,675 log:222 Internal Server Error: /users/login/
+Traceback (most recent call last):
+  File "D:\001-software\Anconda\envs\uric_api\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\001-software\Anconda\envs\uric_api\lib\site-packages\corsheaders\middleware.py", line 54, in __call__
+    response: HttpResponseBase | None = self.check_preflight(request)
+  File "D:\001-software\Anconda\envs\uric_api\lib\site-packages\corsheaders\middleware.py", line 81, in check_preflight
+    return HttpResponse(headers={"content-length": "0"})
+  File "D:\001-software\Anconda\envs\uric_api\lib\site-packages\django\http\response.py", line 291, in __init__
+    super().__init__(*args, **kwargs)
+TypeError: __init__() got an unexpected keyword argument 'headers'
+ERROR 2024-02-07 19:14:57,676 basehttp:157 "OPTIONS /users/login/ HTTP/1.1" 500 84895
+INFO 2024-02-07 19:16:23,632 autoreload:222 D:\00_github\python_web\uric\uric_api\uric_api\apps\users\urls.py changed, reloading.
+INFO 2024-02-07 19:16:24,985 autoreload:598 Watching for file changes with StatReloader
+ERROR 2024-02-07 19:20:21,317 log:222 Internal Server Error: /users/login/
+Traceback (most recent call last):
+  File "D:\001-software\Anconda\envs\uric_api\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\001-software\Anconda\envs\uric_api\lib\site-packages\corsheaders\middleware.py", line 54, in __call__
+    response: HttpResponseBase | None = self.check_preflight(request)
+  File "D:\001-software\Anconda\envs\uric_api\lib\site-packages\corsheaders\middleware.py", line 81, in check_preflight
+    return HttpResponse(headers={"content-length": "0"})
+  File "D:\001-software\Anconda\envs\uric_api\lib\site-packages\django\http\response.py", line 291, in __init__
+    super().__init__(*args, **kwargs)
+TypeError: __init__() got an unexpected keyword argument 'headers'
+ERROR 2024-02-07 19:20:21,319 basehttp:157 "OPTIONS /users/login/ HTTP/1.1" 500 84895
+ERROR 2024-02-07 19:20:23,137 log:222 Internal Server Error: /users/login/
+Traceback (most recent call last):
+  File "D:\001-software\Anconda\envs\uric_api\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\001-software\Anconda\envs\uric_api\lib\site-packages\corsheaders\middleware.py", line 54, in __call__
+    response: HttpResponseBase | None = self.check_preflight(request)
+  File "D:\001-software\Anconda\envs\uric_api\lib\site-packages\corsheaders\middleware.py", line 81, in check_preflight
+    return HttpResponse(headers={"content-length": "0"})
+  File "D:\001-software\Anconda\envs\uric_api\lib\site-packages\django\http\response.py", line 291, in __init__
+    super().__init__(*args, **kwargs)
+TypeError: __init__() got an unexpected keyword argument 'headers'
+ERROR 2024-02-07 19:20:23,144 basehttp:157 "OPTIONS /users/login/ HTTP/1.1" 500 84895
+INFO 2024-02-07 19:22:15,560 autoreload:222 D:\00_github\python_web\uric\uric_api\uric_api\apps\users\urls.py changed, reloading.
+INFO 2024-02-07 19:22:16,929 autoreload:598 Watching for file changes with StatReloader
+ERROR 2024-02-07 19:26:23,101 log:222 Internal Server Error: /users/login/
+Traceback (most recent call last):
+  File "D:\001-software\Anconda\envs\uric_api\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\001-software\Anconda\envs\uric_api\lib\site-packages\corsheaders\middleware.py", line 54, in __call__
+    response: HttpResponseBase | None = self.check_preflight(request)
+  File "D:\001-software\Anconda\envs\uric_api\lib\site-packages\corsheaders\middleware.py", line 81, in check_preflight
+    return HttpResponse(headers={"content-length": "0"})
+  File "D:\001-software\Anconda\envs\uric_api\lib\site-packages\django\http\response.py", line 291, in __init__
+    super().__init__(*args, **kwargs)
+TypeError: __init__() got an unexpected keyword argument 'headers'
+ERROR 2024-02-07 19:26:23,101 basehttp:157 "OPTIONS /users/login/ HTTP/1.1" 500 84895
+INFO 2024-02-07 19:28:52,684 autoreload:598 Watching for file changes with StatReloader
+ERROR 2024-02-07 19:28:57,821 log:222 Internal Server Error: /users/login/
+Traceback (most recent call last):
+  File "D:\001-software\Anconda\envs\uric_api\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\001-software\Anconda\envs\uric_api\lib\site-packages\corsheaders\middleware.py", line 54, in __call__
+    response: HttpResponseBase | None = self.check_preflight(request)
+  File "D:\001-software\Anconda\envs\uric_api\lib\site-packages\corsheaders\middleware.py", line 81, in check_preflight
+    return HttpResponse(headers={"content-length": "0"})
+  File "D:\001-software\Anconda\envs\uric_api\lib\site-packages\django\http\response.py", line 291, in __init__
+    super().__init__(*args, **kwargs)
+TypeError: __init__() got an unexpected keyword argument 'headers'
+ERROR 2024-02-07 19:28:57,834 basehttp:157 "OPTIONS /users/login/ HTTP/1.1" 500 84895
+ERROR 2024-02-07 19:29:00,236 log:222 Internal Server Error: /users/login/
+Traceback (most recent call last):
+  File "D:\001-software\Anconda\envs\uric_api\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\001-software\Anconda\envs\uric_api\lib\site-packages\corsheaders\middleware.py", line 54, in __call__
+    response: HttpResponseBase | None = self.check_preflight(request)
+  File "D:\001-software\Anconda\envs\uric_api\lib\site-packages\corsheaders\middleware.py", line 81, in check_preflight
+    return HttpResponse(headers={"content-length": "0"})
+  File "D:\001-software\Anconda\envs\uric_api\lib\site-packages\django\http\response.py", line 291, in __init__
+    super().__init__(*args, **kwargs)
+TypeError: __init__() got an unexpected keyword argument 'headers'
+ERROR 2024-02-07 19:29:00,240 basehttp:157 "OPTIONS /users/login/ HTTP/1.1" 500 84895
+ERROR 2024-02-07 19:29:01,142 log:222 Internal Server Error: /users/login/
+Traceback (most recent call last):
+  File "D:\001-software\Anconda\envs\uric_api\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\001-software\Anconda\envs\uric_api\lib\site-packages\corsheaders\middleware.py", line 54, in __call__
+    response: HttpResponseBase | None = self.check_preflight(request)
+  File "D:\001-software\Anconda\envs\uric_api\lib\site-packages\corsheaders\middleware.py", line 81, in check_preflight
+    return HttpResponse(headers={"content-length": "0"})
+  File "D:\001-software\Anconda\envs\uric_api\lib\site-packages\django\http\response.py", line 291, in __init__
+    super().__init__(*args, **kwargs)
+TypeError: __init__() got an unexpected keyword argument 'headers'
+ERROR 2024-02-07 19:29:01,148 basehttp:157 "OPTIONS /users/login/ HTTP/1.1" 500 84895
+ERROR 2024-02-07 19:35:24,490 log:222 Internal Server Error: /users/login/
+Traceback (most recent call last):
+  File "D:\001-software\Anconda\envs\uric_api\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\001-software\Anconda\envs\uric_api\lib\site-packages\corsheaders\middleware.py", line 54, in __call__
+    response: HttpResponseBase | None = self.check_preflight(request)
+  File "D:\001-software\Anconda\envs\uric_api\lib\site-packages\corsheaders\middleware.py", line 81, in check_preflight
+    return HttpResponse(headers={"content-length": "0"})
+  File "D:\001-software\Anconda\envs\uric_api\lib\site-packages\django\http\response.py", line 291, in __init__
+    super().__init__(*args, **kwargs)
+TypeError: __init__() got an unexpected keyword argument 'headers'
+ERROR 2024-02-07 19:35:24,493 basehttp:157 "OPTIONS /users/login/ HTTP/1.1" 500 84895
+INFO 2024-02-07 19:35:42,178 autoreload:598 Watching for file changes with StatReloader
+ERROR 2024-02-07 19:36:30,569 exception:75 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2024-02-07 19:36:30,752 log:222 Bad Request: /
+WARNING 2024-02-07 19:36:30,752 basehttp:157 "GET / HTTP/1.1" 400 86717
+ERROR 2024-02-07 19:36:30,876 exception:75 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2024-02-07 19:36:30,899 log:222 Bad Request: /favicon.ico
+WARNING 2024-02-07 19:36:30,900 basehttp:157 "GET /favicon.ico HTTP/1.1" 400 86642
+INFO 2024-02-07 19:37:17,273 autoreload:222 D:\00_github\python_web\uric\uric_api\uric_api\settings\dev.py changed, reloading.
+INFO 2024-02-07 19:37:18,785 autoreload:598 Watching for file changes with StatReloader
+ERROR 2024-02-07 19:37:24,220 log:222 Internal Server Error: /users/login/
+Traceback (most recent call last):
+  File "D:\001-software\Anconda\envs\uric_api\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\001-software\Anconda\envs\uric_api\lib\site-packages\corsheaders\middleware.py", line 54, in __call__
+    response: HttpResponseBase | None = self.check_preflight(request)
+  File "D:\001-software\Anconda\envs\uric_api\lib\site-packages\corsheaders\middleware.py", line 81, in check_preflight
+    return HttpResponse(headers={"content-length": "0"})
+  File "D:\001-software\Anconda\envs\uric_api\lib\site-packages\django\http\response.py", line 291, in __init__
+    super().__init__(*args, **kwargs)
+TypeError: __init__() got an unexpected keyword argument 'headers'
+ERROR 2024-02-07 19:37:24,220 basehttp:157 "OPTIONS /users/login/ HTTP/1.1" 500 84893
+ERROR 2024-02-07 19:37:26,060 log:222 Internal Server Error: /users/login/
+Traceback (most recent call last):
+  File "D:\001-software\Anconda\envs\uric_api\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\001-software\Anconda\envs\uric_api\lib\site-packages\corsheaders\middleware.py", line 54, in __call__
+    response: HttpResponseBase | None = self.check_preflight(request)
+  File "D:\001-software\Anconda\envs\uric_api\lib\site-packages\corsheaders\middleware.py", line 81, in check_preflight
+    return HttpResponse(headers={"content-length": "0"})
+  File "D:\001-software\Anconda\envs\uric_api\lib\site-packages\django\http\response.py", line 291, in __init__
+    super().__init__(*args, **kwargs)
+TypeError: __init__() got an unexpected keyword argument 'headers'
+ERROR 2024-02-07 19:37:26,062 basehttp:157 "OPTIONS /users/login/ HTTP/1.1" 500 84893
+WARNING 2024-02-07 19:37:27,994 log:222 Not Found: /
+WARNING 2024-02-07 19:37:27,994 basehttp:157 "GET / HTTP/1.1" 404 2611
+WARNING 2024-02-07 19:37:28,011 log:222 Not Found: /favicon.ico
+WARNING 2024-02-07 19:37:28,015 basehttp:157 "GET /favicon.ico HTTP/1.1" 404 2662
+INFO 2024-02-07 19:37:33,985 basehttp:157 "GET /admin/ HTTP/1.1" 302 0
+INFO 2024-02-07 19:37:34,065 basehttp:157 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4029
+INFO 2024-02-07 19:37:34,095 basehttp:157 "GET /static/admin/simpleui-x/fontawesome-free-6.2.0-web/css/all.min.css HTTP/1.1" 200 101784
+INFO 2024-02-07 19:37:34,098 basehttp:157 "GET /static/admin/simpleui-x/elementui/theme-chalk/index.css HTTP/1.1" 200 238628
+INFO 2024-02-07 19:37:34,131 basehttp:157 "GET /static/admin/simpleui-x/js/vue.min.js?_=2023.12.12 HTTP/1.1" 200 93675
+INFO 2024-02-07 19:37:34,205 basehttp:157 "GET /static/admin/simpleui-x/elementui/index.js?_=2023.12.12 HTTP/1.1" 200 586253
+INFO 2024-02-07 19:37:34,270 basehttp:157 "GET /static/admin/simpleui-x/fontawesome-free-6.2.0-web/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 150472
+INFO 2024-02-07 19:37:41,128 basehttp:157 "GET /static/admin/simpleui-x/elementui/theme-chalk/fonts/element-icons.woff HTTP/1.1" 200 28200
+INFO 2024-02-07 19:37:43,788 basehttp:157 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2024-02-07 19:37:43,859 basehttp:157 "GET /admin/ HTTP/1.1" 200 17327
+INFO 2024-02-07 19:37:43,892 basehttp:157 "GET /static/admin/simpleui-x/automatic/dicts.js?_=2023.12.12 HTTP/1.1" 200 12677
+INFO 2024-02-07 19:37:43,893 basehttp:157 "GET /static/admin/simpleui-x/locale/zh-hans.js?_=2023.12.12 HTTP/1.1" 200 1254
+INFO 2024-02-07 19:37:43,895 basehttp:157 "GET /static/admin/simpleui-x/locale/en-us.js?_=2023.12.12 HTTP/1.1" 200 811
+INFO 2024-02-07 19:37:43,896 basehttp:157 "GET /static/admin/simpleui-x/js/cookie.js?_=2023.12.12 HTTP/1.1" 200 524
+INFO 2024-02-07 19:37:43,898 basehttp:157 "GET /static/admin/simpleui-x/automatic/segment.js?_=2023.12.12 HTTP/1.1" 200 1194
+INFO 2024-02-07 19:37:43,899 basehttp:157 "GET /static/admin/simpleui-x/theme/theme.js?_=2023.12.12 HTTP/1.1" 200 4274
+INFO 2024-02-07 19:37:43,913 basehttp:157 "GET /static/admin/simpleui-x/js/menu.js?_=2023.12.12 HTTP/1.1" 200 1216
+INFO 2024-02-07 19:37:43,921 basehttp:157 "GET /static/admin/simpleui-x/waves/waves.min.js?_=2023.12.12 HTTP/1.1" 200 6329
+INFO 2024-02-07 19:37:43,924 basehttp:157 "GET /static/admin/simpleui-x/js/index.js?_=2023.12.12 HTTP/1.1" 200 21460
+INFO 2024-02-07 19:37:43,985 basehttp:157 "GET /static/admin/simpleui-x/fontawesome-free-6.2.0-web/webfonts/fa-brands-400.woff2 HTTP/1.1" 200 107460
+ERROR 2024-02-07 19:37:58,634 log:222 Internal Server Error: /users/login/
+Traceback (most recent call last):
+  File "D:\001-software\Anconda\envs\uric_api\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\001-software\Anconda\envs\uric_api\lib\site-packages\corsheaders\middleware.py", line 54, in __call__
+    response: HttpResponseBase | None = self.check_preflight(request)
+  File "D:\001-software\Anconda\envs\uric_api\lib\site-packages\corsheaders\middleware.py", line 81, in check_preflight
+    return HttpResponse(headers={"content-length": "0"})
+  File "D:\001-software\Anconda\envs\uric_api\lib\site-packages\django\http\response.py", line 291, in __init__
+    super().__init__(*args, **kwargs)
+TypeError: __init__() got an unexpected keyword argument 'headers'
+ERROR 2024-02-07 19:37:58,644 basehttp:157 "OPTIONS /users/login/ HTTP/1.1" 500 84893
+ERROR 2024-02-07 19:37:59,959 log:222 Internal Server Error: /users/login/
+Traceback (most recent call last):
+  File "D:\001-software\Anconda\envs\uric_api\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\001-software\Anconda\envs\uric_api\lib\site-packages\corsheaders\middleware.py", line 54, in __call__
+    response: HttpResponseBase | None = self.check_preflight(request)
+  File "D:\001-software\Anconda\envs\uric_api\lib\site-packages\corsheaders\middleware.py", line 81, in check_preflight
+    return HttpResponse(headers={"content-length": "0"})
+  File "D:\001-software\Anconda\envs\uric_api\lib\site-packages\django\http\response.py", line 291, in __init__
+    super().__init__(*args, **kwargs)
+TypeError: __init__() got an unexpected keyword argument 'headers'
+ERROR 2024-02-07 19:37:59,964 basehttp:157 "OPTIONS /users/login/ HTTP/1.1" 500 84893
+ERROR 2024-02-07 19:38:15,760 log:222 Internal Server Error: /users/login/
+Traceback (most recent call last):
+  File "D:\001-software\Anconda\envs\uric_api\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\001-software\Anconda\envs\uric_api\lib\site-packages\corsheaders\middleware.py", line 54, in __call__
+    response: HttpResponseBase | None = self.check_preflight(request)
+  File "D:\001-software\Anconda\envs\uric_api\lib\site-packages\corsheaders\middleware.py", line 81, in check_preflight
+    return HttpResponse(headers={"content-length": "0"})
+  File "D:\001-software\Anconda\envs\uric_api\lib\site-packages\django\http\response.py", line 291, in __init__
+    super().__init__(*args, **kwargs)
+TypeError: __init__() got an unexpected keyword argument 'headers'
+ERROR 2024-02-07 19:38:15,760 basehttp:157 "OPTIONS /users/login/ HTTP/1.1" 500 85158
+INFO 2024-02-07 21:42:36,362 autoreload:598 Watching for file changes with StatReloader
+INFO 2024-02-07 21:43:20,979 autoreload:598 Watching for file changes with StatReloader
+INFO 2024-02-07 21:43:52,835 autoreload:222 D:\001-software\Anconda\envs\uric_api\Lib\site-packages\corsheaders\checks.py changed, reloading.
+INFO 2024-02-07 21:43:53,969 autoreload:598 Watching for file changes with StatReloader
+INFO 2024-02-07 21:44:01,539 autoreload:222 D:\001-software\Anconda\envs\uric_api\Lib\site-packages\corsheaders\checks.py changed, reloading.
+INFO 2024-02-07 21:44:02,659 autoreload:598 Watching for file changes with StatReloader
+INFO 2024-02-07 21:44:14,422 autoreload:222 D:\001-software\Anconda\envs\uric_api\Lib\site-packages\corsheaders\checks.py changed, reloading.
+INFO 2024-02-07 21:44:16,057 autoreload:598 Watching for file changes with StatReloader
+INFO 2024-02-07 21:49:41,343 autoreload:222 D:\00_github\python_web\uric\uric_api\uric_api\settings\dev.py changed, reloading.
+INFO 2024-02-07 21:50:45,958 autoreload:598 Watching for file changes with StatReloader
+INFO 2024-02-07 21:51:10,080 autoreload:222 D:\00_github\python_web\uric\uric_api\uric_api\settings\dev.py changed, reloading.
+INFO 2024-02-07 21:51:12,083 autoreload:598 Watching for file changes with StatReloader
+INFO 2024-02-07 21:51:16,761 autoreload:222 D:\00_github\python_web\uric\uric_api\uric_api\settings\dev.py changed, reloading.
+INFO 2024-02-07 21:52:04,797 autoreload:598 Watching for file changes with StatReloader
+INFO 2024-02-07 21:52:36,639 autoreload:222 D:\00_github\python_web\uric\uric_api\uric_api\settings\dev.py changed, reloading.
+INFO 2024-02-07 21:52:38,461 autoreload:598 Watching for file changes with StatReloader
+INFO 2024-02-07 21:52:48,183 autoreload:222 D:\00_github\python_web\uric\uric_api\uric_api\settings\dev.py changed, reloading.
+INFO 2024-02-07 21:52:49,976 autoreload:598 Watching for file changes with StatReloader
+INFO 2024-02-07 21:53:01,008 autoreload:222 D:\00_github\python_web\uric\uric_api\uric_api\settings\dev.py changed, reloading.
+INFO 2024-02-07 21:53:02,930 autoreload:598 Watching for file changes with StatReloader
+INFO 2024-02-07 21:54:20,415 autoreload:222 D:\00_github\python_web\uric\uric_api\uric_api\settings\dev.py changed, reloading.
+INFO 2024-02-07 21:54:22,292 autoreload:598 Watching for file changes with StatReloader
+INFO 2024-02-07 21:55:32,299 autoreload:222 D:\001-software\Anconda\envs\uric_api\Lib\site-packages\channels\routing.py changed, reloading.
+INFO 2024-02-07 21:55:34,127 autoreload:598 Watching for file changes with StatReloader
+INFO 2024-02-07 21:55:36,139 autoreload:222 D:\001-software\Anconda\envs\uric_api\Lib\site-packages\channels\routing.py changed, reloading.
+INFO 2024-02-07 21:55:37,855 autoreload:598 Watching for file changes with StatReloader
+INFO 2024-02-07 21:55:39,814 autoreload:222 D:\001-software\Anconda\envs\uric_api\Lib\site-packages\channels\routing.py changed, reloading.
+INFO 2024-02-07 21:55:41,533 autoreload:598 Watching for file changes with StatReloader
+INFO 2024-02-07 21:55:57,181 autoreload:222 D:\001-software\Anconda\envs\uric_api\Lib\site-packages\channels\routing.py changed, reloading.
+INFO 2024-02-07 21:55:58,931 autoreload:598 Watching for file changes with StatReloader
+INFO 2024-02-07 21:56:06,446 autoreload:598 Watching for file changes with StatReloader
+INFO 2024-02-07 21:58:16,717 autoreload:222 D:\001-software\Anconda\envs\uric_api\Lib\site-packages\channels\routing.py changed, reloading.
+INFO 2024-02-07 21:58:18,800 autoreload:598 Watching for file changes with StatReloader
+INFO 2024-02-07 21:59:53,524 autoreload:598 Watching for file changes with StatReloader
+INFO 2024-02-07 22:00:53,255 autoreload:598 Watching for file changes with StatReloader
+INFO 2024-02-07 22:01:12,062 autoreload:222 D:\00_github\python_web\uric\uric_api\uric_api\settings\dev.py changed, reloading.
+INFO 2024-02-07 22:01:13,833 autoreload:598 Watching for file changes with StatReloader
+INFO 2024-02-07 22:01:20,983 autoreload:222 D:\00_github\python_web\uric\uric_api\uric_api\settings\dev.py changed, reloading.
+INFO 2024-02-07 22:01:22,684 autoreload:598 Watching for file changes with StatReloader
+INFO 2024-02-07 22:01:25,914 autoreload:222 D:\00_github\python_web\uric\uric_api\uric_api\settings\dev.py changed, reloading.
+INFO 2024-02-07 22:01:27,647 autoreload:598 Watching for file changes with StatReloader
+INFO 2024-02-07 22:01:29,615 autoreload:222 D:\00_github\python_web\uric\uric_api\uric_api\settings\dev.py changed, reloading.
+INFO 2024-02-07 22:01:31,304 autoreload:598 Watching for file changes with StatReloader
+INFO 2024-02-07 22:01:39,689 autoreload:222 D:\00_github\python_web\uric\uric_api\uric_api\settings\dev.py changed, reloading.
+INFO 2024-02-07 22:01:41,439 autoreload:598 Watching for file changes with StatReloader
+INFO 2024-02-07 22:01:47,316 autoreload:222 D:\00_github\python_web\uric\uric_api\uric_api\settings\dev.py changed, reloading.
+INFO 2024-02-07 22:01:48,977 autoreload:598 Watching for file changes with StatReloader
+INFO 2024-02-07 22:02:31,923 autoreload:222 D:\00_github\python_web\uric\uric_api\uric_api\settings\dev.py changed, reloading.
+INFO 2024-02-07 22:02:33,742 autoreload:598 Watching for file changes with StatReloader
+INFO 2024-02-07 22:02:47,404 autoreload:222 D:\00_github\python_web\uric\uric_api\uric_api\settings\dev.py changed, reloading.
+INFO 2024-02-07 22:02:49,211 autoreload:598 Watching for file changes with StatReloader
+INFO 2024-02-07 22:02:52,524 autoreload:222 D:\00_github\python_web\uric\uric_api\uric_api\settings\dev.py changed, reloading.
+INFO 2024-02-07 22:02:54,211 autoreload:598 Watching for file changes with StatReloader
+INFO 2024-02-07 22:02:58,777 autoreload:222 D:\00_github\python_web\uric\uric_api\uric_api\settings\dev.py changed, reloading.
+INFO 2024-02-07 22:04:04,156 autoreload:598 Watching for file changes with StatReloader
+INFO 2024-02-07 22:04:11,362 autoreload:222 D:\00_github\python_web\uric\uric_api\uric_api\settings\dev.py changed, reloading.
+INFO 2024-02-07 22:04:13,206 autoreload:598 Watching for file changes with StatReloader
+INFO 2024-02-07 22:04:15,214 autoreload:222 D:\00_github\python_web\uric\uric_api\uric_api\settings\dev.py changed, reloading.
+INFO 2024-02-07 22:04:16,952 autoreload:598 Watching for file changes with StatReloader
+INFO 2024-02-07 22:04:19,014 autoreload:222 D:\00_github\python_web\uric\uric_api\uric_api\settings\dev.py changed, reloading.
+INFO 2024-02-07 22:04:20,753 autoreload:598 Watching for file changes with StatReloader
+INFO 2024-02-07 22:04:25,359 autoreload:222 D:\00_github\python_web\uric\uric_api\uric_api\settings\dev.py changed, reloading.
+INFO 2024-02-07 22:04:27,196 autoreload:598 Watching for file changes with StatReloader
+INFO 2024-02-07 22:04:38,280 autoreload:222 D:\00_github\python_web\uric\uric_api\uric_api\settings\dev.py changed, reloading.
+INFO 2024-02-07 22:04:40,085 autoreload:598 Watching for file changes with StatReloader
+INFO 2024-02-07 22:04:49,822 autoreload:222 D:\00_github\python_web\uric\uric_api\uric_api\settings\dev.py changed, reloading.
+INFO 2024-02-07 22:04:51,648 autoreload:598 Watching for file changes with StatReloader
+INFO 2024-02-07 22:04:53,630 autoreload:222 D:\00_github\python_web\uric\uric_api\uric_api\settings\dev.py changed, reloading.
+INFO 2024-02-07 22:04:55,377 autoreload:598 Watching for file changes with StatReloader
+INFO 2024-02-07 22:04:59,959 autoreload:222 D:\00_github\python_web\uric\uric_api\uric_api\settings\dev.py changed, reloading.
+INFO 2024-02-07 22:05:01,788 autoreload:598 Watching for file changes with StatReloader
+INFO 2024-02-07 22:16:40,264 autoreload:598 Watching for file changes with StatReloader
+INFO 2024-02-07 22:21:25,801 autoreload:222 D:\00_github\python_web\uric\uric_api\uric_api\settings\dev.py changed, reloading.
+INFO 2024-02-07 22:21:35,145 autoreload:598 Watching for file changes with StatReloader
+INFO 2024-02-07 22:23:41,460 autoreload:598 Watching for file changes with StatReloader
+INFO 2024-02-07 22:24:02,969 runserver:147 HTTP OPTIONS /users/login/ 200 [0.00, 127.0.0.1:13837]
+INFO 2024-02-07 22:24:04,282 runserver:147 HTTP OPTIONS /users/login/ 200 [0.00, 127.0.0.1:13837]
+ERROR 2024-02-07 22:24:26,597 exception:75 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2024-02-07 22:24:26,802 log:222 Bad Request: /admin/
+WARNING 2024-02-07 22:24:26,807 runserver:157 HTTP GET /admin/ 400 [0.21, 127.0.0.1:13862]
+ERROR 2024-02-07 22:24:29,230 exception:75 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2024-02-07 22:24:29,249 log:222 Bad Request: /admin/
+WARNING 2024-02-07 22:24:29,252 runserver:157 HTTP GET /admin/ 400 [0.02, 127.0.0.1:13862]
+ERROR 2024-02-07 22:24:33,032 exception:75 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2024-02-07 22:24:33,052 log:222 Bad Request: /admin/
+WARNING 2024-02-07 22:24:33,055 runserver:157 HTTP GET /admin/ 400 [0.02, 127.0.0.1:13862]
+ERROR 2024-02-07 22:24:33,540 exception:75 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2024-02-07 22:24:33,558 log:222 Bad Request: /admin/
+WARNING 2024-02-07 22:24:33,563 runserver:157 HTTP GET /admin/ 400 [0.02, 127.0.0.1:13862]
+INFO 2024-02-07 22:25:11,967 autoreload:222 D:\00_github\python_web\uric\uric_api\uric_api\settings\dev.py changed, reloading.
+INFO 2024-02-07 22:26:44,749 autoreload:598 Watching for file changes with StatReloader
+INFO 2024-02-07 22:26:49,362 autoreload:222 D:\00_github\python_web\uric\uric_api\uric_api\settings\dev.py changed, reloading.
+INFO 2024-02-07 22:26:54,763 autoreload:598 Watching for file changes with StatReloader
+INFO 2024-02-07 22:27:05,495 autoreload:598 Watching for file changes with StatReloader
+INFO 2024-02-07 22:27:06,200 runserver:147 HTTP GET /admin/ 200 [0.07, 127.0.0.1:14026]
+INFO 2024-02-07 22:27:06,221 runserver:151 HTTP GET /static/admin/simpleui-x/elementui/theme-chalk/index.css 304 [0.01, 127.0.0.1:14026]
+INFO 2024-02-07 22:27:06,230 runserver:151 HTTP GET /static/admin/simpleui-x/fontawesome-free-6.2.0-web/css/all.min.css 304 [0.01, 127.0.0.1:14027]
+INFO 2024-02-07 22:27:06,234 runserver:151 HTTP GET /static/admin/simpleui-x/js/vue.min.js?_=2023.12.12 304 [0.01, 127.0.0.1:14029]
+INFO 2024-02-07 22:27:06,238 runserver:151 HTTP GET /static/admin/simpleui-x/elementui/index.js?_=2023.12.12 304 [0.01, 127.0.0.1:14030]
+INFO 2024-02-07 22:27:06,243 runserver:151 HTTP GET /static/admin/simpleui-x/automatic/dicts.js?_=2023.12.12 304 [0.02, 127.0.0.1:14031]
+INFO 2024-02-07 22:27:06,251 runserver:151 HTTP GET /static/admin/simpleui-x/automatic/segment.js?_=2023.12.12 304 [0.02, 127.0.0.1:14032]
+INFO 2024-02-07 22:27:06,257 runserver:151 HTTP GET /static/admin/simpleui-x/locale/en-us.js?_=2023.12.12 304 [0.03, 127.0.0.1:14026]
+INFO 2024-02-07 22:27:06,264 runserver:151 HTTP GET /static/admin/simpleui-x/locale/zh-hans.js?_=2023.12.12 304 [0.03, 127.0.0.1:14027]
+INFO 2024-02-07 22:27:06,269 runserver:151 HTTP GET /static/admin/simpleui-x/js/cookie.js?_=2023.12.12 304 [0.03, 127.0.0.1:14029]
+INFO 2024-02-07 22:27:06,274 runserver:151 HTTP GET /static/admin/simpleui-x/theme/theme.js?_=2023.12.12 304 [0.03, 127.0.0.1:14030]
+INFO 2024-02-07 22:27:06,278 runserver:151 HTTP GET /static/admin/simpleui-x/waves/waves.min.js?_=2023.12.12 304 [0.03, 127.0.0.1:14031]
+INFO 2024-02-07 22:27:06,282 runserver:151 HTTP GET /static/admin/simpleui-x/js/menu.js?_=2023.12.12 304 [0.03, 127.0.0.1:14032]
+INFO 2024-02-07 22:27:06,286 runserver:151 HTTP GET /static/admin/simpleui-x/js/index.js?_=2023.12.12 304 [0.02, 127.0.0.1:14026]
+INFO 2024-02-07 22:27:06,393 runserver:151 HTTP GET /static/admin/simpleui-x/fontawesome-free-6.2.0-web/webfonts/fa-solid-900.woff2 304 [0.00, 127.0.0.1:14026]
+INFO 2024-02-07 22:27:06,396 runserver:151 HTTP GET /static/admin/simpleui-x/fontawesome-free-6.2.0-web/webfonts/fa-brands-400.woff2 304 [0.01, 127.0.0.1:14031]
+INFO 2024-02-07 22:27:06,400 runserver:151 HTTP GET /static/admin/simpleui-x/elementui/theme-chalk/fonts/element-icons.woff 304 [0.01, 127.0.0.1:14032]
+INFO 2024-02-07 22:27:09,585 runserver:147 HTTP OPTIONS /users/login/ 200 [0.00, 127.0.0.1:14035]
+INFO 2024-02-07 22:27:10,360 runserver:147 HTTP OPTIONS /users/login/ 200 [0.00, 127.0.0.1:14035]
+INFO 2024-02-07 22:27:37,389 runserver:147 HTTP OPTIONS /users/login/ 200 [0.00, 127.0.0.1:14035]
+INFO 2024-02-07 22:27:38,574 runserver:147 HTTP OPTIONS /users/login/ 200 [0.00, 127.0.0.1:14035]
+INFO 2024-02-07 22:27:39,350 runserver:147 HTTP OPTIONS /users/login/ 200 [0.00, 127.0.0.1:14035]
+INFO 2024-02-07 22:27:40,076 runserver:147 HTTP OPTIONS /users/login/ 200 [0.00, 127.0.0.1:14035]
+INFO 2024-02-07 22:28:08,391 autoreload:222 D:\00_github\python_web\uric\uric_api\uric_api\settings\dev.py changed, reloading.
+INFO 2024-02-07 22:28:10,081 autoreload:598 Watching for file changes with StatReloader
+INFO 2024-02-07 22:28:13,359 autoreload:222 D:\00_github\python_web\uric\uric_api\uric_api\settings\dev.py changed, reloading.
+INFO 2024-02-07 22:28:15,159 autoreload:598 Watching for file changes with StatReloader
+INFO 2024-02-07 22:28:17,325 runserver:147 HTTP OPTIONS /users/login/ 200 [0.00, 127.0.0.1:14113]
+INFO 2024-02-07 22:28:18,614 runserver:147 HTTP OPTIONS /users/login/ 200 [0.00, 127.0.0.1:14113]
+INFO 2024-02-07 22:28:19,629 runserver:147 HTTP OPTIONS /users/login/ 200 [0.00, 127.0.0.1:14113]
+INFO 2024-02-07 22:28:22,395 runserver:147 HTTP OPTIONS /users/login/ 200 [0.00, 127.0.0.1:14113]
+INFO 2024-02-07 22:29:14,076 autoreload:222 D:\00_github\python_web\uric\uric_api\uric_api\settings\dev.py changed, reloading.
+INFO 2024-02-07 22:29:15,305 autoreload:598 Watching for file changes with StatReloader
+INFO 2024-02-07 22:29:18,719 autoreload:222 D:\00_github\python_web\uric\uric_api\uric_api\settings\dev.py changed, reloading.
+INFO 2024-02-07 22:29:19,960 autoreload:598 Watching for file changes with StatReloader
+INFO 2024-02-07 22:30:20,720 autoreload:598 Watching for file changes with StatReloader
+INFO 2024-02-07 22:30:31,409 autoreload:222 D:\00_github\python_web\uric\uric_api\uric_api\settings\dev.py changed, reloading.
+INFO 2024-02-07 22:30:35,906 autoreload:598 Watching for file changes with StatReloader
+INFO 2024-02-07 22:30:40,244 runserver:147 HTTP OPTIONS /users/login/ 200 [0.00, 127.0.0.1:14253]
+INFO 2024-02-07 22:30:40,344 runserver:147 HTTP POST /users/login/ 200 [0.10, 127.0.0.1:14253]
+INFO 2024-02-07 22:30:41,656 runserver:147 HTTP OPTIONS /users/refresh_jwt_token/ 200 [0.00, 127.0.0.1:14253]
+INFO 2024-02-07 22:30:41,689 runserver:147 HTTP POST /users/refresh_jwt_token/ 200 [0.03, 127.0.0.1:14253]
+INFO 2024-02-07 22:30:46,261 runserver:147 HTTP OPTIONS /users/refresh_jwt_token/ 200 [0.00, 127.0.0.1:14253]
+INFO 2024-02-07 22:30:46,275 runserver:147 HTTP POST /users/refresh_jwt_token/ 200 [0.01, 127.0.0.1:14253]
+INFO 2024-02-07 22:30:48,120 runserver:147 HTTP OPTIONS /users/refresh_jwt_token/ 200 [0.00, 127.0.0.1:14253]
+INFO 2024-02-07 22:30:48,152 runserver:147 HTTP POST /users/refresh_jwt_token/ 200 [0.03, 127.0.0.1:14253]
+INFO 2024-02-07 22:30:49,207 runserver:147 HTTP OPTIONS /users/refresh_jwt_token/ 200 [0.00, 127.0.0.1:14253]
+INFO 2024-02-07 22:30:49,237 runserver:147 HTTP POST /users/refresh_jwt_token/ 200 [0.03, 127.0.0.1:14253]
+INFO 2024-02-07 22:30:49,288 runserver:147 HTTP OPTIONS /host/list 200 [0.00, 127.0.0.1:14274]
+INFO 2024-02-07 22:30:49,292 runserver:153 HTTP GET /host/list 301 [0.00, 127.0.0.1:14274]
+INFO 2024-02-07 22:30:49,301 runserver:147 HTTP OPTIONS /host/list/ 200 [0.00, 127.0.0.1:14274]
+INFO 2024-02-07 22:30:49,336 runserver:147 HTTP GET /host/list/ 200 [0.03, 127.0.0.1:14274]
+INFO 2024-02-07 22:30:51,386 runserver:147 HTTP OPTIONS /users/refresh_jwt_token/ 200 [0.00, 127.0.0.1:14274]
+INFO 2024-02-07 22:30:51,405 runserver:147 HTTP POST /users/refresh_jwt_token/ 200 [0.02, 127.0.0.1:14274]
+INFO 2024-02-07 22:30:51,659 runserver:147 HTTP OPTIONS /mtask/templates/categorys 200 [0.00, 127.0.0.1:14280]
+INFO 2024-02-07 22:30:51,700 runserver:147 HTTP GET /mtask/templates/categorys 200 [0.04, 127.0.0.1:14280]
+INFO 2024-02-07 22:30:52,054 runserver:147 HTTP OPTIONS /users/refresh_jwt_token/ 200 [0.00, 127.0.0.1:14280]
+INFO 2024-02-07 22:30:52,085 runserver:147 HTTP POST /users/refresh_jwt_token/ 200 [0.03, 127.0.0.1:14280]
+INFO 2024-02-07 22:30:52,126 runserver:147 HTTP OPTIONS /mtask/templates/categorys 200 [0.00, 127.0.0.1:14285]
+INFO 2024-02-07 22:30:52,146 runserver:147 HTTP GET /mtask/templates/categorys 200 [0.02, 127.0.0.1:14285]
+INFO 2024-02-07 22:30:55,372 runserver:147 HTTP OPTIONS /users/refresh_jwt_token/ 200 [0.00, 127.0.0.1:14285]
+INFO 2024-02-07 22:30:55,400 runserver:147 HTTP POST /users/refresh_jwt_token/ 200 [0.03, 127.0.0.1:14285]
+INFO 2024-02-07 22:30:55,440 runserver:147 HTTP OPTIONS /conf_center/environment 200 [0.00, 127.0.0.1:14285]
+INFO 2024-02-07 22:30:55,445 runserver:147 HTTP OPTIONS /release/app 200 [0.00, 127.0.0.1:14285]
+INFO 2024-02-07 22:30:55,468 runserver:147 HTTP GET /conf_center/environment 200 [0.02, 127.0.0.1:14285]
+INFO 2024-02-07 22:30:55,488 runserver:147 HTTP GET /release/app 200 [0.02, 127.0.0.1:14285]
+INFO 2024-02-07 22:30:56,029 runserver:147 HTTP OPTIONS /users/refresh_jwt_token/ 200 [0.00, 127.0.0.1:14285]
+INFO 2024-02-07 22:30:56,059 runserver:147 HTTP POST /users/refresh_jwt_token/ 200 [0.03, 127.0.0.1:14285]
+INFO 2024-02-07 22:30:56,089 runserver:147 HTTP OPTIONS /conf_center/environment 200 [0.00, 127.0.0.1:14285]
+INFO 2024-02-07 22:30:56,106 runserver:147 HTTP GET /release/envs/apps?envs_id=1 200 [0.02, 127.0.0.1:14285]
+INFO 2024-02-07 22:30:56,111 runserver:147 HTTP OPTIONS /release/apply 200 [0.00, 127.0.0.1:14285]
+INFO 2024-02-07 22:30:56,116 runserver:147 HTTP OPTIONS /release/apply/status 200 [0.00, 127.0.0.1:14285]
+INFO 2024-02-07 22:30:56,145 runserver:147 HTTP GET /conf_center/environment 200 [0.03, 127.0.0.1:14285]
+INFO 2024-02-07 22:30:56,178 runserver:147 HTTP GET /release/apply 200 [0.03, 127.0.0.1:14285]
+INFO 2024-02-07 22:30:56,210 runserver:147 HTTP GET /release/apply/status 200 [0.03, 127.0.0.1:14285]
+INFO 2024-02-07 22:30:58,191 runserver:147 HTTP OPTIONS /users/refresh_jwt_token/ 200 [0.00, 127.0.0.1:14285]
+INFO 2024-02-07 22:30:58,221 runserver:147 HTTP POST /users/refresh_jwt_token/ 200 [0.03, 127.0.0.1:14285]
+INFO 2024-02-08 13:47:43,055 autoreload:598 Watching for file changes with StatReloader
+INFO 2024-02-09 10:09:11,701 autoreload:598 Watching for file changes with StatReloader
