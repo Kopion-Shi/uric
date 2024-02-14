@@ -6,14 +6,18 @@ import MultiExec from '@/components/MultiExec'
 import TemplateManage from '@/components/TemplateManage'
 import Environment from '@/components/Environment'
 import Release from '@/components/Release'
-
-Vue.use(Router)
 import Base from "../components/Base";
 import Login from "../components/Login";
 import ShowCenter from "../components/ShowCenter";
 import Host from '@/components/Host';
 import ReleaseApply from '@/components/ReleaseApply'
 import ReleaseResult from '@/components/ReleaseResult'
+// 路由守卫[导航守卫]
+import axios from "axios"
+import settings from "../settings.js"
+import Device from "@/components/device.vue";
+
+Vue.use(Router)
 
 const router = new Router({
     // mode: "history",
@@ -43,6 +47,11 @@ const router = new Router({
                     path: 'host',
                     name: 'Host',
                     component: Host,
+                },
+                {
+                    path: 'device',
+                    name: 'Device',
+                    component: Device,
                 },
                 {
                     path: 'console/:id',
@@ -85,10 +94,6 @@ const router = new Router({
     ]
 })
 
-
-// 路由守卫[导航守卫]
-import axios from "axios"
-import settings from "../settings.js"
 
 router.beforeEach((to, from, next) => {
     if (to.name === 'Login') {

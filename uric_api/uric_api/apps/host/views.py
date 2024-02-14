@@ -11,6 +11,9 @@ class HostCategoryListAPIView(ListAPIView, CreateAPIView):
     serializer_class = HostCategoryModelSeiralizer
     permission_classes = [IsAuthenticated]
 
+    def get(self, request, *args, **kwargs):
+        return super().get(request, *args, **kwargs)
+
 
 class HostModelViewSet(ModelViewSet):
     # queryset = Host.objects.filter(category_id=3)

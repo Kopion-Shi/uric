@@ -63,10 +63,10 @@
                   </a-select>
                 </a-col>
                 <a-col :span="5" :offset="2">
-                  <button type="button" class="ant-btn ant-btn-link"  @click="showModal"><span>添加类别</span></button>
+                  <button type="button" class="ant-btn ant-btn-link"  @click="showaddhostcaterage"><span>添加主机类别</span></button>
                 </a-col>
                 <a-col :span="5">
-                  <button type="button" class="ant-btn ant-btn-link"><span>编辑类别</span></button>
+                  <button type="button" class="ant-btn ant-btn-link"><span>编辑主机类别</span></button>
                 </a-col>
               </a-row>
             </a-form-model-item>
@@ -127,6 +127,31 @@
                     <a-icon type="warning" style="color:yellow;"/>
                     首次验证时需要输入登录用户名对应的密码，但不会存储该密码。
                   </span>
+                </a-col>
+              </a-row>
+            </a-form-model-item>
+          </a-form-model>
+        </a-modal>
+        <a-modal
+          :width="800"
+          title="新建主机类别"
+          :visible="visible_type"
+          :confirm-loading="confirmLoading"
+
+          @cancel="handleCancel_category"
+        >
+          <template slot="footer">
+            <a-button key="back" @click="handleCancel_category">取消</a-button>
+            <a-button key="submit" type="primary" :loading="loading" @click="onSubmit_category">确认</a-button>
+          </template>
+          <a-form-model ref="ruleForm" :model="category_form.form" :rules="category_form.rules" :label-col="category_form.labelCol" :wrapper-col="category_form.wrapperCol">
+
+            <a-form-model-item label="主机类别" prop="zone">
+            </a-form-model-item>
+            <a-form-model-item ref="name" label="主机类别" prop="name">
+              <a-row>
+                <a-col :span="24">
+                  <a-input placeholder="请输入主机类别" v-model="category_form.form.category"/>
                 </a-col>
               </a-row>
             </a-form-model-item>
@@ -227,19 +252,12 @@
         formItemLayout,   // formItemLayout: formItemLayout,
         checkHost: false, // 是否验证信息
         visible: false,   // 是否显示添加主机的弹窗
+        visible_type: false,   // 是否显示添加主机的弹窗
         confirmLoading: false,
         categorys: [     // 主机类别
-
-          {'id':1,'name':'数据库服务'},
-          {'id':2,'name':'缓存服务'},
-          {'id':3,'name':'web服务'},
-          {'id':4,'name':'静态文件储存服务'},
       ],
         data: [
-          {"id":1, "category_name":"数据库服务器","name":"iZbp1b1jw4l12ho53ivhkkZ","ip_addr":"47.98.130.212","port":22,"description":""},
-          {"id":2, "category_name":"数据库服务器","name":"iZbp1b1jw4l12ho53ivhkkZ","ip_addr":"47.98.130.212","port":22,"description":""},
-          {"id":3, "category_name":"数据库服务器","name":"iZbp1b1jw4l12ho53ivhkkZ","ip_addr":"47.98.130.212","port":22,"description":""},
-          {"id":4, "category_name":"数据库服务器","name":"iZbp1b1jw4l12ho53ivhkkZ","ip_addr":"47.98.130.212","port":22,"description":""},
+
         ],
         columns:columns, // 表格的表头信息
         // 上传文件的配置参数
@@ -286,12 +304,24 @@
             ],
           },
         },
+        category_form:{
+          labelCol: {span: 6},
+          wrapperCol: {span: 14},
+          other: '',
+          form: {
+            category: '',
+          },
+          category_rules:{
+            category: [{required: true, message: '请输入类别', trigger: 'change'}],
+          },
+        },
         excel_model_visible: false, // 批量导入主机的窗口显示和隐藏
         excel_fileList: [],  // 等待上传的xls文件列表
         excel_uploading: false, // 显示当前上传文件组件是否属于上传文件过程中的状态
         default_password: "",   // 默认上传的主机列表的通用登录密码
         upload_excel_form: this.$form.createForm(this, {name: 'coordinated'}),
       }
+
     },
     created(){
         // ajax获取数据
@@ -366,7 +396,7 @@
       get_categorys(){
         // 获取主机类别
         let token = sessionStorage.token || localStorage.token || "";
-        this.$axios.get(`/host/categorys`,{
+        this.$axios.get(`/host/categories/list`,{
           headers:{
             Authorization: "jwt " + token,
           }
@@ -379,9 +409,19 @@
       handleSelectChange(value) {
         console.log(value);
       },
+      showaddhostcaterage(){
+      // 显示添加主机类别的表单窗口
+      this.visible_type = true;
+      },
       showModal() {
         // 显示添加主机的表单窗口
         this.visible = true;
+      },
+      handleCancel_category(e) {
+        // 表单取消
+        this.resetForm(); //清空表单内容
+
+        this.visible_type = false; // 关闭对话框
       },
       handleCancel(e) {
         // 表单取消
@@ -403,7 +443,8 @@
                     "port":this.host_form.form.port,
                     "username":this.host_form.form.username,
                     "password":this.host_form.form.password,
-              },{
+              },
+              {
                 headers:{
                   Authorization: "jwt " + token,
                 }
@@ -413,6 +454,33 @@
                   this.handleCancel();
               }).catch(error=>{
                   this.$message.error("添加主机失败！");
+              })
+
+          } else {
+            // 验证失败！
+            return false;
+          }
+        });
+      },
+      onSubmit_category(){
+        this.$refs.ruleForm.validate(valid => {
+          // 验证通过则发送请求
+          if (valid) {
+              let token = sessionStorage.token || localStorage.token || "";
+              // 将数据提交到后台进行保存，但是先进行连接校验，验证没有问题，再保存
+              this.$axios.post(`${this.$settings.host}/host/categorys/`,{
+                    "category":this.category_form.form.category,
+              },
+              {
+                headers:{
+                  Authorization: "jwt " + token,
+                }
+              }).then(response=>{
+                  // 在现有的主机列表，追加新增的主机类别列表
+                  this.data.unshift(response.data);
+                  this.handleCancel();
+              }).catch(error=>{
+                  this.$message.error("添加主机类别失败！");
               })
 
           } else {
@@ -434,7 +502,7 @@
       resetForm(){
          // 重置添加主机的表单信息
          this.$refs.ruleForm.resetFields();
-      }
+      },
     }
   }
 </script>
