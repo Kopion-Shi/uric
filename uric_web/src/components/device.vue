@@ -1,7 +1,6 @@
 <template>
     <div class="device">
-        <a-card size="small" :
-                bordered="false">
+        <a-card size="small" :bordered="false">
             <a-row>
                 <a-col :span="6">
                     <a-form-item label="单板类别：" :label-col="formItemLayout.labelCol"
@@ -89,17 +88,29 @@
 
                     </a-form-model-item>
 
-                    <a-form-model-item ref="ip_addr" label="单板IP地址" prop="ip_addr">
+                    <a-form-model-item ref="pdu_addr" label="单板IP地址" prop="pdu_addr">
                         <a-row>
                             <a-col :span="24">
                                 <a-input placeholder="请输入单板名称" v-model="device_form.form.name"/>
                             </a-col>
                         </a-row>
                     </a-form-model-item>
-                    <a-form-model-item ref="pdu_" label="单板IP地址" prop="ip_addr">
+                    <a-form-model-item label="PDU" prop="zone">
                         <a-row>
-                            <a-col :span="24">
-                                <a-input placeholder="请输入单板名称" v-model="device_form.form.name"/>
+                            <a-col :span="12">
+                                <a-select v-model="device_form.form.pdu_ip" placeholder="请选择PDU">
+                                    <a-select-option :value="value.id" v-for="(value, index) in pdu_ip"
+                                                     :key="value.id">
+                                        {{ value.ip }}
+                                    </a-select-option>
+                                </a-select>
+                            </a-col>
+                            <a-col :span="5" :offset="2">
+                                <button type="button" class="ant-btn ant-btn-link" @click="showadddevicecaterage"><span>添加PDU</span>
+                                </button>
+                            </a-col>
+                            <a-col :span="5">
+                                <button type="button" class="ant-btn ant-btn-link"><span>编辑PDU</span></button>
                             </a-col>
                         </a-row>
                     </a-form-model-item>
