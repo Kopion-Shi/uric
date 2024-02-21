@@ -1816,3 +1816,409 @@ INFO 2024-02-14 22:27:58,353 runserver:147 [mHTTP GET /host/list/ 200 [0.03, 12
 INFO 2024-02-14 22:27:59,502 runserver:147 [mHTTP POST /users/refresh_jwt_token/ 200 [0.02, 127.0.0.1:42436][0m
 INFO 2024-02-14 22:27:59,543 runserver:147 [mHTTP GET /device/categorys/ 200 [0.02, 127.0.0.1:42446][0m
 INFO 2024-02-14 22:28:04,697 runserver:147 [mHTTP POST /users/refresh_jwt_token/ 200 [0.01, 127.0.0.1:42446][0m
+INFO 2024-02-17 21:28:01,527 autoreload:598 Watching for file changes with StatReloader
+INFO 2024-02-17 21:28:21,068 autoreload:598 Watching for file changes with StatReloader
+INFO 2024-02-17 21:30:34,926 autoreload:598 Watching for file changes with StatReloader
+INFO 2024-02-17 21:32:35,094 autoreload:598 Watching for file changes with StatReloader
+INFO 2024-02-17 21:35:21,066 autoreload:636 Watching for file changes with StatReloader
+INFO 2024-02-17 21:35:54,782 autoreload:636 Watching for file changes with StatReloader
+INFO 2024-02-17 21:40:45,535 autoreload:636 Watching for file changes with StatReloader
+INFO 2024-02-17 21:51:44,759 autoreload:636 Watching for file changes with StatReloader
+INFO 2024-02-17 22:03:36,116 autoreload:636 Watching for file changes with StatReloader
+INFO 2024-02-17 22:15:31,605 autoreload:636 Watching for file changes with StatReloader
+INFO 2024-02-17 22:16:38,241 autoreload:636 Watching for file changes with StatReloader
+INFO 2024-02-17 22:18:02,288 autoreload:636 Watching for file changes with StatReloader
+INFO 2024-02-17 22:21:43,997 autoreload:636 Watching for file changes with StatReloader
+INFO 2024-02-17 22:22:50,863 autoreload:636 Watching for file changes with StatReloader
+INFO 2024-02-17 22:23:12,454 autoreload:636 Watching for file changes with StatReloader
+INFO 2024-02-17 22:28:35,255 autoreload:636 Watching for file changes with StatReloader
+INFO 2024-02-17 22:28:43,072 autoreload:250 /mnt/d/00_github/python_web/uric/uric_api/uric_api/settings/dev.py changed, reloading.
+INFO 2024-02-17 22:28:44,389 autoreload:636 Watching for file changes with StatReloader
+INFO 2024-02-19 18:42:42,999 autoreload:636 Watching for file changes with StatReloader
+INFO 2024-02-19 18:43:08,800 autoreload:636 Watching for file changes with StatReloader
+INFO 2024-02-19 18:45:54,369 autoreload:636 Watching for file changes with StatReloader
+INFO 2024-02-19 18:56:47,940 autoreload:636 Watching for file changes with StatReloader
+INFO 2024-02-19 18:57:03,999 autoreload:250 /mnt/d/00_github/python_web/uric/uric_api/uric_api/settings/dev.py changed, reloading.
+INFO 2024-02-19 18:57:10,013 autoreload:636 Watching for file changes with StatReloader
+INFO 2024-02-19 19:06:45,541 autoreload:636 Watching for file changes with StatReloader
+INFO 2024-02-19 19:08:11,525 runserver:147 [mHTTP OPTIONS /users/refresh_jwt_token/ 200 [0.01, 127.0.0.1:51642][0m
+INFO 2024-02-19 19:08:11,564 runserver:147 [mHTTP POST /users/refresh_jwt_token/ 200 [0.03, 127.0.0.1:51642][0m
+INFO 2024-02-19 19:08:20,383 runserver:147 [mHTTP OPTIONS /users/login/ 200 [0.00, 127.0.0.1:51642][0m
+INFO 2024-02-19 19:08:20,456 runserver:147 [mHTTP POST /users/login/ 200 [0.07, 127.0.0.1:51642][0m
+INFO 2024-02-19 19:08:21,825 runserver:147 [mHTTP POST /users/refresh_jwt_token/ 200 [0.01, 127.0.0.1:51642][0m
+INFO 2024-02-19 19:08:24,401 runserver:147 [mHTTP POST /users/refresh_jwt_token/ 200 [0.01, 127.0.0.1:51642][0m
+INFO 2024-02-19 19:08:24,427 runserver:147 [mHTTP OPTIONS /device/detail/ 200 [0.00, 127.0.0.1:51664][0m
+INFO 2024-02-19 19:08:24,465 runserver:147 [mHTTP GET /device/detail/ 200 [0.03, 127.0.0.1:51664][0m
+INFO 2024-02-19 19:08:26,295 runserver:147 [mHTTP POST /users/refresh_jwt_token/ 200 [0.01, 127.0.0.1:51664][0m
+INFO 2024-02-19 19:08:26,321 runserver:147 [mHTTP OPTIONS /host/list 200 [0.00, 127.0.0.1:51674][0m
+INFO 2024-02-19 19:08:26,353 runserver:147 [mHTTP OPTIONS /host/list/ 200 [0.00, 127.0.0.1:51674][0m
+INFO 2024-02-19 19:08:26,375 runserver:147 [mHTTP GET /host/list/ 200 [0.02, 127.0.0.1:51674][0m
+INFO 2024-02-19 19:08:28,592 runserver:147 [mHTTP POST /users/refresh_jwt_token/ 200 [0.01, 127.0.0.1:51674][0m
+INFO 2024-02-19 19:08:30,289 runserver:147 [mHTTP POST /users/refresh_jwt_token/ 200 [0.01, 127.0.0.1:51674][0m
+INFO 2024-02-19 19:08:30,315 runserver:147 [mHTTP OPTIONS /host/categories/list 200 [0.00, 127.0.0.1:51674][0m
+INFO 2024-02-19 19:08:30,332 runserver:147 [mHTTP GET /host/categories/list 200 [0.01, 127.0.0.1:51674][0m
+INFO 2024-02-19 19:08:30,381 runserver:147 [mHTTP GET /host/list/ 200 [0.02, 127.0.0.1:51674][0m
+INFO 2024-02-19 19:18:15,468 runserver:147 [mHTTP POST /users/refresh_jwt_token/ 200 [0.01, 127.0.0.1:51708][0m
+INFO 2024-02-19 19:18:15,511 runserver:147 [mHTTP GET /device/detail/ 200 [0.02, 127.0.0.1:51714][0m
+INFO 2024-02-19 19:18:22,225 runserver:147 [mHTTP POST /users/refresh_jwt_token/ 200 [0.01, 127.0.0.1:51714][0m
+INFO 2024-02-19 19:18:22,355 runserver:147 [mHTTP OPTIONS /device/categorys/ 200 [0.01, 127.0.0.1:51714][0m
+INFO 2024-02-19 19:18:22,384 runserver:147 [mHTTP GET /device/categorys/ 200 [0.02, 127.0.0.1:51714][0m
+INFO 2024-02-19 20:04:39,660 autoreload:636 Watching for file changes with StatReloader
+INFO 2024-02-19 20:07:13,488 autoreload:636 Watching for file changes with StatReloader
+INFO 2024-02-19 20:07:52,370 runserver:147 [mHTTP OPTIONS /users/login/ 200 [0.01, 127.0.0.1:47856][0m
+INFO 2024-02-19 20:07:52,456 runserver:147 [mHTTP POST /users/login/ 200 [0.08, 127.0.0.1:47856][0m
+INFO 2024-02-19 20:07:53,849 runserver:147 [mHTTP OPTIONS /users/refresh_jwt_token/ 200 [0.00, 127.0.0.1:47856][0m
+INFO 2024-02-19 20:07:53,867 runserver:147 [mHTTP POST /users/refresh_jwt_token/ 200 [0.01, 127.0.0.1:47856][0m
+INFO 2024-02-19 20:07:56,564 runserver:147 [mHTTP POST /users/refresh_jwt_token/ 200 [0.01, 127.0.0.1:47856][0m
+INFO 2024-02-19 20:07:56,590 runserver:147 [mHTTP OPTIONS /device/detail/ 200 [0.00, 127.0.0.1:47870][0m
+INFO 2024-02-19 20:07:56,643 runserver:147 [mHTTP GET /device/detail/ 200 [0.05, 127.0.0.1:47870][0m
+INFO 2024-02-19 20:07:57,372 runserver:147 [mHTTP POST /users/refresh_jwt_token/ 200 [0.01, 127.0.0.1:47870][0m
+INFO 2024-02-19 20:07:57,399 runserver:147 [mHTTP OPTIONS /host/list 200 [0.00, 127.0.0.1:47880][0m
+INFO 2024-02-19 20:07:57,435 runserver:147 [mHTTP OPTIONS /host/list/ 200 [0.00, 127.0.0.1:47880][0m
+INFO 2024-02-19 20:07:57,474 runserver:147 [mHTTP GET /host/list/ 200 [0.03, 127.0.0.1:47880][0m
+INFO 2024-02-19 20:08:02,179 runserver:147 [mHTTP POST /users/refresh_jwt_token/ 200 [0.02, 127.0.0.1:47880][0m
+INFO 2024-02-19 20:08:55,659 runserver:147 [mHTTP OPTIONS /users/refresh_jwt_token/ 200 [0.00, 127.0.0.1:47880][0m
+INFO 2024-02-19 20:08:55,682 runserver:147 [mHTTP POST /users/refresh_jwt_token/ 200 [0.02, 127.0.0.1:47880][0m
+INFO 2024-02-19 20:09:44,639 runserver:147 [mHTTP OPTIONS /users/refresh_jwt_token/ 200 [0.00, 127.0.0.1:47880][0m
+INFO 2024-02-19 20:09:44,656 runserver:147 [mHTTP POST /users/refresh_jwt_token/ 200 [0.01, 127.0.0.1:47880][0m
+INFO 2024-02-19 20:09:44,696 runserver:147 [mHTTP OPTIONS /device/detail/ 200 [0.00, 127.0.0.1:47902][0m
+INFO 2024-02-19 20:09:44,725 runserver:147 [mHTTP GET /device/detail/ 200 [0.02, 127.0.0.1:47902][0m
+INFO 2024-02-19 20:09:53,269 runserver:147 [mHTTP OPTIONS /users/refresh_jwt_token/ 200 [0.00, 127.0.0.1:47902][0m
+INFO 2024-02-19 20:09:53,290 runserver:147 [mHTTP POST /users/refresh_jwt_token/ 200 [0.02, 127.0.0.1:47902][0m
+INFO 2024-02-19 20:09:53,318 runserver:147 [mHTTP OPTIONS /host/list 200 [0.00, 127.0.0.1:47912][0m
+INFO 2024-02-19 20:09:53,329 runserver:153 [32mHTTP GET /host/list 301 [0.01, 127.0.0.1:47912][0m
+INFO 2024-02-19 20:09:53,372 runserver:147 [mHTTP OPTIONS /host/list/ 200 [0.00, 127.0.0.1:47912][0m
+INFO 2024-02-19 20:09:53,406 runserver:147 [mHTTP GET /host/list/ 200 [0.03, 127.0.0.1:47912][0m
+INFO 2024-02-19 20:10:47,638 runserver:147 [mHTTP OPTIONS /users/refresh_jwt_token/ 200 [0.00, 127.0.0.1:47912][0m
+INFO 2024-02-19 20:10:47,662 runserver:147 [mHTTP POST /users/refresh_jwt_token/ 200 [0.02, 127.0.0.1:47912][0m
+INFO 2024-02-19 20:10:47,702 runserver:147 [mHTTP OPTIONS /device/categorys/ 200 [0.01, 127.0.0.1:47912][0m
+INFO 2024-02-19 20:10:47,707 runserver:147 [mHTTP OPTIONS /device/detail/ 200 [0.01, 127.0.0.1:47922][0m
+INFO 2024-02-19 20:10:47,739 runserver:147 [mHTTP GET /device/detail/ 200 [0.03, 127.0.0.1:47922][0m
+INFO 2024-02-19 20:10:48,583 runserver:147 [mHTTP OPTIONS /users/refresh_jwt_token/ 200 [0.00, 127.0.0.1:47922][0m
+INFO 2024-02-19 20:10:48,606 runserver:147 [mHTTP POST /users/refresh_jwt_token/ 200 [0.02, 127.0.0.1:47922][0m
+INFO 2024-02-19 20:10:48,634 runserver:147 [mHTTP OPTIONS /host/categories/list 200 [0.00, 127.0.0.1:47922][0m
+INFO 2024-02-19 20:10:48,640 runserver:147 [mHTTP OPTIONS /host/list 200 [0.00, 127.0.0.1:47922][0m
+INFO 2024-02-19 20:10:48,671 runserver:147 [mHTTP GET /host/categories/list 200 [0.03, 127.0.0.1:47922][0m
+INFO 2024-02-19 20:10:48,681 runserver:153 [32mHTTP GET /host/list 301 [0.01, 127.0.0.1:47922][0m
+INFO 2024-02-19 20:10:48,704 runserver:147 [mHTTP OPTIONS /host/list/ 200 [0.00, 127.0.0.1:47922][0m
+INFO 2024-02-19 20:10:48,733 runserver:147 [mHTTP GET /host/list/ 200 [0.02, 127.0.0.1:47922][0m
+INFO 2024-02-19 20:11:10,748 runserver:147 [mHTTP POST /device/categorys/ 201 [0.03, 127.0.0.1:47944][0m
+WARNING 2024-02-19 20:11:33,834 log:224 Unauthorized: /host/categories/list
+WARNING 2024-02-19 20:11:33,838 runserver:157 [31;1mHTTP GET /host/categories/list 401 [0.02, 127.0.0.1:47944][0m
+INFO 2024-02-19 20:11:57,925 runserver:147 [mHTTP GET /host/categories/list 200 [0.01, 127.0.0.1:47944][0m
+INFO 2024-02-19 20:11:59,992 runserver:147 [mHTTP GET /host/categories/list 200 [0.01, 127.0.0.1:47944][0m
+INFO 2024-02-19 21:07:14,477 runserver:147 [mHTTP OPTIONS /users/refresh_jwt_token/ 200 [0.00, 127.0.0.1:47974][0m
+INFO 2024-02-19 21:07:14,496 runserver:147 [mHTTP POST /users/refresh_jwt_token/ 200 [0.02, 127.0.0.1:47974][0m
+INFO 2024-02-19 21:07:14,538 runserver:147 [mHTTP OPTIONS /device/detail/ 200 [0.00, 127.0.0.1:47980][0m
+INFO 2024-02-19 21:07:14,561 runserver:147 [mHTTP GET /device/detail/ 200 [0.02, 127.0.0.1:47980][0m
+INFO 2024-02-19 21:07:21,530 runserver:147 [mHTTP POST /users/refresh_jwt_token/ 200 [0.01, 127.0.0.1:47980][0m
+INFO 2024-02-19 21:07:21,600 runserver:147 [mHTTP GET /device/categorys/ 200 [0.02, 127.0.0.1:47980][0m
+INFO 2024-02-19 21:07:21,625 runserver:147 [mHTTP GET /device/detail/ 200 [0.02, 127.0.0.1:47980][0m
+INFO 2024-02-19 21:07:24,745 runserver:147 [mHTTP POST /users/refresh_jwt_token/ 200 [0.02, 127.0.0.1:47980][0m
+INFO 2024-02-19 21:07:24,801 runserver:147 [mHTTP GET /device/categorys/ 200 [0.01, 127.0.0.1:47980][0m
+INFO 2024-02-19 21:07:24,821 runserver:147 [mHTTP GET /device/detail/ 200 [0.02, 127.0.0.1:47980][0m
+INFO 2024-02-19 21:07:38,447 runserver:147 [mHTTP POST /users/refresh_jwt_token/ 200 [0.01, 127.0.0.1:47980][0m
+INFO 2024-02-19 21:07:38,482 runserver:147 [mHTTP GET /host/categories/list 200 [0.01, 127.0.0.1:47980][0m
+INFO 2024-02-19 21:07:38,536 runserver:147 [mHTTP GET /host/list/ 200 [0.02, 127.0.0.1:47980][0m
+INFO 2024-02-19 21:07:40,851 runserver:147 [mHTTP POST /users/refresh_jwt_token/ 200 [0.01, 127.0.0.1:47980][0m
+INFO 2024-02-19 21:07:40,881 runserver:147 [mHTTP GET /device/categorys/ 200 [0.01, 127.0.0.1:47980][0m
+INFO 2024-02-19 21:07:40,904 runserver:147 [mHTTP GET /device/detail/ 200 [0.02, 127.0.0.1:47980][0m
+INFO 2024-02-19 22:15:37,985 runserver:147 [mHTTP GET /host/categories/list 200 [0.02, 127.0.0.1:48068][0m
+INFO 2024-02-21 18:55:37,226 autoreload:636 Watching for file changes with StatReloader
+INFO 2024-02-21 18:56:17,593 autoreload:636 Watching for file changes with StatReloader
+INFO 2024-02-21 18:59:17,115 runserver:147 [mHTTP OPTIONS /users/refresh_jwt_token/ 200 [0.02, 127.0.0.1:54104][0m
+INFO 2024-02-21 18:59:17,189 runserver:147 [mHTTP POST /users/refresh_jwt_token/ 200 [0.07, 127.0.0.1:54104][0m
+INFO 2024-02-21 18:59:26,256 runserver:147 [mHTTP OPTIONS /users/login/ 200 [0.00, 127.0.0.1:54104][0m
+INFO 2024-02-21 18:59:26,325 runserver:147 [mHTTP POST /users/login/ 200 [0.06, 127.0.0.1:54104][0m
+INFO 2024-02-21 18:59:28,082 runserver:147 [mHTTP POST /users/refresh_jwt_token/ 200 [0.02, 127.0.0.1:54104][0m
+INFO 2024-02-21 18:59:32,134 runserver:147 [mHTTP POST /users/refresh_jwt_token/ 200 [0.02, 127.0.0.1:54104][0m
+INFO 2024-02-21 18:59:32,169 runserver:147 [mHTTP OPTIONS /device/categorys/ 200 [0.01, 127.0.0.1:54104][0m
+INFO 2024-02-21 18:59:32,213 runserver:147 [mHTTP GET /device/categorys/ 200 [0.04, 127.0.0.1:54104][0m
+INFO 2024-02-21 19:00:32,381 runserver:147 [mHTTP POST /users/refresh_jwt_token/ 200 [0.01, 127.0.0.1:33848][0m
+INFO 2024-02-21 19:00:32,698 runserver:147 [mHTTP OPTIONS /device/detail/ 200 [0.03, 127.0.0.1:33852][0m
+INFO 2024-02-21 19:02:12,337 autoreload:636 Watching for file changes with StatReloader
+INFO 2024-02-21 19:02:20,925 runserver:147 [mHTTP POST /users/refresh_jwt_token/ 200 [0.03, 127.0.0.1:35786][0m
+INFO 2024-02-21 19:02:21,335 runserver:147 [mHTTP OPTIONS /device/detail/ 200 [0.17, 127.0.0.1:35788][0m
+INFO 2024-02-21 19:04:11,494 autoreload:636 Watching for file changes with StatReloader
+INFO 2024-02-21 19:05:37,675 runserver:147 [mHTTP OPTIONS /users/login/ 200 [0.01, 127.0.0.1:33056][0m
+INFO 2024-02-21 19:05:37,748 runserver:147 [mHTTP POST /users/login/ 200 [0.07, 127.0.0.1:33056][0m
+INFO 2024-02-21 19:05:39,153 runserver:147 [mHTTP OPTIONS /users/refresh_jwt_token/ 200 [0.00, 127.0.0.1:33056][0m
+INFO 2024-02-21 19:05:39,167 runserver:147 [mHTTP POST /users/refresh_jwt_token/ 200 [0.01, 127.0.0.1:33056][0m
+INFO 2024-02-21 19:05:42,318 runserver:147 [mHTTP OPTIONS /users/refresh_jwt_token/ 200 [0.00, 127.0.0.1:33056][0m
+INFO 2024-02-21 19:05:42,338 runserver:147 [mHTTP POST /users/refresh_jwt_token/ 200 [0.02, 127.0.0.1:33056][0m
+INFO 2024-02-21 19:05:42,372 runserver:147 [mHTTP OPTIONS /device/detail/ 200 [0.00, 127.0.0.1:50172][0m
+INFO 2024-02-21 19:05:42,437 runserver:147 [mHTTP GET /device/detail/ 200 [0.06, 127.0.0.1:50172][0m
+INFO 2024-02-21 19:06:01,590 runserver:147 [mHTTP POST /users/refresh_jwt_token/ 200 [0.01, 127.0.0.1:50172][0m
+INFO 2024-02-21 19:06:01,651 runserver:147 [mHTTP GET /device/detail/ 200 [0.02, 127.0.0.1:45894][0m
+INFO 2024-02-21 20:19:31,293 runserver:147 [mHTTP POST /users/refresh_jwt_token/ 200 [0.01, 127.0.0.1:53924][0m
+INFO 2024-02-21 20:19:31,397 runserver:147 [mHTTP GET /device/detail/ 200 [0.03, 127.0.0.1:53934][0m
+INFO 2024-02-21 20:19:33,407 runserver:147 [mHTTP POST /users/refresh_jwt_token/ 200 [0.01, 127.0.0.1:53934][0m
+INFO 2024-02-21 20:19:33,430 runserver:147 [mHTTP OPTIONS /host/list 200 [0.00, 127.0.0.1:40144][0m
+INFO 2024-02-21 20:19:33,460 runserver:147 [mHTTP OPTIONS /host/list/ 200 [0.00, 127.0.0.1:40144][0m
+INFO 2024-02-21 20:19:33,483 runserver:147 [mHTTP GET /host/list/ 200 [0.02, 127.0.0.1:40144][0m
+INFO 2024-02-21 20:19:34,169 runserver:147 [mHTTP POST /users/refresh_jwt_token/ 200 [0.01, 127.0.0.1:40144][0m
+INFO 2024-02-21 20:19:34,203 runserver:147 [mHTTP GET /device/detail/ 200 [0.02, 127.0.0.1:40146][0m
+INFO 2024-02-21 20:20:22,672 runserver:147 [mHTTP POST /users/refresh_jwt_token/ 200 [0.01, 127.0.0.1:40146][0m
+INFO 2024-02-21 20:20:22,708 runserver:147 [mHTTP OPTIONS /device/categorys/ 200 [0.00, 127.0.0.1:40146][0m
+INFO 2024-02-21 20:20:22,728 runserver:147 [mHTTP GET /device/detail/ 200 [0.02, 127.0.0.1:40146][0m
+INFO 2024-02-21 20:20:22,746 runserver:147 [mHTTP GET /device/categorys/ 200 [0.02, 127.0.0.1:40146][0m
+INFO 2024-02-21 20:23:11,561 runserver:147 [mHTTP POST /users/refresh_jwt_token/ 200 [0.01, 127.0.0.1:39888][0m
+INFO 2024-02-21 20:23:11,624 runserver:147 [mHTTP GET /device/categorys/ 200 [0.01, 127.0.0.1:39888][0m
+INFO 2024-02-21 20:23:11,643 runserver:147 [mHTTP GET /device/detail/ 200 [0.02, 127.0.0.1:39888][0m
+INFO 2024-02-21 20:26:03,839 runserver:147 [mHTTP POST /users/refresh_jwt_token/ 200 [0.01, 127.0.0.1:36554][0m
+INFO 2024-02-21 20:26:03,867 runserver:147 [mHTTP OPTIONS /host/categories/list 200 [0.00, 127.0.0.1:36554][0m
+INFO 2024-02-21 20:26:03,885 runserver:147 [mHTTP GET /host/categories/list 200 [0.01, 127.0.0.1:36554][0m
+INFO 2024-02-21 20:26:03,936 runserver:147 [mHTTP GET /host/list/ 200 [0.02, 127.0.0.1:36554][0m
+INFO 2024-02-21 20:26:04,906 runserver:147 [mHTTP POST /users/refresh_jwt_token/ 200 [0.02, 127.0.0.1:36554][0m
+INFO 2024-02-21 20:26:04,950 runserver:147 [mHTTP GET /device/categorys/ 200 [0.02, 127.0.0.1:36554][0m
+INFO 2024-02-21 20:26:04,975 runserver:147 [mHTTP GET /device/detail/ 200 [0.02, 127.0.0.1:36554][0m
+INFO 2024-02-21 20:26:05,784 runserver:147 [mHTTP POST /users/refresh_jwt_token/ 200 [0.01, 127.0.0.1:36554][0m
+INFO 2024-02-21 20:26:05,828 runserver:147 [mHTTP GET /host/categories/list 200 [0.02, 127.0.0.1:36554][0m
+INFO 2024-02-21 20:26:05,877 runserver:147 [mHTTP GET /host/list/ 200 [0.02, 127.0.0.1:36554][0m
+INFO 2024-02-21 20:26:06,657 runserver:147 [mHTTP POST /users/refresh_jwt_token/ 200 [0.01, 127.0.0.1:36554][0m
+INFO 2024-02-21 20:26:06,688 runserver:147 [mHTTP GET /device/categorys/ 200 [0.01, 127.0.0.1:36554][0m
+INFO 2024-02-21 20:26:06,708 runserver:147 [mHTTP GET /device/detail/ 200 [0.02, 127.0.0.1:36554][0m
+INFO 2024-02-21 20:26:43,704 runserver:147 [mHTTP POST /users/refresh_jwt_token/ 200 [0.01, 127.0.0.1:36554][0m
+INFO 2024-02-21 20:26:45,249 runserver:147 [mHTTP POST /users/refresh_jwt_token/ 200 [0.01, 127.0.0.1:36554][0m
+INFO 2024-02-21 20:26:45,285 runserver:147 [mHTTP GET /host/categories/list 200 [0.02, 127.0.0.1:36554][0m
+INFO 2024-02-21 20:26:45,346 runserver:147 [mHTTP GET /host/list/ 200 [0.02, 127.0.0.1:36554][0m
+INFO 2024-02-21 20:26:46,183 runserver:147 [mHTTP POST /users/refresh_jwt_token/ 200 [0.01, 127.0.0.1:36554][0m
+INFO 2024-02-21 20:26:46,215 runserver:147 [mHTTP GET /device/categorys/ 200 [0.01, 127.0.0.1:36554][0m
+INFO 2024-02-21 20:26:46,233 runserver:147 [mHTTP GET /device/detail/ 200 [0.02, 127.0.0.1:36554][0m
+INFO 2024-02-21 20:27:10,478 runserver:147 [mHTTP POST /users/refresh_jwt_token/ 200 [0.01, 127.0.0.1:36554][0m
+INFO 2024-02-21 20:27:10,523 runserver:147 [mHTTP GET /host/categories/list 200 [0.02, 127.0.0.1:36554][0m
+INFO 2024-02-21 20:27:10,600 runserver:147 [mHTTP GET /host/list/ 200 [0.03, 127.0.0.1:36554][0m
+INFO 2024-02-21 20:27:34,363 runserver:147 [mHTTP OPTIONS /host/categorys/ 200 [0.00, 127.0.0.1:36554][0m
+WARNING 2024-02-21 20:27:34,389 log:224 Not Found: /host/categorys/
+WARNING 2024-02-21 20:27:34,392 runserver:155 [33mHTTP POST /host/categorys/ 404 [0.03, 127.0.0.1:36554][0m
+WARNING 2024-02-21 20:27:42,211 log:224 Not Found: /host/categorys/
+WARNING 2024-02-21 20:27:42,213 runserver:155 [33mHTTP POST /host/categorys/ 404 [0.01, 127.0.0.1:36554][0m
+INFO 2024-02-21 20:27:58,515 runserver:147 [mHTTP OPTIONS /users/refresh_jwt_token/ 200 [0.00, 127.0.0.1:36554][0m
+INFO 2024-02-21 20:27:58,531 runserver:147 [mHTTP POST /users/refresh_jwt_token/ 200 [0.01, 127.0.0.1:36554][0m
+INFO 2024-02-21 20:27:58,560 runserver:147 [mHTTP OPTIONS /host/categories/list 200 [0.00, 127.0.0.1:36554][0m
+INFO 2024-02-21 20:27:58,565 runserver:147 [mHTTP OPTIONS /host/list 200 [0.00, 127.0.0.1:36554][0m
+INFO 2024-02-21 20:27:58,584 runserver:147 [mHTTP GET /host/categories/list 200 [0.01, 127.0.0.1:36554][0m
+INFO 2024-02-21 20:27:58,590 runserver:153 [32mHTTP GET /host/list 301 [0.00, 127.0.0.1:36554][0m
+INFO 2024-02-21 20:27:58,628 runserver:147 [mHTTP OPTIONS /host/list/ 200 [0.00, 127.0.0.1:36554][0m
+INFO 2024-02-21 20:27:58,648 runserver:147 [mHTTP GET /host/list/ 200 [0.02, 127.0.0.1:36554][0m
+INFO 2024-02-21 20:28:15,162 runserver:147 [mHTTP OPTIONS /host/categorys/ 200 [0.00, 127.0.0.1:36554][0m
+WARNING 2024-02-21 20:28:15,171 log:224 Not Found: /host/categorys/
+WARNING 2024-02-21 20:28:15,174 runserver:155 [33mHTTP POST /host/categorys/ 404 [0.01, 127.0.0.1:36554][0m
+INFO 2024-02-21 20:31:20,946 runserver:147 [mHTTP GET /host/categories/list 200 [0.02, 127.0.0.1:35362][0m
+INFO 2024-02-21 20:31:20,952 runserver:147 [mHTTP OPTIONS /host/categories/list 200 [0.00, 127.0.0.1:35362][0m
+INFO 2024-02-21 20:31:20,959 runserver:147 [mHTTP OPTIONS /host/list 200 [0.00, 127.0.0.1:35362][0m
+INFO 2024-02-21 20:31:20,978 runserver:147 [mHTTP GET /host/categories/list 200 [0.02, 127.0.0.1:35362][0m
+INFO 2024-02-21 20:31:20,985 runserver:153 [32mHTTP GET /host/list 301 [0.00, 127.0.0.1:35362][0m
+INFO 2024-02-21 20:31:21,012 runserver:147 [mHTTP GET /host/list/ 200 [0.02, 127.0.0.1:35362][0m
+INFO 2024-02-21 20:31:21,021 runserver:147 [mHTTP OPTIONS /host/list/ 200 [0.00, 127.0.0.1:35362][0m
+INFO 2024-02-21 20:31:21,049 runserver:147 [mHTTP GET /host/list/ 200 [0.03, 127.0.0.1:35362][0m
+INFO 2024-02-21 20:31:21,595 runserver:147 [mHTTP GET /host/categories/list 200 [0.02, 127.0.0.1:35362][0m
+INFO 2024-02-21 20:31:21,601 runserver:147 [mHTTP OPTIONS /host/categories/list 200 [0.00, 127.0.0.1:35362][0m
+INFO 2024-02-21 20:31:21,606 runserver:147 [mHTTP OPTIONS /host/list 200 [0.00, 127.0.0.1:35362][0m
+INFO 2024-02-21 20:31:21,627 runserver:147 [mHTTP GET /host/categories/list 200 [0.02, 127.0.0.1:35362][0m
+INFO 2024-02-21 20:31:21,634 runserver:153 [32mHTTP GET /host/list 301 [0.00, 127.0.0.1:35362][0m
+INFO 2024-02-21 20:31:21,660 runserver:147 [mHTTP GET /host/list/ 200 [0.02, 127.0.0.1:35362][0m
+INFO 2024-02-21 20:31:21,666 runserver:147 [mHTTP OPTIONS /host/list/ 200 [0.00, 127.0.0.1:35362][0m
+INFO 2024-02-21 20:31:21,689 runserver:147 [mHTTP GET /host/list/ 200 [0.02, 127.0.0.1:35362][0m
+INFO 2024-02-21 20:31:39,905 runserver:147 [mHTTP OPTIONS /host/categorys/list/ 200 [0.00, 127.0.0.1:35362][0m
+WARNING 2024-02-21 20:31:39,916 log:224 Not Found: /host/categorys/list/
+WARNING 2024-02-21 20:31:39,918 runserver:155 [33mHTTP POST /host/categorys/list/ 404 [0.01, 127.0.0.1:35362][0m
+INFO 2024-02-21 20:33:28,681 autoreload:250 /mnt/d/00_github/python_web/uric/uric_api/uric_api/apps/host/urls.py changed, reloading.
+INFO 2024-02-21 20:33:31,444 autoreload:636 Watching for file changes with StatReloader
+INFO 2024-02-21 20:33:39,532 autoreload:250 /mnt/d/00_github/python_web/uric/uric_api/uric_api/apps/host/urls.py changed, reloading.
+INFO 2024-02-21 20:33:42,311 autoreload:636 Watching for file changes with StatReloader
+INFO 2024-02-21 20:33:50,166 autoreload:250 /mnt/d/00_github/python_web/uric/uric_api/uric_api/apps/host/urls.py changed, reloading.
+INFO 2024-02-21 20:33:52,848 autoreload:636 Watching for file changes with StatReloader
+INFO 2024-02-21 20:34:02,969 autoreload:250 /mnt/d/00_github/python_web/uric/uric_api/uric_api/apps/host/urls.py changed, reloading.
+INFO 2024-02-21 20:34:05,725 autoreload:636 Watching for file changes with StatReloader
+INFO 2024-02-21 20:34:08,782 autoreload:250 /mnt/d/00_github/python_web/uric/uric_api/uric_api/apps/host/urls.py changed, reloading.
+INFO 2024-02-21 20:34:11,669 autoreload:636 Watching for file changes with StatReloader
+INFO 2024-02-21 20:34:14,180 autoreload:250 /mnt/d/00_github/python_web/uric/uric_api/uric_api/apps/host/urls.py changed, reloading.
+INFO 2024-02-21 20:38:59,888 autoreload:636 Watching for file changes with StatReloader
+WARNING 2024-02-21 20:39:05,659 log:224 Not Found: /host/categorys/list/
+WARNING 2024-02-21 20:39:05,664 runserver:155 [33mHTTP GET /host/categorys/list/ 404 [0.05, 127.0.0.1:49458][0m
+WARNING 2024-02-21 20:39:15,129 log:224 Not Found: /host/categorys/list
+WARNING 2024-02-21 20:39:15,131 runserver:155 [33mHTTP GET /host/categorys/list 404 [0.01, 127.0.0.1:49458][0m
+WARNING 2024-02-21 20:39:58,951 log:224 Not Found: /host/categorys
+WARNING 2024-02-21 20:39:58,953 runserver:155 [33mHTTP GET /host/categorys 404 [0.01, 127.0.0.1:49458][0m
+WARNING 2024-02-21 20:40:05,178 log:224 Not Found: /host/categorys/
+WARNING 2024-02-21 20:40:05,180 runserver:155 [33mHTTP GET /host/categorys/ 404 [0.01, 127.0.0.1:49458][0m
+WARNING 2024-02-21 20:40:24,078 log:224 Not Found: /host/categores/
+WARNING 2024-02-21 20:40:24,080 runserver:155 [33mHTTP GET /host/categores/ 404 [0.01, 127.0.0.1:49458][0m
+WARNING 2024-02-21 20:40:31,695 log:224 Not Found: /host/categores/list/
+WARNING 2024-02-21 20:40:31,698 runserver:155 [33mHTTP GET /host/categores/list/ 404 [0.01, 127.0.0.1:49458][0m
+WARNING 2024-02-21 20:40:36,455 log:224 Not Found: /host/categores/list
+WARNING 2024-02-21 20:40:36,458 runserver:155 [33mHTTP GET /host/categores/list 404 [0.01, 127.0.0.1:49458][0m
+INFO 2024-02-21 20:41:05,241 runserver:147 [mHTTP GET /host/categories/list 200 [0.02, 127.0.0.1:49458][0m
+INFO 2024-02-21 21:07:56,405 autoreload:636 Watching for file changes with StatReloader
+INFO 2024-02-21 21:10:00,743 runserver:147 [mHTTP OPTIONS /users/login/ 200 [0.01, 127.0.0.1:49030][0m
+INFO 2024-02-21 21:10:00,825 runserver:147 [mHTTP POST /users/login/ 200 [0.08, 127.0.0.1:49030][0m
+INFO 2024-02-21 21:10:03,749 runserver:147 [mHTTP OPTIONS /users/refresh_jwt_token/ 200 [0.00, 127.0.0.1:49030][0m
+INFO 2024-02-21 21:10:03,763 runserver:147 [mHTTP POST /users/refresh_jwt_token/ 200 [0.01, 127.0.0.1:49030][0m
+INFO 2024-02-21 21:10:05,987 runserver:147 [mHTTP POST /users/refresh_jwt_token/ 200 [0.01, 127.0.0.1:49030][0m
+INFO 2024-02-21 21:10:06,009 runserver:147 [mHTTP OPTIONS /device/detail/ 200 [0.00, 127.0.0.1:42224][0m
+INFO 2024-02-21 21:10:06,049 runserver:147 [mHTTP GET /device/detail/ 200 [0.04, 127.0.0.1:42224][0m
+INFO 2024-02-21 21:10:21,839 runserver:147 [mHTTP POST /users/refresh_jwt_token/ 200 [0.01, 127.0.0.1:42224][0m
+INFO 2024-02-21 21:10:21,867 runserver:147 [mHTTP OPTIONS /host/list 200 [0.00, 127.0.0.1:57422][0m
+INFO 2024-02-21 21:10:21,904 runserver:147 [mHTTP OPTIONS /host/list/ 200 [0.00, 127.0.0.1:57422][0m
+INFO 2024-02-21 21:10:21,929 runserver:147 [mHTTP GET /host/list/ 200 [0.02, 127.0.0.1:57422][0m
+INFO 2024-02-21 21:10:28,021 runserver:147 [mHTTP POST /users/refresh_jwt_token/ 200 [0.01, 127.0.0.1:57422][0m
+INFO 2024-02-21 21:10:28,059 runserver:147 [mHTTP GET /device/detail/ 200 [0.02, 127.0.0.1:48170][0m
+INFO 2024-02-21 21:10:28,802 runserver:147 [mHTTP POST /users/refresh_jwt_token/ 200 [0.01, 127.0.0.1:48170][0m
+INFO 2024-02-21 21:10:28,823 runserver:147 [mHTTP OPTIONS /host/categories/list 200 [0.00, 127.0.0.1:48170][0m
+INFO 2024-02-21 21:10:28,840 runserver:147 [mHTTP GET /host/categories/list 200 [0.01, 127.0.0.1:48170][0m
+INFO 2024-02-21 21:10:28,878 runserver:147 [mHTTP GET /host/list/ 200 [0.02, 127.0.0.1:48170][0m
+INFO 2024-02-21 21:10:29,520 runserver:147 [mHTTP POST /users/refresh_jwt_token/ 200 [0.01, 127.0.0.1:48170][0m
+INFO 2024-02-21 21:10:29,569 runserver:147 [mHTTP GET /device/detail/ 200 [0.02, 127.0.0.1:48180][0m
+INFO 2024-02-21 21:10:31,100 runserver:147 [mHTTP POST /users/refresh_jwt_token/ 200 [0.01, 127.0.0.1:48180][0m
+INFO 2024-02-21 21:10:31,130 runserver:147 [mHTTP GET /host/categories/list 200 [0.01, 127.0.0.1:48180][0m
+INFO 2024-02-21 21:10:31,174 runserver:147 [mHTTP GET /host/list/ 200 [0.02, 127.0.0.1:48180][0m
+INFO 2024-02-21 21:10:46,766 runserver:147 [mHTTP POST /users/refresh_jwt_token/ 200 [0.01, 127.0.0.1:48180][0m
+INFO 2024-02-21 21:10:46,807 runserver:147 [mHTTP GET /device/detail/ 200 [0.02, 127.0.0.1:34424][0m
+INFO 2024-02-21 21:10:56,357 runserver:147 [mHTTP POST /users/refresh_jwt_token/ 200 [0.01, 127.0.0.1:34424][0m
+INFO 2024-02-21 21:10:56,392 runserver:147 [mHTTP GET /host/categories/list 200 [0.02, 127.0.0.1:34424][0m
+INFO 2024-02-21 21:10:56,453 runserver:147 [mHTTP GET /host/list/ 200 [0.02, 127.0.0.1:34424][0m
+INFO 2024-02-21 21:11:03,278 runserver:147 [mHTTP POST /users/refresh_jwt_token/ 200 [0.01, 127.0.0.1:34424][0m
+INFO 2024-02-21 21:11:03,312 runserver:147 [mHTTP OPTIONS /device/categorys/ 200 [0.01, 127.0.0.1:34424][0m
+INFO 2024-02-21 21:11:03,341 runserver:147 [mHTTP GET /device/detail/ 200 [0.02, 127.0.0.1:34424][0m
+INFO 2024-02-21 21:11:03,369 runserver:147 [mHTTP GET /device/categorys/ 200 [0.02, 127.0.0.1:34424][0m
+INFO 2024-02-21 21:11:09,474 runserver:147 [mHTTP POST /users/refresh_jwt_token/ 200 [0.02, 127.0.0.1:34424][0m
+INFO 2024-02-21 21:11:09,522 runserver:147 [mHTTP GET /host/categories/list 200 [0.02, 127.0.0.1:34424][0m
+INFO 2024-02-21 21:11:09,571 runserver:147 [mHTTP GET /host/list/ 200 [0.02, 127.0.0.1:34424][0m
+INFO 2024-02-21 21:11:30,834 runserver:147 [mHTTP OPTIONS /host/categorys/list 200 [0.00, 127.0.0.1:34424][0m
+WARNING 2024-02-21 21:11:30,857 log:224 Not Found: /host/categorys/list
+WARNING 2024-02-21 21:11:30,860 runserver:155 [33mHTTP POST /host/categorys/list 404 [0.02, 127.0.0.1:34424][0m
+INFO 2024-02-21 21:12:02,175 runserver:147 [mHTTP GET /host/categories/list 200 [0.02, 127.0.0.1:34424][0m
+INFO 2024-02-21 21:12:02,318 runserver:147 [mHTTP GET /host/list/ 200 [0.02, 127.0.0.1:34424][0m
+INFO 2024-02-21 21:12:08,391 runserver:147 [mHTTP OPTIONS /host/categorys/list%E3%80%81 200 [0.00, 127.0.0.1:34424][0m
+WARNING 2024-02-21 21:12:08,402 log:224 Not Found: /host/categorys/list、
+WARNING 2024-02-21 21:12:08,404 runserver:155 [33mHTTP POST /host/categorys/list%E3%80%81 404 [0.01, 127.0.0.1:34424][0m
+WARNING 2024-02-21 21:12:43,560 log:224 Not Found: /host/categorys/list、
+WARNING 2024-02-21 21:12:43,562 runserver:155 [33mHTTP POST /host/categorys/list%E3%80%81 404 [0.01, 127.0.0.1:34424][0m
+WARNING 2024-02-21 21:13:08,292 log:224 Not Found: /host/categorys/list、
+WARNING 2024-02-21 21:13:08,294 runserver:155 [33mHTTP POST /host/categorys/list%E3%80%81 404 [0.01, 127.0.0.1:34424][0m
+INFO 2024-02-21 21:13:35,099 runserver:147 [mHTTP GET /host/categories/list 200 [0.01, 127.0.0.1:50550][0m
+WARNING 2024-02-21 21:14:31,693 log:224 Not Found: /host/categories/list/
+WARNING 2024-02-21 21:14:31,695 runserver:155 [33mHTTP POST /host/categories/list/ 404 [0.01, 127.0.0.1:50550][0m
+INFO 2024-02-21 21:15:19,193 autoreload:250 /mnt/d/00_github/python_web/uric/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2024-02-21 21:15:21,899 autoreload:636 Watching for file changes with StatReloader
+INFO 2024-02-21 21:15:24,934 autoreload:250 /mnt/d/00_github/python_web/uric/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2024-02-21 21:15:27,796 autoreload:636 Watching for file changes with StatReloader
+WARNING 2024-02-21 21:15:30,483 log:224 Not Found: /host/categories/list/
+WARNING 2024-02-21 21:15:30,487 runserver:155 [33mHTTP POST /host/categories/list/ 404 [0.04, 127.0.0.1:37596][0m
+INFO 2024-02-21 21:15:37,086 runserver:147 [mHTTP POST /host/categories/list 201 [0.04, 127.0.0.1:37596][0m
+WARNING 2024-02-21 21:16:00,319 log:224 Not Found: /host/categorys/list、
+WARNING 2024-02-21 21:16:00,322 runserver:155 [33mHTTP POST /host/categorys/list%E3%80%81 404 [0.01, 127.0.0.1:59220][0m
+INFO 2024-02-21 21:16:09,893 runserver:147 [mHTTP POST /users/refresh_jwt_token/ 200 [0.01, 127.0.0.1:59220][0m
+INFO 2024-02-21 21:16:10,142 runserver:147 [mHTTP GET /host/categories/list 200 [0.04, 127.0.0.1:59220][0m
+INFO 2024-02-21 21:16:10,274 runserver:147 [mHTTP GET /host/list/ 200 [0.03, 127.0.0.1:59220][0m
+INFO 2024-02-21 21:17:15,902 runserver:147 [mHTTP POST /users/refresh_jwt_token/ 200 [0.01, 127.0.0.1:41178][0m
+INFO 2024-02-21 21:17:16,019 runserver:147 [mHTTP GET /host/categories/list 200 [0.02, 127.0.0.1:41178][0m
+INFO 2024-02-21 21:17:16,102 runserver:147 [mHTTP GET /host/list/ 200 [0.02, 127.0.0.1:41178][0m
+INFO 2024-02-21 21:19:27,725 runserver:147 [mHTTP GET /host/categories/list 200 [0.02, 127.0.0.1:37230][0m
+INFO 2024-02-21 21:19:27,884 runserver:147 [mHTTP GET /host/list/ 200 [0.02, 127.0.0.1:37230][0m
+INFO 2024-02-21 21:19:51,587 runserver:147 [mHTTP GET /host/categories/list 200 [0.01, 127.0.0.1:37230][0m
+INFO 2024-02-21 21:19:51,637 runserver:147 [mHTTP GET /host/list/ 200 [0.02, 127.0.0.1:37230][0m
+INFO 2024-02-21 21:19:57,336 runserver:147 [mHTTP GET /host/categories/list 200 [0.01, 127.0.0.1:37230][0m
+INFO 2024-02-21 21:19:57,378 runserver:147 [mHTTP GET /host/list/ 200 [0.02, 127.0.0.1:37230][0m
+INFO 2024-02-21 21:19:59,563 runserver:147 [mHTTP GET /host/categories/list 200 [0.01, 127.0.0.1:37230][0m
+INFO 2024-02-21 21:19:59,606 runserver:147 [mHTTP GET /host/list/ 200 [0.02, 127.0.0.1:37230][0m
+INFO 2024-02-21 21:20:01,631 runserver:147 [mHTTP GET /host/categories/list 200 [0.01, 127.0.0.1:37230][0m
+INFO 2024-02-21 21:20:01,666 runserver:147 [mHTTP GET /host/list/ 200 [0.02, 127.0.0.1:37230][0m
+INFO 2024-02-21 21:20:19,361 runserver:147 [mHTTP GET /host/categories/list 200 [0.01, 127.0.0.1:37230][0m
+INFO 2024-02-21 21:20:19,404 runserver:147 [mHTTP GET /host/list/ 200 [0.02, 127.0.0.1:37230][0m
+INFO 2024-02-21 21:24:45,442 runserver:147 [mHTTP OPTIONS /host/categorys/list/ 200 [0.00, 127.0.0.1:48260][0m
+WARNING 2024-02-21 21:24:45,452 log:224 Not Found: /host/categorys/list/
+WARNING 2024-02-21 21:24:45,455 runserver:155 [33mHTTP POST /host/categorys/list/ 404 [0.01, 127.0.0.1:48260][0m
+INFO 2024-02-21 21:26:33,125 runserver:147 [mHTTP GET /host/categories/list 200 [0.01, 127.0.0.1:40292][0m
+INFO 2024-02-21 21:26:33,190 runserver:147 [mHTTP GET /host/list/ 200 [0.02, 127.0.0.1:40292][0m
+INFO 2024-02-21 21:26:38,388 runserver:147 [mHTTP GET /host/categories/list 200 [0.02, 127.0.0.1:40292][0m
+INFO 2024-02-21 21:26:38,438 runserver:147 [mHTTP GET /host/list/ 200 [0.02, 127.0.0.1:40292][0m
+INFO 2024-02-21 21:27:44,889 runserver:147 [mHTTP GET /host/categories/list 200 [0.01, 127.0.0.1:45014][0m
+INFO 2024-02-21 21:27:44,934 runserver:147 [mHTTP GET /host/list/ 200 [0.02, 127.0.0.1:45014][0m
+INFO 2024-02-21 21:27:53,749 runserver:147 [mHTTP GET /host/categories/list 200 [0.01, 127.0.0.1:45014][0m
+INFO 2024-02-21 21:27:53,793 runserver:147 [mHTTP GET /host/list/ 200 [0.02, 127.0.0.1:45014][0m
+INFO 2024-02-21 21:27:57,185 runserver:147 [mHTTP GET /host/categories/list 200 [0.02, 127.0.0.1:45014][0m
+INFO 2024-02-21 21:27:57,229 runserver:147 [mHTTP GET /host/list/ 200 [0.02, 127.0.0.1:45014][0m
+INFO 2024-02-21 21:28:01,881 runserver:147 [mHTTP GET /host/categories/list 200 [0.01, 127.0.0.1:45014][0m
+INFO 2024-02-21 21:28:01,935 runserver:147 [mHTTP GET /host/list/ 200 [0.02, 127.0.0.1:45014][0m
+INFO 2024-02-21 21:28:06,663 runserver:147 [mHTTP GET /host/categories/list 200 [0.01, 127.0.0.1:45014][0m
+INFO 2024-02-21 21:28:06,714 runserver:147 [mHTTP GET /host/list/ 200 [0.02, 127.0.0.1:45014][0m
+INFO 2024-02-21 21:28:11,148 runserver:147 [mHTTP GET /host/categories/list 200 [0.01, 127.0.0.1:45014][0m
+INFO 2024-02-21 21:28:11,180 runserver:147 [mHTTP GET /host/list/ 200 [0.02, 127.0.0.1:45014][0m
+INFO 2024-02-21 21:28:15,319 runserver:147 [mHTTP GET /host/categories/list 200 [0.02, 127.0.0.1:45014][0m
+INFO 2024-02-21 21:28:15,387 runserver:147 [mHTTP GET /host/list/ 200 [0.03, 127.0.0.1:45014][0m
+INFO 2024-02-21 21:28:21,099 runserver:147 [mHTTP GET /host/categories/list 200 [0.01, 127.0.0.1:45014][0m
+INFO 2024-02-21 21:28:21,136 runserver:147 [mHTTP GET /host/list/ 200 [0.02, 127.0.0.1:45014][0m
+INFO 2024-02-21 21:28:26,407 runserver:147 [mHTTP GET /host/categories/list 200 [0.01, 127.0.0.1:45014][0m
+INFO 2024-02-21 21:28:26,452 runserver:147 [mHTTP GET /host/list/ 200 [0.02, 127.0.0.1:45014][0m
+INFO 2024-02-21 21:29:36,259 runserver:147 [mHTTP POST /host/categories/list 201 [0.02, 127.0.0.1:51842][0m
+INFO 2024-02-21 21:29:56,798 autoreload:250 /mnt/d/00_github/python_web/uric/uric_api/uric_api/apps/host/serializers.py changed, reloading.
+INFO 2024-02-21 21:29:59,603 autoreload:636 Watching for file changes with StatReloader
+INFO 2024-02-21 21:30:08,564 autoreload:250 /mnt/d/00_github/python_web/uric/uric_api/uric_api/apps/host/serializers.py changed, reloading.
+INFO 2024-02-21 21:30:11,493 autoreload:636 Watching for file changes with StatReloader
+INFO 2024-02-21 21:30:38,945 autoreload:250 /mnt/d/00_github/python_web/uric/uric_api/uric_api/apps/host/serializers.py changed, reloading.
+INFO 2024-02-21 21:31:46,043 autoreload:636 Watching for file changes with StatReloader
+INFO 2024-02-21 21:31:59,778 autoreload:250 /mnt/d/00_github/python_web/uric/uric_api/uric_api/apps/host/serializers.py changed, reloading.
+INFO 2024-02-21 21:32:09,458 autoreload:636 Watching for file changes with StatReloader
+INFO 2024-02-21 21:32:13,845 runserver:147 [mHTTP GET /host/categories/list 200 [0.03, 127.0.0.1:50498][0m
+INFO 2024-02-21 21:32:30,345 runserver:147 [mHTTP GET /host/categories/list 200 [0.01, 127.0.0.1:50498][0m
+INFO 2024-02-21 21:32:36,570 runserver:147 [mHTTP POST /host/categories/list 201 [0.03, 127.0.0.1:50498][0m
+INFO 2024-02-21 21:32:59,070 runserver:147 [mHTTP POST /host/categories/list 201 [0.03, 127.0.0.1:50498][0m
+WARNING 2024-02-21 21:33:24,320 log:224 Not Found: /host/categorys/list/
+WARNING 2024-02-21 21:33:24,324 runserver:155 [33mHTTP POST /host/categorys/list/ 404 [0.03, 127.0.0.1:42952][0m
+WARNING 2024-02-21 21:33:39,035 log:224 Not Found: /host/categories/list/
+WARNING 2024-02-21 21:33:39,037 runserver:155 [33mHTTP POST /host/categories/list/ 404 [0.01, 127.0.0.1:50498][0m
+WARNING 2024-02-21 21:34:45,948 log:224 Not Found: /host/categorys/list/
+WARNING 2024-02-21 21:34:45,951 runserver:155 [33mHTTP POST /host/categorys/list/ 404 [0.01, 127.0.0.1:44008][0m
+INFO 2024-02-21 21:35:03,148 runserver:147 [mHTTP GET /host/categories/list 200 [0.01, 127.0.0.1:44008][0m
+INFO 2024-02-21 21:35:03,211 runserver:147 [mHTTP GET /host/list/ 200 [0.02, 127.0.0.1:44008][0m
+WARNING 2024-02-21 21:35:10,009 log:224 Not Found: /host/categorys/list
+WARNING 2024-02-21 21:35:10,013 runserver:155 [33mHTTP POST /host/categorys/list 404 [0.02, 127.0.0.1:44008][0m
+WARNING 2024-02-21 21:35:14,859 log:224 Not Found: /host/categorys/list
+WARNING 2024-02-21 21:35:14,863 runserver:155 [33mHTTP POST /host/categorys/list 404 [0.01, 127.0.0.1:44008][0m
+WARNING 2024-02-21 21:35:15,900 log:224 Not Found: /host/categorys/list
+WARNING 2024-02-21 21:35:15,902 runserver:155 [33mHTTP POST /host/categorys/list 404 [0.01, 127.0.0.1:44008][0m
+WARNING 2024-02-21 21:35:17,237 log:224 Not Found: /host/categorys/list
+WARNING 2024-02-21 21:35:17,239 runserver:155 [33mHTTP POST /host/categorys/list 404 [0.01, 127.0.0.1:44008][0m
+WARNING 2024-02-21 21:36:12,230 log:224 Not Found: /host/categorys/list
+WARNING 2024-02-21 21:36:12,233 runserver:155 [33mHTTP POST /host/categorys/list 404 [0.01, 127.0.0.1:44008][0m
+INFO 2024-02-21 21:36:49,575 runserver:147 [mHTTP POST /host/categories/list 201 [0.02, 127.0.0.1:42464][0m
+WARNING 2024-02-21 21:37:34,908 log:224 Not Found: /host/categorys/list
+WARNING 2024-02-21 21:37:34,911 runserver:155 [33mHTTP POST /host/categorys/list 404 [0.01, 127.0.0.1:59320][0m
+INFO 2024-02-21 21:37:56,612 runserver:147 [mHTTP GET /host/categories/list 200 [0.02, 127.0.0.1:59320][0m
+INFO 2024-02-21 21:37:56,691 runserver:147 [mHTTP GET /host/list/ 200 [0.03, 127.0.0.1:59320][0m
+INFO 2024-02-21 21:38:13,717 runserver:147 [mHTTP POST /host/categories/list 201 [0.02, 127.0.0.1:59320][0m
+INFO 2024-02-21 21:39:32,066 runserver:147 [mHTTP GET /host/categories/list 200 [0.01, 127.0.0.1:41074][0m
+INFO 2024-02-21 21:39:32,116 runserver:147 [mHTTP GET /host/list/ 200 [0.02, 127.0.0.1:41074][0m
+INFO 2024-02-21 21:39:38,470 runserver:147 [mHTTP GET /host/categories/list 200 [0.01, 127.0.0.1:41074][0m
+INFO 2024-02-21 21:39:38,532 runserver:147 [mHTTP GET /host/list/ 200 [0.02, 127.0.0.1:41074][0m
+INFO 2024-02-21 21:39:41,823 runserver:147 [mHTTP GET /host/categories/list 200 [0.02, 127.0.0.1:41074][0m
+INFO 2024-02-21 21:39:41,873 runserver:147 [mHTTP GET /host/list/ 200 [0.02, 127.0.0.1:41074][0m
+INFO 2024-02-21 21:39:47,777 runserver:147 [mHTTP GET /host/categories/list 200 [0.01, 127.0.0.1:41074][0m
+INFO 2024-02-21 21:39:47,828 runserver:147 [mHTTP GET /host/list/ 200 [0.02, 127.0.0.1:41074][0m
+INFO 2024-02-21 21:39:54,805 runserver:147 [mHTTP POST /host/categories/list 201 [0.03, 127.0.0.1:41074][0m
+INFO 2024-02-21 21:40:08,176 runserver:147 [mHTTP POST /host/categories/list 201 [0.03, 127.0.0.1:41074][0m
+INFO 2024-02-21 21:41:03,716 runserver:147 [mHTTP POST /host/categories/list 201 [0.02, 127.0.0.1:41074][0m
+INFO 2024-02-21 21:41:44,792 runserver:147 [mHTTP POST /users/refresh_jwt_token/ 200 [0.01, 127.0.0.1:41074][0m
+INFO 2024-02-21 21:41:54,441 runserver:147 [mHTTP POST /users/login/ 200 [0.06, 127.0.0.1:41074][0m
+INFO 2024-02-21 21:41:56,097 runserver:147 [mHTTP POST /users/refresh_jwt_token/ 200 [0.01, 127.0.0.1:41074][0m
+INFO 2024-02-21 21:41:57,982 runserver:147 [mHTTP POST /users/refresh_jwt_token/ 200 [0.01, 127.0.0.1:41074][0m
+INFO 2024-02-21 21:41:58,006 runserver:147 [mHTTP OPTIONS /mtask/templates 200 [0.00, 127.0.0.1:41074][0m
+INFO 2024-02-21 21:41:58,012 runserver:147 [mHTTP OPTIONS /mtask/templates/categorys 200 [0.01, 127.0.0.1:49438][0m
+INFO 2024-02-21 21:41:58,032 runserver:147 [mHTTP GET /mtask/templates/categorys 200 [0.01, 127.0.0.1:49438][0m
+INFO 2024-02-21 21:41:59,719 runserver:147 [mHTTP POST /users/refresh_jwt_token/ 200 [0.01, 127.0.0.1:49438][0m
+INFO 2024-02-21 21:41:59,749 runserver:147 [mHTTP GET /host/categories/list 200 [0.02, 127.0.0.1:49438][0m
+INFO 2024-02-21 21:41:59,791 runserver:147 [mHTTP GET /host/list/ 200 [0.02, 127.0.0.1:49438][0m
+INFO 2024-02-21 21:42:18,152 runserver:147 [mHTTP POST /host/categories/list 201 [0.03, 127.0.0.1:49438][0m
+INFO 2024-02-21 21:44:14,867 runserver:147 [mHTTP GET /host/categories/list 200 [0.02, 127.0.0.1:40602][0m
+INFO 2024-02-21 21:44:15,039 runserver:147 [mHTTP GET /host/list/ 200 [0.02, 127.0.0.1:40602][0m
+INFO 2024-02-21 21:46:30,063 runserver:147 [mHTTP POST /users/refresh_jwt_token/ 200 [0.01, 127.0.0.1:44640][0m
+INFO 2024-02-21 21:46:30,219 runserver:147 [mHTTP GET /host/categories/list 200 [0.02, 127.0.0.1:44640][0m
+INFO 2024-02-21 21:46:30,336 runserver:147 [mHTTP GET /host/list/ 200 [0.03, 127.0.0.1:44640][0m
+INFO 2024-02-21 21:46:44,750 runserver:147 [mHTTP GET /host/categories/list 200 [0.01, 127.0.0.1:44640][0m
+INFO 2024-02-21 21:46:44,792 runserver:147 [mHTTP GET /host/list/ 200 [0.02, 127.0.0.1:44640][0m
+INFO 2024-02-21 21:46:49,211 runserver:147 [mHTTP GET /host/categories/list 200 [0.01, 127.0.0.1:44640][0m
+INFO 2024-02-21 21:46:49,270 runserver:147 [mHTTP GET /host/list/ 200 [0.02, 127.0.0.1:44640][0m
+INFO 2024-02-21 21:46:50,777 runserver:147 [mHTTP GET /host/categories/list 200 [0.02, 127.0.0.1:44640][0m
+INFO 2024-02-21 21:46:50,833 runserver:147 [mHTTP GET /host/list/ 200 [0.02, 127.0.0.1:44640][0m

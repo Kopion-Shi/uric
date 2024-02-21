@@ -11,7 +11,7 @@ class HostCategoryModelSeiralizer(serializers.ModelSerializer):
 
     class Meta:
         model = models.HostCategory
-        fields = ['id', 'name']
+        fields = ['id', 'name','description',]
 
 
 class HostModelSerializers(serializers.ModelSerializer):

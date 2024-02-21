@@ -9,6 +9,5 @@ urlpatterns = [
 
 from rest_framework.routers import DefaultRouter
 router = DefaultRouter()
-router.register("list", views.HostModelViewSet, basename="list"),
-
+router.register("list", views.HostModelViewSet, basename="list")
 urlpatterns +=router.urls

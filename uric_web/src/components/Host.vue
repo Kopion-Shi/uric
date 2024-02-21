@@ -66,7 +66,7 @@
                   <button type="button" class="ant-btn ant-btn-link"  @click="showaddhostcaterage"><span>添加主机类别</span></button>
                 </a-col>
                 <a-col :span="5">
-                  <button type="button" class="ant-btn ant-btn-link"><span>编辑主机类别</span></button>
+                  <button type="button" class="ant-btn ant-btn-link" @click="showedithostcaterage"><span>编辑主机类别</span></button>
                 </a-col>
               </a-row>
             </a-form-model-item>
@@ -151,7 +151,14 @@
             <a-form-model-item ref="name" label="主机类别" prop="name">
               <a-row>
                 <a-col :span="24">
-                  <a-input placeholder="请输入主机类别" v-model="category_form.form.category"/>
+                  <a-input placeholder="请输入主机类别" v-model="category_form.form.name"/>
+                </a-col>
+              </a-row>
+            </a-form-model-item>
+            <a-form-model-item ref="description" label="备注" prop="description">
+              <a-row>
+                <a-col :span="24">
+                  <a-input placeholder="请输入备注" v-model="category_form.form.description"/>
                 </a-col>
               </a-row>
             </a-form-model-item>
@@ -309,10 +316,12 @@
           wrapperCol: {span: 14},
           other: '',
           form: {
-            category: '',
+            name: '',
+            description: '',
           },
           category_rules:{
-            category: [{required: true, message: '请输入类别', trigger: 'change'}],
+            name: [{required: true, message: '请输入类别', trigger: 'change'}],
+            description: [{required: true, message: '请输入备注信息', trigger: 'change'}],
           },
         },
         excel_model_visible: false, // 批量导入主机的窗口显示和隐藏
@@ -413,6 +422,9 @@
       // 显示添加主机类别的表单窗口
       this.visible_type = true;
       },
+      showedithostcaterage(){
+        this.visible_edit = true;
+      },
       showModal() {
         // 显示添加主机的表单窗口
         this.visible = true;
@@ -468,8 +480,9 @@
           if (valid) {
               let token = sessionStorage.token || localStorage.token || "";
               // 将数据提交到后台进行保存，但是先进行连接校验，验证没有问题，再保存
-              this.$axios.post(`${this.$settings.host}/host/categorys/`,{
-                    "category":this.category_form.form.category,
+              this.$axios.post(`${this.$settings.host}/host/categories/list`,{
+                    "name":this.category_form.form.name,
+                    "description":this.category_form.form.description,
               },
               {
                 headers:{
@@ -477,8 +490,8 @@
                 }
               }).then(response=>{
                   // 在现有的主机列表，追加新增的主机类别列表
-                  this.data.unshift(response.data);
-                  this.handleCancel();
+                  this.categorys.unshift(response.data);
+                  this.handleCancel_category();
               }).catch(error=>{
                   this.$message.error("添加主机类别失败！");
               })
