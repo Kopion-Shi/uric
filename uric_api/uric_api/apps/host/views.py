@@ -20,20 +20,23 @@ class HostCategoryListAPIView(ListAPIView, CreateAPIView):
 
 
 class HostModelViewSet(ModelViewSet):
-    # queryset = Host.objects.filter(category_id=3)
     serializer_class = HostModelSerializers
     permission_classes = [IsAuthenticated]
 
     def get_queryset(self):
         category_id = self.request.query_params.get("category", None)
-        environment_id = self.request.query_params.get("env", None)
+        name_id = self.request.query_params.get("name", None)
+        ip_addr = self.request.query_params.get("ip_addr", None)
+        print(category_id,name_id,ip_addr)
         queryset = Host.objects.filter(is_deleted=False)
         # 有分类的查询参数，则按分类来查询
         if category_id is not None:
             queryset = queryset.filter(category_id=category_id)
         #  有环境的查询参数，则按环境来查询
-        if environment_id is not None:
-            queryset = queryset.filter(environment_id=environment_id)
+        if name_id is not None:
+            queryset = queryset.filter(name=name_id)
+        if ip_addr is not None:
+            queryset = queryset.filter(ip_addr=ip_addr)
         return queryset.all()
 
 

@@ -16,23 +16,27 @@
                 <a-col :span="6">
                     <a-form-item :label-col="formItemLayout.labelCol" :wrapper-col="formItemLayout.wrapperCol"
                                  label="主机别名：">
-                        <a-input placeholder="请输入"/>
+                        <a-input v-model="this.search_data.name" placeholder="请输入"/>
                     </a-form-item>
                 </a-col>
                 <a-col :span="6">
                     <a-form-item :label-col="formItemLayout.labelCol" :wrapper-col="formItemLayout.wrapperCol"
                                  label="连接地址：">
                         <a-input
+                                v-model="this.search_data.ip_addr"
                                 v-decorator="['nickname', { rules: [{ required: checkHost, message: 'Please input your nickname' }] }, ]"
                                 placeholder="请输入"/>
                     </a-form-item>
                 </a-col>
-                <a-col :span="6">
-                    <router-link to="/workbench">
-                        <a-button type="primary" icon="sync" style="margin-top: 3px;">
-                            刷新页面
-                        </a-button>
-                    </router-link>
+                <a-col :span="2">
+                    <a-button type="primary" icon="search" @click="this.get_host_list">
+                        搜索
+                    </a-button>
+                </a-col>
+                <a-col :span="3">
+                    <a-button type="danger"  @click="this.get_host_list_all">
+                        重置
+                    </a-button>
                 </a-col>
             </a-row>
 
@@ -312,6 +316,11 @@ export default {
                 type: '',
                 pk: '',
             },
+            search_data: {
+                categorys: '',
+                name: '',
+                ip_addr: ''
+            },
             // 添加主机需要的数据属性
             host_form: {
                 labelCol: {span: 6},
@@ -378,6 +387,7 @@ export default {
         this.get_categorys()
         this.get_host_list()
     },
+
     methods: {
         showExcelModal() {
             // 显示批量上传主机的窗口
@@ -430,10 +440,26 @@ export default {
                 this.$message.error('上传文件处理失败！');
             })
         },
+        get_host_list_all() {
+            this.search_data.categorys = []
+            this.get_host_list()
+        },
         get_host_list() {
+            let params = {};
+            console.log(this.search_data)
+            if (this.search_data.name) {
+                params.name = this.search_data.name;
+            }
+            if (this.search_data.categorys) {
+                params.category = this.search_data.categorys;
+            }
+            if (this.search_data.ip_addr) {
+                params.ip_addr = this.search_data.ip_addr;
+            }
             let token = sessionStorage.token || localStorage.token || "";
             // 获取主机列表
             this.$axios.get(`/host/list`, {
+                params: params,
                 headers: {
                     Authorization: "jwt " + token,
                 }
@@ -458,7 +484,7 @@ export default {
             })
         },
         handleSelectChange(value) {
-            console.log(value);
+            this.search_data.categorys = value;
         },
         showhostcaterage(mode) {
             // 显示添加主机类别的表单窗口
