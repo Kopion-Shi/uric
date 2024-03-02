@@ -51,7 +51,6 @@ INSTALLED_APPS = [
     'channels',
     'conf_center',
     "release",
-    "device"
 ]
 
 MIDDLEWARE = [

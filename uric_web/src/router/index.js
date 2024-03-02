@@ -12,10 +12,11 @@ import ShowCenter from "../components/ShowCenter";
 import Host from '@/components/Host';
 import ReleaseApply from '@/components/ReleaseApply'
 import ReleaseResult from '@/components/ReleaseResult'
+import Test from '@/components/test_1.vue'
 // 路由守卫[导航守卫]
 import axios from "axios"
 import settings from "../settings.js"
-import Device from "@/components/device.vue";
+
 
 Vue.use(Router)
 
@@ -47,11 +48,6 @@ const router = new Router({
                     path: 'host',
                     name: 'Host',
                     component: Host,
-                },
-                {
-                    path: 'device',
-                    name: 'Device',
-                    component: Device,
                 },
                 {
                     path: 'console/:id',
@@ -87,6 +83,11 @@ const router = new Router({
                     path: 'release_result/:id',
                     name: 'ReleaseResult',
                     component: ReleaseResult,
+                },
+                 {
+                    path: 'test',
+                    name: 'test',
+                    component: Test,
                 },
             ]
         },

@@ -57,8 +57,8 @@ export default {
                     title: '资产管理',
                     'menu_url': '/uric/host',
                     children: [
-                        {id: 23, icon: 'mail', title: '单板管理', 'menu_url': '/uric/device'},
-                        {id: 24, icon: 'mail', title: '服务器管理', 'menu_url': '/uric/host'},
+                        {id: 23, icon: 'mail', title: '服务器管理', 'menu_url': '/uric/host'},
+                        {id: 24, icon: 'mail', title: 'test', 'menu_url': '/uric/test'},
                     ]
                 },
 

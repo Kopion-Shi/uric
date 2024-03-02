@@ -1,9 +1,10 @@
-from rest_framework import serializers
-from . import models
-from host.utils.check_ssh import valid_ssh
-from host.utils.ssh import SSH
-from host.utils.key import AppSetting
 from django.conf import settings
+from host.utils.check_ssh import valid_ssh
+from host.utils.key import AppSetting
+from host.utils.ssh import SSH
+from rest_framework import serializers
+
+from . import models
 
 
 class HostCategoryModelSeiralizer(serializers.ModelSerializer):
@@ -11,7 +12,11 @@ class HostCategoryModelSeiralizer(serializers.ModelSerializer):
 
     class Meta:
         model = models.HostCategory
-        fields = ['id', 'name','description',]
+        fields = ['id', 'name', 'description', ]
+
+
+def get_object():
+    return models.Host.objects
 
 
 class HostModelSerializers(serializers.ModelSerializer):
@@ -66,7 +71,8 @@ class HostModelSerializers(serializers.ModelSerializer):
         # raise serializers.ValidationError('测试!')
         # 剔除密码字段，保存host记录
         validated_data.pop('password')
-        instance = models.Host.objects.create(
+        instance = get_object().create(
             **validated_data
         )
         return instance
+
