@@ -1,9 +1,10 @@
 # Create your views here.
 from rest_framework.generics import ListAPIView, CreateAPIView
+from rest_framework.permissions import IsAuthenticated
 from rest_framework.viewsets import ModelViewSet
+
 from .models import HostCategory, Host
 from .serializers import HostCategoryModelSeiralizer, HostModelSerializers
-from rest_framework.permissions import IsAuthenticated
 
 
 class HostCategoryListAPIView(ListAPIView, CreateAPIView):
@@ -13,7 +14,7 @@ class HostCategoryListAPIView(ListAPIView, CreateAPIView):
 
     def get(self, request, *args, **kwargs):
         return super().get(request, *args, **kwargs)
-    
+
     def post(self, request, *args, **kwargs):
         return super().post(request, *args, **kwargs)
 
@@ -26,7 +27,7 @@ class HostModelViewSet(ModelViewSet):
     def get_queryset(self):
         category_id = self.request.query_params.get("category", None)
         environment_id = self.request.query_params.get("env", None)
-        queryset = Host.objects
+        queryset = Host.objects.filter(is_deleted=False)
         # 有分类的查询参数，则按分类来查询
         if category_id is not None:
             queryset = queryset.filter(category_id=category_id)
@@ -146,7 +147,8 @@ class HostFileView(ViewSet):
         try:
             self.cli.put_file_by_fl(file_obj, folder_path, self.file_upload_callback)
         except:
-            return Response({'error': '文件上传失败,请联系管理员或者查看一下用户权限'}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
+            return Response({'error': '文件上传失败,请联系管理员或者查看一下用户权限'},
+                            status=status.HTTP_500_INTERNAL_SERVER_ERROR)
 
         return Response({"msg": "上传文件成功"})
 

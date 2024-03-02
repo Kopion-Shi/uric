@@ -58,7 +58,6 @@ export default {
                     'menu_url': '/uric/host',
                     children: [
                         {id: 23, icon: 'mail', title: '服务器管理', 'menu_url': '/uric/host'},
-                        {id: 24, icon: 'mail', title: 'test', 'menu_url': '/uric/test'},
                     ]
                 },
 

@@ -54,8 +54,9 @@
             >
                 <template slot="footer">
                     <a-button key="back" @click="handleCancel">取消</a-button>
-                    <a-button key="submit" type="primary" :loading="loading" @click="onSubmit(model_date.type)">验证
-                    </a-button>,
+                    <a-button key="submit" type="primary" :loading="loading" @click="onSubmit(model_date.type)">确认
+                    </a-button>
+                    ,
                 </template>
                 <a-form-model ref="ruleForm" :model="host_form.form" :rules="host_form.rules"
                               :label-col="host_form.labelCol" :wrapper-col="host_form.wrapperCol">
@@ -309,7 +310,7 @@ export default {
             model_date: {
                 host_window_title: '',
                 type: '',
-                pk:'',
+                pk: '',
             },
             // 添加主机需要的数据属性
             host_form: {
@@ -484,11 +485,18 @@ export default {
                 this.model_date.type = 'add';
             } else if (mode === "edit") {
                 this.model_date.host_window_title = '编辑主机';
-                this.model_date.pk=pk;
+                this.model_date.pk = pk;
                 this.model_date.type = 'edit';
                 this.visible = true;
                 this.host_form.form = this.data.find(item => item.id === this.model_date.pk);
 
+            } else if (mode === 'delete') {
+                this.model_date.host_window_title = '删除主机';
+                this.model_date.pk = pk;
+                this.model_date.type = 'delete';
+                this.host_form.rules.password = [];
+                this.visible = true;
+                this.host_form.form = this.data.find(item => item.id === this.model_date.pk);
             }
         },
         handleCancel() {
@@ -530,9 +538,7 @@ export default {
                         return false;
                     }
                 });
-            }
-            else if (mode === "edit") {
-                console.log("编辑")
+            } else if (mode === "edit") {
                 this.$refs.ruleForm.validate(valid => {
                     // 验证通过则发送请求
                     if (valid) {
@@ -556,7 +562,37 @@ export default {
                             this.get_host_list()
                             this.handleCancel();
                         }).catch(error => {
-                            this.$message.error("修改主机失败！"+error);
+                            this.$message.error("修改主机失败！" + error);
+                        })
+
+                    } else {
+                        // 验证失败！
+                        return false;
+                    }
+                });
+            } else if (mode === "delete") {
+
+                this.$refs.ruleForm.validate(valid => {
+                    // 验证通过则发送请求
+                    if (valid) {
+                        let token = sessionStorage.token || localStorage.token || "";
+                        // 将数据提交到后台进行保存，但是先进行连接校验，验证没有问题，再保存
+                        this.$axios.put(`/host/list/${this.model_date.pk}/`, {
+                                "port": this.host_form.form.port,
+                                "username": this.host_form.form.username,
+                                "password": 'root',
+                                "is_deleted": true,
+                            },
+                            {
+                                headers: {
+                                    Authorization: "jwt " + token,
+                                }
+                            }).then(response => {
+                            // 在现有的主机列表，追加新增的主机列表
+                            this.get_host_list()
+                            this.handleCancel();
+                        }).catch(error => {
+                            this.$message.error("删除主机失败！" + error);
                         })
 
                     } else {

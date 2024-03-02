@@ -4045,3 +4045,61 @@ INFO 2024-03-02 15:15:20,527 runserver:147 HTTP GET /host/list/ 200 [0.03, 127.0
 INFO 2024-03-02 15:15:36,689 runserver:147 HTTP OPTIONS /host/list/3/ 200 [0.00, 127.0.0.1:6920]
 INFO 2024-03-02 15:15:39,932 runserver:147 HTTP PUT /host/list/3/ 200 [3.24, 127.0.0.1:6920]
 INFO 2024-03-02 15:15:39,988 runserver:147 HTTP GET /host/list/ 200 [0.02, 127.0.0.1:6920]
+INFO 2024-03-02 15:18:22,496 runserver:147 HTTP POST /users/refresh_jwt_token/ 200 [0.03, 127.0.0.1:7588]
+INFO 2024-03-02 15:18:22,580 runserver:147 HTTP GET /host/categories/list 200 [0.01, 127.0.0.1:7588]
+INFO 2024-03-02 15:18:22,606 runserver:147 HTTP GET /host/list/ 200 [0.02, 127.0.0.1:7588]
+INFO 2024-03-02 15:21:09,267 runserver:147 HTTP GET /host/categories/list 200 [0.03, 127.0.0.1:7947]
+INFO 2024-03-02 15:21:09,307 runserver:147 HTTP GET /host/list/ 200 [0.04, 127.0.0.1:7947]
+INFO 2024-03-02 15:26:33,141 runserver:147 HTTP POST /users/refresh_jwt_token/ 200 [0.01, 127.0.0.1:8301]
+INFO 2024-03-02 15:26:33,259 runserver:147 HTTP GET /host/categories/list 200 [0.03, 127.0.0.1:8301]
+INFO 2024-03-02 15:26:33,298 runserver:147 HTTP GET /host/list/ 200 [0.04, 127.0.0.1:8301]
+INFO 2024-03-02 15:28:25,848 runserver:147 HTTP GET /host/categories/list 200 [0.01, 127.0.0.1:8415]
+INFO 2024-03-02 15:28:25,877 runserver:147 HTTP GET /host/list/ 200 [0.03, 127.0.0.1:8415]
+INFO 2024-03-02 15:29:29,917 runserver:147 HTTP GET /host/categories/list 200 [0.01, 127.0.0.1:8478]
+INFO 2024-03-02 15:29:29,956 runserver:147 HTTP GET /host/list/ 200 [0.04, 127.0.0.1:8478]
+WARNING 2024-03-02 15:29:37,825 log:224 Bad Request: /host/list/9/
+WARNING 2024-03-02 15:29:37,826 runserver:157 HTTP PUT /host/list/9/ 400 [0.01, 127.0.0.1:8478]
+INFO 2024-03-02 15:33:27,951 runserver:147 HTTP GET /host/categories/list 200 [0.01, 127.0.0.1:8716]
+INFO 2024-03-02 15:33:27,984 runserver:147 HTTP GET /host/list/ 200 [0.03, 127.0.0.1:8716]
+INFO 2024-03-02 15:35:21,436 autoreload:250 D:\00_github\python_web\uric\uric_api\uric_api\apps\host\serializers.py changed, reloading.
+INFO 2024-03-02 15:35:23,480 autoreload:636 Watching for file changes with StatReloader
+INFO 2024-03-02 15:35:32,415 runserver:147 HTTP OPTIONS /host/list/7/ 200 [0.00, 127.0.0.1:8847]
+WARNING 2024-03-02 15:35:32,458 log:224 Bad Request: /host/list/7/
+WARNING 2024-03-02 15:35:32,459 runserver:157 HTTP PUT /host/list/7/ 400 [0.04, 127.0.0.1:8847]
+INFO 2024-03-02 15:38:32,711 autoreload:250 D:\00_github\python_web\uric\uric_api\uric_api\apps\host\serializers.py changed, reloading.
+INFO 2024-03-02 15:38:34,757 autoreload:636 Watching for file changes with StatReloader
+INFO 2024-03-02 15:40:18,314 autoreload:250 D:\00_github\python_web\uric\uric_api\uric_api\apps\host\serializers.py changed, reloading.
+INFO 2024-03-02 15:40:20,142 autoreload:636 Watching for file changes with StatReloader
+INFO 2024-03-02 15:41:46,856 autoreload:250 D:\00_github\python_web\uric\uric_api\uric_api\apps\host\serializers.py changed, reloading.
+INFO 2024-03-02 15:41:48,807 autoreload:636 Watching for file changes with StatReloader
+WARNING 2024-03-02 15:41:58,944 log:224 Bad Request: /host/list/9/
+WARNING 2024-03-02 15:41:58,945 runserver:157 HTTP PUT /host/list/9/ 400 [0.02, 127.0.0.1:9421]
+INFO 2024-03-02 15:42:20,187 autoreload:250 D:\00_github\python_web\uric\uric_api\uric_api\apps\host\serializers.py changed, reloading.
+INFO 2024-03-02 15:42:22,279 autoreload:636 Watching for file changes with StatReloader
+WARNING 2024-03-02 15:42:22,908 log:224 Bad Request: /host/list/9/
+WARNING 2024-03-02 15:42:22,910 runserver:157 HTTP PUT /host/list/9/ 400 [0.02, 127.0.0.1:9446]
+WARNING 2024-03-02 15:42:23,234 log:224 Bad Request: /host/list/9/
+WARNING 2024-03-02 15:42:23,236 runserver:157 HTTP PUT /host/list/9/ 400 [0.02, 127.0.0.1:9446]
+WARNING 2024-03-02 15:42:49,523 log:224 Bad Request: /host/list/9/
+WARNING 2024-03-02 15:42:49,524 runserver:157 HTTP PUT /host/list/9/ 400 [0.03, 127.0.0.1:9446]
+INFO 2024-03-02 15:43:45,333 autoreload:250 D:\00_github\python_web\uric\uric_api\uric_api\apps\host\serializers.py changed, reloading.
+INFO 2024-03-02 15:43:47,248 autoreload:636 Watching for file changes with StatReloader
+INFO 2024-03-02 15:43:58,507 autoreload:250 D:\00_github\python_web\uric\uric_api\uric_api\apps\host\serializers.py changed, reloading.
+INFO 2024-03-02 15:44:00,624 autoreload:636 Watching for file changes with StatReloader
+WARNING 2024-03-02 15:44:01,169 log:224 Bad Request: /host/list/9/
+WARNING 2024-03-02 15:44:01,172 runserver:157 HTTP PUT /host/list/9/ 400 [0.04, 127.0.0.1:9568]
+INFO 2024-03-02 15:45:30,442 autoreload:250 D:\00_github\python_web\uric\uric_api\uric_api\apps\host\serializers.py changed, reloading.
+INFO 2024-03-02 15:45:32,482 autoreload:636 Watching for file changes with StatReloader
+INFO 2024-03-02 15:47:18,303 autoreload:250 D:\00_github\python_web\uric\uric_api\uric_api\apps\host\serializers.py changed, reloading.
+INFO 2024-03-02 15:47:20,249 autoreload:636 Watching for file changes with StatReloader
+WARNING 2024-03-02 15:47:27,978 log:224 Bad Request: /host/list/9/
+WARNING 2024-03-02 15:47:27,979 runserver:157 HTTP PUT /host/list/9/ 400 [0.04, 127.0.0.1:9936]
+WARNING 2024-03-02 15:48:25,011 log:224 Bad Request: /host/list/9/
+WARNING 2024-03-02 15:48:25,012 runserver:157 HTTP PUT /host/list/9/ 400 [0.02, 127.0.0.1:9936]
+INFO 2024-03-02 15:48:31,676 autoreload:636 Watching for file changes with StatReloader
+WARNING 2024-03-02 15:48:35,446 log:224 Bad Request: /host/list/9/
+WARNING 2024-03-02 15:48:35,447 runserver:157 HTTP PUT /host/list/9/ 400 [0.03, 127.0.0.1:10023]
+INFO 2024-03-02 15:49:47,748 runserver:147 HTTP OPTIONS /host/list/9/ 200 [0.00, 127.0.0.1:10103]
+WARNING 2024-03-02 15:49:47,762 log:224 Bad Request: /host/list/9/
+WARNING 2024-03-02 15:49:47,765 runserver:157 HTTP PUT /host/list/9/ 400 [0.01, 127.0.0.1:10103]
+INFO 2024-03-02 15:51:14,746 autoreload:250 D:\00_github\python_web\uric\uric_api\uric_api\settings\dev.py changed, reloading.

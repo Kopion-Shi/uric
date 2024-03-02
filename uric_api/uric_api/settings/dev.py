@@ -149,61 +149,61 @@ STATICFILES_DIRS = [
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # 日志配置
-LOGGING = {
-    # 使用的python内置的logging模块，那么python可能会对它进行升级，所以需要写一个版本号，目前就是1版本
-    'version': 1,
-    # #是否去掉目前项目中其他地方中以及使用的日志功能，但是将来我们可能会引入第三方的模块，里面可能内置了日志功能，所以尽量不要关闭，肯定False
-    'disable_existing_loggers': False,
-    # 日志的处理格式
-    'formatters': {
-        # 详细格式，往往用于记录日志到文件/其他第三方存储设备
-        'verbose': {
-            # levelname等级，asctime记录时间，module表示日志发生的文件名称，lineno行号，message错误信息
-            'format': '{levelname} {asctime} {module}:{lineno:d} {message}',
-            # 日志格式中的，变量分隔符
-            'style': '{',
-        },
-        'simple': {  # 简单格式，往往用于终端
-            'format': '{levelname} {module}:{lineno} {message}',
-            'style': '{',
-        },
-    },
-    'filters': {  # 日志的过滤设置，可以对日志进行输出时的过滤用的
-        # 在debug=True下产生的一些日志信息，要不要记录日志，需要的话就在handlers中加上这个过滤器，不需要就不加
-        'require_debug_true': {
-            '()': 'django.utils.log.RequireDebugTrue',
-        },
-    },
-    'handlers': {  # 日志的处理方式
-        'console': {  # 终端下显示
-            'level': 'DEBUG',  # 日志的最低等级
-            'filters': ['require_debug_true'],
-            'class': 'logging.StreamHandler',  # 处理日志的核心类
-            'formatter': 'simple'
-        },
-        'file': {  # 文件中记录日志
-            'level': 'INFO',
-            'class': 'logging.handlers.RotatingFileHandler',
-            # 日志位置,日志文件名,日志保存目录必须手动创建
-            'filename': BASE_DIR.parent / "logs/uric.log",
-            # 单个日志文件的最大值,这里我们设置300M
-            'maxBytes': 300 * 1024 * 1024,
-            # 备份日志文件的数量,设置最大日志数量为10
-            'backupCount': 10,
-            # 日志格式:详细格式
-            'formatter': 'verbose',
-            # 设置默认编码，否则打印出来汉字乱码
-            'encoding': 'utf-8',
-        },
-    },
-    # 日志实例对象
-    'loggers': {
-        'django': {  # 固定名称，将来django内部也会有异常的处理，只会调用django下标的日志对象
-            'handlers': ['console', 'file'],
-            'propagate': True,  # 是否让日志信息继续冒泡给其他的日志处理系统
-        },
-    }
-}
+# LOGGING = {
+#     # 使用的python内置的logging模块，那么python可能会对它进行升级，所以需要写一个版本号，目前就是1版本
+#     'version': 1,
+#     # #是否去掉目前项目中其他地方中以及使用的日志功能，但是将来我们可能会引入第三方的模块，里面可能内置了日志功能，所以尽量不要关闭，肯定False
+#     'disable_existing_loggers': False,
+#     # 日志的处理格式
+#     'formatters': {
+#         # 详细格式，往往用于记录日志到文件/其他第三方存储设备
+#         'verbose': {
+#             # levelname等级，asctime记录时间，module表示日志发生的文件名称，lineno行号，message错误信息
+#             'format': '{levelname} {asctime} {module}:{lineno:d} {message}',
+#             # 日志格式中的，变量分隔符
+#             'style': '{',
+#         },
+#         'simple': {  # 简单格式，往往用于终端
+#             'format': '{levelname} {module}:{lineno} {message}',
+#             'style': '{',
+#         },
+#     },
+#     'filters': {  # 日志的过滤设置，可以对日志进行输出时的过滤用的
+#         # 在debug=True下产生的一些日志信息，要不要记录日志，需要的话就在handlers中加上这个过滤器，不需要就不加
+#         'require_debug_true': {
+#             '()': 'django.utils.log.RequireDebugTrue',
+#         },
+#     },
+#     'handlers': {  # 日志的处理方式
+#         'console': {  # 终端下显示
+#             'level': 'DEBUG',  # 日志的最低等级
+#             'filters': ['require_debug_true'],
+#             'class': 'logging.StreamHandler',  # 处理日志的核心类
+#             'formatter': 'simple'
+#         },
+#         'file': {  # 文件中记录日志
+#             'level': 'INFO',
+#             'class': 'logging.handlers.RotatingFileHandler',
+#             # 日志位置,日志文件名,日志保存目录必须手动创建
+#             'filename': BASE_DIR.parent / "logs/uric.log",
+#             # 单个日志文件的最大值,这里我们设置300M
+#             'maxBytes': 300 * 1024 * 1024,
+#             # 备份日志文件的数量,设置最大日志数量为10
+#             'backupCount': 10,
+#             # 日志格式:详细格式
+#             'formatter': 'verbose',
+#             # 设置默认编码，否则打印出来汉字乱码
+#             'encoding': 'utf-8',
+#         },
+#     },
+#     # 日志实例对象
+#     'loggers': {
+#         'django': {  # 固定名称，将来django内部也会有异常的处理，只会调用django下标的日志对象
+#             'handlers': ['console', 'file'],
+#             'propagate': True,  # 是否让日志信息继续冒泡给其他的日志处理系统
+#         },
+#     }
+# }
 
 # CORS组的配置信息
 CORS_ORIGIN_WHITELIST = (

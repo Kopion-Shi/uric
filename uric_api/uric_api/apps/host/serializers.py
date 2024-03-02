@@ -1,3 +1,5 @@
+import logging
+
 from django.conf import settings
 from host.utils.check_ssh import valid_ssh
 from host.utils.key import AppSetting
@@ -27,7 +29,7 @@ class HostModelSerializers(serializers.ModelSerializer):
     class Meta:
         model = models.Host
         fields = ['id', 'category', 'category_name', 'name', 'ip_addr', 'port', 'description', 'username', 'password',
-                  "environment_id"]
+                  "environment_id",'is_deleted']
 
     def validate(self, attrs):
         """当用户添加、编辑主机信息会自动执行这个方法"""
@@ -35,16 +37,20 @@ class HostModelSerializers(serializers.ModelSerializer):
         port = attrs.get('port')
         username = attrs.get('username')
         password = attrs.get('password')
-
+        is_deleted = attrs.get('is_deleted')
+        if is_deleted:
+            return attrs
         # 验证主机信息是否正确
         ret = valid_ssh(ip_addr, port, username, password)
         if not ret:
             raise serializers.ValidationError('参数校验失败，请检查输入的主机信息!')
-
         return attrs
 
     # 添加host记录，如果第一次添加host记录，那么需要我们生成全局的公钥和私钥
     def create(self, validated_data):
+        if validated_data.get('is_deleted', default=False):
+            instance=get_object().create(**validated_data)
+            return instance
         ip_addr = validated_data.get('ip_addr')
         port = validated_data.get('port')
         username = validated_data.get('username')
@@ -75,4 +81,3 @@ class HostModelSerializers(serializers.ModelSerializer):
             **validated_data
         )
         return instance
-
