@@ -5703,3 +5703,607 @@ INFO 2024-09-15 19:23:14,806 autoreload:266 D:\00_github\python_web\uric\uric_ap
 INFO 2024-09-15 19:23:15,645 autoreload:668 Watching for file changes with StatReloader
 INFO 2024-09-15 19:23:19,847 basehttp:213 "OPTIONS /users/login HTTP/1.1" 200 0
 INFO 2024-09-15 19:23:29,001 basehttp:213 "POST /users/login/ HTTP/1.1" 200 294
+INFO 2024-09-15 19:27:39,331 basehttp:213 "OPTIONS /users/login HTTP/1.1" 200 0
+INFO 2024-09-15 19:28:34,972 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\apps\users\urls.py changed, reloading.
+INFO 2024-09-15 19:28:35,794 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-15 19:29:21,299 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\apps\users\urls.py changed, reloading.
+INFO 2024-09-15 19:29:22,128 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-15 19:29:28,003 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\apps\users\urls.py changed, reloading.
+INFO 2024-09-15 19:29:28,876 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-15 19:29:43,237 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\apps\users\serlializer.py changed, reloading.
+INFO 2024-09-15 19:29:44,049 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-15 19:29:52,622 basehttp:213 "OPTIONS /users/login HTTP/1.1" 200 0
+INFO 2024-09-15 19:31:12,563 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\settings\base.py changed, reloading.
+INFO 2024-09-15 19:31:13,559 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-15 19:31:16,709 basehttp:213 "OPTIONS /users/login HTTP/1.1" 200 0
+INFO 2024-09-15 19:32:07,707 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\settings\dev.py changed, reloading.
+INFO 2024-09-15 19:32:08,560 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-15 19:32:32,620 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\settings\dev.py changed, reloading.
+INFO 2024-09-15 19:32:33,482 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-15 19:32:35,757 basehttp:213 "OPTIONS /users/login HTTP/1.1" 200 0
+ERROR 2024-09-15 19:32:35,805 log:248 Internal Server Error: /users/login
+Traceback (most recent call last):
+  File "C:\Users\Carl3\.conda\envs\lpm_api\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Carl3\.conda\envs\lpm_api\lib\site-packages\django\utils\deprecation.py", line 131, in __call__
+    response = self.process_response(request, response)
+  File "C:\Users\Carl3\.conda\envs\lpm_api\lib\site-packages\django\middleware\common.py", line 108, in process_response
+    return self.response_redirect_class(self.get_full_path_with_slash(request))
+  File "C:\Users\Carl3\.conda\envs\lpm_api\lib\site-packages\django\middleware\common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to localhost:8000/users/login/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR 2024-09-15 19:32:35,808 basehttp:213 "POST /users/login HTTP/1.1" 500 81812
+INFO 2024-09-15 19:34:01,006 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\settings\base.py changed, reloading.
+INFO 2024-09-15 19:34:01,989 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-15 19:34:22,994 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\settings\base.py changed, reloading.
+INFO 2024-09-15 19:34:23,858 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-15 19:34:27,662 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\apps\users\urls.py changed, reloading.
+INFO 2024-09-15 19:34:28,569 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-15 19:34:34,795 basehttp:213 "OPTIONS /users/login HTTP/1.1" 200 0
+INFO 2024-09-15 19:34:35,243 basehttp:213 "POST /users/login HTTP/1.1" 200 294
+INFO 2024-09-15 19:34:35,253 basehttp:213 "OPTIONS /users/info?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTcyNjQ4NjQ3NSwiaWF0IjoxNzI2NDAwMDc1LCJqdGkiOiIyZTJkNWE0YjUyZDY0MDJjYWJiMWZhYzQ1ZGNiZjQ1OSIsInVzZXJfaWQiOjJ9.VK1WFLSf1ju4yhQ0lZ1cWZHkePjFiFc9jmovOMfkw_A HTTP/1.1" 200 0
+INFO 2024-09-15 19:35:18,575 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\apps\users\urls.py changed, reloading.
+INFO 2024-09-15 19:35:19,401 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-15 19:36:14,349 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\apps\users\views.py changed, reloading.
+INFO 2024-09-15 19:36:15,255 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-15 19:36:19,816 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\apps\users\views.py changed, reloading.
+INFO 2024-09-15 19:36:21,061 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-15 19:37:35,117 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\apps\users\views.py changed, reloading.
+INFO 2024-09-15 19:37:36,115 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-15 19:38:28,888 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\apps\users\views.py changed, reloading.
+INFO 2024-09-15 19:38:29,884 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-15 19:42:28,707 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-15 19:42:36,196 basehttp:213 "OPTIONS /users/login HTTP/1.1" 200 0
+INFO 2024-09-15 19:42:36,637 basehttp:213 "POST /users/login HTTP/1.1" 200 294
+INFO 2024-09-15 19:42:36,646 basehttp:213 "OPTIONS /users/info?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTcyNjQ4Njk1NiwiaWF0IjoxNzI2NDAwNTU2LCJqdGkiOiJmMTdjNTQ3NmJlMzE0MGMzYmZhNmFkMWNjZGJmNjJmMiIsInVzZXJfaWQiOjJ9.1OpddAkc3bSOccNYj3HKSEvHIAFYHW5Kwh9JvRGpIzk HTTP/1.1" 200 0
+INFO 2024-09-15 19:42:40,389 basehttp:213 "OPTIONS /users/login HTTP/1.1" 200 0
+INFO 2024-09-15 19:42:40,813 basehttp:213 "POST /users/login HTTP/1.1" 200 294
+INFO 2024-09-15 19:42:40,822 basehttp:213 "OPTIONS /users/info?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTcyNjQ4Njk2MCwiaWF0IjoxNzI2NDAwNTYwLCJqdGkiOiI2MzdiYmUyNTg5YmQ0NmZmYTU3ZWVmNjFkMTU5MzQyYiIsInVzZXJfaWQiOjJ9.V0P82j_8Gr3oHEPMnBHiYwKWBy4Irua0o_fzp7fVCN0 HTTP/1.1" 200 0
+INFO 2024-09-15 19:43:15,428 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\apps\users\urls.py changed, reloading.
+INFO 2024-09-15 19:43:16,234 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-15 19:43:18,921 basehttp:213 "OPTIONS /users/login HTTP/1.1" 200 0
+INFO 2024-09-15 19:43:19,388 basehttp:213 "POST /users/login HTTP/1.1" 200 294
+INFO 2024-09-15 19:43:19,397 basehttp:213 "OPTIONS /users/info?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTcyNjQ4Njk5OSwiaWF0IjoxNzI2NDAwNTk5LCJqdGkiOiIyZGVhMWFiZWI1MmY0ZDk2YjMwZmRhODdlZmM2M2ZhZCIsInVzZXJfaWQiOjJ9.6AaJaI7vvpgEPyAHLxxDTQbu5EDs-neLjbZcXSg1WcM HTTP/1.1" 200 0
+INFO 2024-09-15 19:45:50,074 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\apps\users\views.py changed, reloading.
+INFO 2024-09-15 19:45:50,902 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-15 19:45:53,670 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\apps\users\views.py changed, reloading.
+INFO 2024-09-15 19:45:54,575 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-15 19:45:54,784 basehttp:213 "OPTIONS /users/login HTTP/1.1" 200 0
+INFO 2024-09-15 19:45:55,267 basehttp:213 "POST /users/login HTTP/1.1" 200 294
+INFO 2024-09-15 19:45:55,276 basehttp:213 "OPTIONS /users/info?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTcyNjQ4NzE1NSwiaWF0IjoxNzI2NDAwNzU1LCJqdGkiOiJmMDI2YTdjMTYzYWQ0OTVhOWJlYmYzODgyODAxOTU2ZSIsInVzZXJfaWQiOjJ9.4KetKBvmSLTYnA4n8h_9p-wKnxlY_8uA0nCQOsGmmKg HTTP/1.1" 200 0
+INFO 2024-09-15 19:47:38,844 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\apps\users\views.py changed, reloading.
+INFO 2024-09-15 19:47:39,698 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-15 19:47:50,948 basehttp:213 "OPTIONS /users/login HTTP/1.1" 200 0
+INFO 2024-09-15 19:47:51,357 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\apps\users\views.py changed, reloading.
+INFO 2024-09-15 19:47:52,292 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-15 19:47:53,062 basehttp:213 "POST /users/login HTTP/1.1" 200 294
+INFO 2024-09-15 19:47:53,073 basehttp:213 "OPTIONS /users/info?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTcyNjQ4NzI3MywiaWF0IjoxNzI2NDAwODczLCJqdGkiOiI3ZWM3MDg2NjA1ZmU0NDVjODEwZmEwNzc4YmYwMWU0NCIsInVzZXJfaWQiOjJ9.br70FVjF36pEyJNUO4X_HEfAY2NOkjwOZx9stVU-a3g HTTP/1.1" 200 0
+INFO 2024-09-15 19:48:28,215 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\apps\users\views.py changed, reloading.
+INFO 2024-09-15 19:48:29,044 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-15 19:50:49,822 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\apps\users\serlializer.py changed, reloading.
+INFO 2024-09-15 19:50:50,668 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-15 19:52:12,399 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-15 19:52:25,489 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\apps\users\views.py changed, reloading.
+INFO 2024-09-15 19:52:28,076 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-15 19:52:29,872 basehttp:213 "OPTIONS /users/login HTTP/1.1" 200 0
+INFO 2024-09-15 19:52:30,331 basehttp:213 "POST /users/login HTTP/1.1" 200 294
+INFO 2024-09-15 19:52:30,339 basehttp:213 "OPTIONS /users/info?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTcyNjQ4NzU1MCwiaWF0IjoxNzI2NDAxMTUwLCJqdGkiOiJhOGUwM2JmY2E2YTI0YjAxYWRiYWIyNWNhYzExNjMwZiIsInVzZXJfaWQiOjJ9.O5i9hKS6ar9tMunQzl2VQUZ3PCdfIjV8y4uoWa-1xHM HTTP/1.1" 200 0
+INFO 2024-09-15 19:52:32,748 basehttp:213 "GET /users/info?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTcyNjQ4NzU1MCwiaWF0IjoxNzI2NDAxMTUwLCJqdGkiOiJhOGUwM2JmY2E2YTI0YjAxYWRiYWIyNWNhYzExNjMwZiIsInVzZXJfaWQiOjJ9.O5i9hKS6ar9tMunQzl2VQUZ3PCdfIjV8y4uoWa-1xHM HTTP/1.1" 200 6414
+INFO 2024-09-15 19:52:32,798 basehttp:213 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 304 0
+INFO 2024-09-15 19:52:32,800 basehttp:213 "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 304 0
+INFO 2024-09-15 19:52:32,802 basehttp:213 "GET /static/rest_framework/css/prettify.css HTTP/1.1" 304 0
+INFO 2024-09-15 19:52:32,802 basehttp:213 "GET /static/rest_framework/css/default.css HTTP/1.1" 304 0
+INFO 2024-09-15 19:52:32,804 basehttp:213 "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 304 0
+INFO 2024-09-15 19:52:32,804 basehttp:213 "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+INFO 2024-09-15 19:52:32,807 basehttp:213 "GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+INFO 2024-09-15 19:52:32,807 basehttp:213 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+INFO 2024-09-15 19:52:32,810 basehttp:213 "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+INFO 2024-09-15 19:52:32,810 basehttp:213 "GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+INFO 2024-09-15 19:52:32,813 basehttp:213 "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 304 0
+INFO 2024-09-15 19:52:32,820 basehttp:213 "GET /static/rest_framework/img/grid.png HTTP/1.1" 304 0
+INFO 2024-09-15 19:53:23,801 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\apps\users\views.py changed, reloading.
+INFO 2024-09-15 19:53:24,722 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-15 19:53:28,660 basehttp:213 "OPTIONS /users/login HTTP/1.1" 200 0
+INFO 2024-09-15 19:53:29,119 basehttp:213 "POST /users/login HTTP/1.1" 200 294
+INFO 2024-09-15 19:53:29,129 basehttp:213 "OPTIONS /users/info?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTcyNjQ4NzYwOSwiaWF0IjoxNzI2NDAxMjA5LCJqdGkiOiI3ZWFkOGQ5ZDM4MWI0ZGQzYWI1NmRmZjQ0MzQ3NGE0ZiIsInVzZXJfaWQiOjJ9.RoDBVCNmK1I4NFVnhGYbzQ4HKufctp0gAz_T307cdDA HTTP/1.1" 200 0
+INFO 2024-09-15 19:53:34,930 basehttp:213 "OPTIONS /users/login HTTP/1.1" 200 0
+INFO 2024-09-15 19:53:35,470 basehttp:213 "POST /users/login HTTP/1.1" 200 294
+INFO 2024-09-15 19:53:35,479 basehttp:213 "OPTIONS /users/info?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTcyNjQ4NzYxNSwiaWF0IjoxNzI2NDAxMjE1LCJqdGkiOiJlM2JhNzIyYWQ0ZGQ0N2FhOWU3M2UxM2Q0NDJmZTg1YyIsInVzZXJfaWQiOjJ9.ZdQw7QKByeEIBtkz0-0lPewAv6wpLd9Fx6FBTvUsU_0 HTTP/1.1" 200 0
+INFO 2024-09-15 19:53:36,505 basehttp:213 "OPTIONS /users/login HTTP/1.1" 200 0
+INFO 2024-09-15 19:53:36,982 basehttp:213 "POST /users/login HTTP/1.1" 200 294
+INFO 2024-09-15 19:53:36,990 basehttp:213 "OPTIONS /users/info?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTcyNjQ4NzYxNiwiaWF0IjoxNzI2NDAxMjE2LCJqdGkiOiJlMmI1M2E2ZGQxMWE0NTY3YTcyY2VlZDcxOTg3OTczZSIsInVzZXJfaWQiOjJ9.X68ExdB5CkGefi6d1MVVIdiufpcJUXAH_E6hiPF3urc HTTP/1.1" 200 0
+WARNING 2024-09-15 19:53:59,036 log:248 Not Found: /users/info/
+WARNING 2024-09-15 19:53:59,037 basehttp:213 "GET /users/info/ HTTP/1.1" 404 3376
+INFO 2024-09-15 19:56:03,810 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\apps\users\views.py changed, reloading.
+INFO 2024-09-15 19:56:04,671 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-15 19:56:11,352 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\apps\users\views.py changed, reloading.
+INFO 2024-09-15 19:56:12,162 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-15 19:56:13,538 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\apps\users\views.py changed, reloading.
+INFO 2024-09-15 19:56:14,366 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-15 19:56:18,980 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\apps\users\views.py changed, reloading.
+INFO 2024-09-15 19:56:19,934 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-15 19:56:25,820 basehttp:213 "OPTIONS /users/login HTTP/1.1" 200 0
+INFO 2024-09-15 19:56:26,276 basehttp:213 "POST /users/login HTTP/1.1" 200 294
+INFO 2024-09-15 19:56:26,283 basehttp:213 "OPTIONS /users/info?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTcyNjQ4Nzc4NiwiaWF0IjoxNzI2NDAxMzg2LCJqdGkiOiI4NGEwMTllNjE2NDk0OTExOTY0YjU5YWVmMWIxNzlmMSIsInVzZXJfaWQiOjJ9.o9cOvDUlaK7mr2PNpqWoWsjRyZzMGZc95TEm5hbZBfM HTTP/1.1" 200 0
+ERROR 2024-09-15 19:56:33,234 log:248 Internal Server Error: /users/info
+Traceback (most recent call last):
+  File "C:\Users\Carl3\.conda\envs\lpm_api\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Carl3\.conda\envs\lpm_api\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Carl3\.conda\envs\lpm_api\lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\Carl3\.conda\envs\lpm_api\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Carl3\.conda\envs\lpm_api\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Carl3\.conda\envs\lpm_api\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Carl3\.conda\envs\lpm_api\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Carl3\.conda\envs\lpm_api\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Carl3\.conda\envs\lpm_api\lib\site-packages\rest_framework\generics.py", line 203, in get
+    return self.list(request, *args, **kwargs)
+  File "C:\Users\Carl3\.conda\envs\lpm_api\lib\site-packages\rest_framework\mixins.py", line 38, in list
+    queryset = self.filter_queryset(self.get_queryset())
+  File "D:\00_github\python_web\uric\uric_api\uric_api\apps\users\views.py", line 18, in get_queryset
+  File "C:\Users\Carl3\.conda\envs\lpm_api\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+TypeError: QuerySet.first() takes 1 positional argument but 2 were given
+ERROR 2024-09-15 19:56:33,237 basehttp:213 "GET /users/info?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTcyNjQ4Nzc4NiwiaWF0IjoxNzI2NDAxMzg2LCJqdGkiOiI4NGEwMTllNjE2NDk0OTExOTY0YjU5YWVmMWIxNzlmMSIsInVzZXJfaWQiOjJ9.o9cOvDUlaK7mr2PNpqWoWsjRyZzMGZc95TEm5hbZBfM HTTP/1.1" 500 118156
+INFO 2024-09-15 19:56:47,020 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\apps\users\views.py changed, reloading.
+INFO 2024-09-15 19:56:47,916 autoreload:668 Watching for file changes with StatReloader
+ERROR 2024-09-15 19:56:49,365 log:248 Internal Server Error: /users/info
+Traceback (most recent call last):
+  File "C:\Users\Carl3\.conda\envs\lpm_api\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Carl3\.conda\envs\lpm_api\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Carl3\.conda\envs\lpm_api\lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\Carl3\.conda\envs\lpm_api\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Carl3\.conda\envs\lpm_api\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Carl3\.conda\envs\lpm_api\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Carl3\.conda\envs\lpm_api\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Carl3\.conda\envs\lpm_api\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Carl3\.conda\envs\lpm_api\lib\site-packages\rest_framework\generics.py", line 203, in get
+    return self.list(request, *args, **kwargs)
+  File "C:\Users\Carl3\.conda\envs\lpm_api\lib\site-packages\rest_framework\mixins.py", line 38, in list
+    queryset = self.filter_queryset(self.get_queryset())
+  File "D:\00_github\python_web\uric\uric_api\uric_api\apps\users\views.py", line 17, in get_queryset
+    return User.objects.first(id = self.request.user.id)
+  File "C:\Users\Carl3\.conda\envs\lpm_api\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+TypeError: QuerySet.first() got an unexpected keyword argument 'id'
+ERROR 2024-09-15 19:56:49,371 basehttp:213 "GET /users/info?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTcyNjQ4Nzc4NiwiaWF0IjoxNzI2NDAxMzg2LCJqdGkiOiI4NGEwMTllNjE2NDk0OTExOTY0YjU5YWVmMWIxNzlmMSIsInVzZXJfaWQiOjJ9.o9cOvDUlaK7mr2PNpqWoWsjRyZzMGZc95TEm5hbZBfM HTTP/1.1" 500 118438
+INFO 2024-09-15 19:57:01,638 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\apps\users\views.py changed, reloading.
+INFO 2024-09-15 19:57:02,540 autoreload:668 Watching for file changes with StatReloader
+ERROR 2024-09-15 19:57:03,316 log:248 Internal Server Error: /users/info
+Traceback (most recent call last):
+  File "C:\Users\Carl3\.conda\envs\lpm_api\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Carl3\.conda\envs\lpm_api\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Carl3\.conda\envs\lpm_api\lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\Carl3\.conda\envs\lpm_api\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Carl3\.conda\envs\lpm_api\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Carl3\.conda\envs\lpm_api\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Carl3\.conda\envs\lpm_api\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Carl3\.conda\envs\lpm_api\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Carl3\.conda\envs\lpm_api\lib\site-packages\rest_framework\generics.py", line 203, in get
+    return self.list(request, *args, **kwargs)
+  File "C:\Users\Carl3\.conda\envs\lpm_api\lib\site-packages\rest_framework\mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "C:\Users\Carl3\.conda\envs\lpm_api\lib\site-packages\rest_framework\serializers.py", line 795, in data
+    ret = super().data
+  File "C:\Users\Carl3\.conda\envs\lpm_api\lib\site-packages\rest_framework\serializers.py", line 249, in data
+    self._data = self.to_representation(self.instance)
+  File "C:\Users\Carl3\.conda\envs\lpm_api\lib\site-packages\rest_framework\serializers.py", line 713, in to_representation
+    return [
+TypeError: 'User' object is not iterable
+ERROR 2024-09-15 19:57:03,319 basehttp:213 "GET /users/info?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTcyNjQ4Nzc4NiwiaWF0IjoxNzI2NDAxMzg2LCJqdGkiOiI4NGEwMTllNjE2NDk0OTExOTY0YjU5YWVmMWIxNzlmMSIsInVzZXJfaWQiOjJ9.o9cOvDUlaK7mr2PNpqWoWsjRyZzMGZc95TEm5hbZBfM HTTP/1.1" 500 133812
+ERROR 2024-09-15 19:57:12,853 log:248 Internal Server Error: /users/info
+Traceback (most recent call last):
+  File "C:\Users\Carl3\.conda\envs\lpm_api\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Carl3\.conda\envs\lpm_api\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Carl3\.conda\envs\lpm_api\lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\Carl3\.conda\envs\lpm_api\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Carl3\.conda\envs\lpm_api\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Carl3\.conda\envs\lpm_api\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Carl3\.conda\envs\lpm_api\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Carl3\.conda\envs\lpm_api\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Carl3\.conda\envs\lpm_api\lib\site-packages\rest_framework\generics.py", line 203, in get
+    return self.list(request, *args, **kwargs)
+  File "C:\Users\Carl3\.conda\envs\lpm_api\lib\site-packages\rest_framework\mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "C:\Users\Carl3\.conda\envs\lpm_api\lib\site-packages\rest_framework\serializers.py", line 795, in data
+    ret = super().data
+  File "C:\Users\Carl3\.conda\envs\lpm_api\lib\site-packages\rest_framework\serializers.py", line 249, in data
+    self._data = self.to_representation(self.instance)
+  File "C:\Users\Carl3\.conda\envs\lpm_api\lib\site-packages\rest_framework\serializers.py", line 713, in to_representation
+    return [
+TypeError: 'User' object is not iterable
+ERROR 2024-09-15 19:57:12,855 basehttp:213 "GET /users/info?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTcyNjQ4Nzc4NiwiaWF0IjoxNzI2NDAxMzg2LCJqdGkiOiI4NGEwMTllNjE2NDk0OTExOTY0YjU5YWVmMWIxNzlmMSIsInVzZXJfaWQiOjJ9.o9cOvDUlaK7mr2PNpqWoWsjRyZzMGZc95TEm5hbZBfM HTTP/1.1" 500 133812
+INFO 2024-09-15 19:57:41,717 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\apps\users\views.py changed, reloading.
+INFO 2024-09-15 19:57:42,636 autoreload:668 Watching for file changes with StatReloader
+ERROR 2024-09-15 19:57:45,544 log:248 Internal Server Error: /users/info
+Traceback (most recent call last):
+  File "C:\Users\Carl3\.conda\envs\lpm_api\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Carl3\.conda\envs\lpm_api\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Carl3\.conda\envs\lpm_api\lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\Carl3\.conda\envs\lpm_api\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Carl3\.conda\envs\lpm_api\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Carl3\.conda\envs\lpm_api\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Carl3\.conda\envs\lpm_api\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Carl3\.conda\envs\lpm_api\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Carl3\.conda\envs\lpm_api\lib\site-packages\rest_framework\generics.py", line 203, in get
+    return self.list(request, *args, **kwargs)
+  File "C:\Users\Carl3\.conda\envs\lpm_api\lib\site-packages\rest_framework\mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "C:\Users\Carl3\.conda\envs\lpm_api\lib\site-packages\rest_framework\serializers.py", line 795, in data
+    ret = super().data
+  File "C:\Users\Carl3\.conda\envs\lpm_api\lib\site-packages\rest_framework\serializers.py", line 249, in data
+    self._data = self.to_representation(self.instance)
+  File "C:\Users\Carl3\.conda\envs\lpm_api\lib\site-packages\rest_framework\serializers.py", line 713, in to_representation
+    return [
+TypeError: 'User' object is not iterable
+ERROR 2024-09-15 19:57:45,547 basehttp:213 "GET /users/info?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTcyNjQ4Nzc4NiwiaWF0IjoxNzI2NDAxMzg2LCJqdGkiOiI4NGEwMTllNjE2NDk0OTExOTY0YjU5YWVmMWIxNzlmMSIsInVzZXJfaWQiOjJ9.o9cOvDUlaK7mr2PNpqWoWsjRyZzMGZc95TEm5hbZBfM HTTP/1.1" 500 133812
+ERROR 2024-09-15 19:57:48,159 log:248 Internal Server Error: /users/info
+Traceback (most recent call last):
+  File "C:\Users\Carl3\.conda\envs\lpm_api\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Carl3\.conda\envs\lpm_api\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Carl3\.conda\envs\lpm_api\lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\Carl3\.conda\envs\lpm_api\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Carl3\.conda\envs\lpm_api\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Carl3\.conda\envs\lpm_api\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Carl3\.conda\envs\lpm_api\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Carl3\.conda\envs\lpm_api\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Carl3\.conda\envs\lpm_api\lib\site-packages\rest_framework\generics.py", line 203, in get
+    return self.list(request, *args, **kwargs)
+  File "C:\Users\Carl3\.conda\envs\lpm_api\lib\site-packages\rest_framework\mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "C:\Users\Carl3\.conda\envs\lpm_api\lib\site-packages\rest_framework\serializers.py", line 795, in data
+    ret = super().data
+  File "C:\Users\Carl3\.conda\envs\lpm_api\lib\site-packages\rest_framework\serializers.py", line 249, in data
+    self._data = self.to_representation(self.instance)
+  File "C:\Users\Carl3\.conda\envs\lpm_api\lib\site-packages\rest_framework\serializers.py", line 713, in to_representation
+    return [
+TypeError: 'User' object is not iterable
+ERROR 2024-09-15 19:57:48,161 basehttp:213 "GET /users/info?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTcyNjQ4Nzc4NiwiaWF0IjoxNzI2NDAxMzg2LCJqdGkiOiI4NGEwMTllNjE2NDk0OTExOTY0YjU5YWVmMWIxNzlmMSIsInVzZXJfaWQiOjJ9.o9cOvDUlaK7mr2PNpqWoWsjRyZzMGZc95TEm5hbZBfM HTTP/1.1" 500 133812
+INFO 2024-09-15 19:58:16,642 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\apps\users\views.py changed, reloading.
+INFO 2024-09-15 19:58:17,606 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-15 19:59:27,302 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\apps\users\views.py changed, reloading.
+INFO 2024-09-15 19:59:28,142 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-15 19:59:30,873 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\apps\users\views.py changed, reloading.
+INFO 2024-09-15 19:59:31,770 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-15 19:59:34,500 basehttp:213 "OPTIONS /users/login HTTP/1.1" 200 0
+INFO 2024-09-15 19:59:34,954 basehttp:213 "POST /users/login HTTP/1.1" 200 294
+INFO 2024-09-15 19:59:34,961 basehttp:213 "OPTIONS /users/info?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTcyNjQ4Nzk3NCwiaWF0IjoxNzI2NDAxNTc0LCJqdGkiOiJkNDU2NjFiYmNjNmI0MTk4OGJhYzQ5NmE2ODNmZGFkYSIsInVzZXJfaWQiOjJ9.1RghHGC0LryGJp53-4hwQTXrvoeoWbd8rH42O75kL4Q HTTP/1.1" 200 0
+INFO 2024-09-15 20:01:15,457 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\apps\users\serlializer.py changed, reloading.
+INFO 2024-09-15 20:01:16,344 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-15 20:01:24,399 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\apps\users\serlializer.py changed, reloading.
+INFO 2024-09-15 20:01:25,327 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-15 20:01:25,706 basehttp:213 "OPTIONS /users/login HTTP/1.1" 200 0
+INFO 2024-09-15 20:01:26,163 basehttp:213 "POST /users/login HTTP/1.1" 200 294
+INFO 2024-09-15 20:01:26,172 basehttp:213 "OPTIONS /users/info?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTcyNjQ4ODA4NiwiaWF0IjoxNzI2NDAxNjg2LCJqdGkiOiJhMDcwNDczM2E5OWU0MDEzOTA4ZDE1MDZiMmU1NmQ5OCIsInVzZXJfaWQiOjJ9.wSTf_yLZnvvKi5_xmGDXezS9QB50jTKEt1CJ9OWUqsQ HTTP/1.1" 200 0
+INFO 2024-09-15 20:01:27,712 basehttp:213 "OPTIONS /users/login HTTP/1.1" 200 0
+INFO 2024-09-15 20:01:28,128 basehttp:213 "POST /users/login HTTP/1.1" 200 294
+INFO 2024-09-15 20:01:28,137 basehttp:213 "OPTIONS /users/info?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTcyNjQ4ODA4OCwiaWF0IjoxNzI2NDAxNjg4LCJqdGkiOiI3Zjg1YWU1NzQ0ZTY0MDIwOTg3NzlkOWJjNGFlZTYxNiIsInVzZXJfaWQiOjJ9.KZA_zYRrgPFdWyHt0PHzhFdJQZuNcP9e54IYRQATP_k HTTP/1.1" 200 0
+INFO 2024-09-15 20:43:45,564 basehttp:213 "OPTIONS /users/login HTTP/1.1" 200 0
+INFO 2024-09-15 20:43:46,075 basehttp:213 "POST /users/login HTTP/1.1" 200 294
+INFO 2024-09-15 20:43:46,090 basehttp:213 "OPTIONS /users/info?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTcyNjQ5MDYyNiwiaWF0IjoxNzI2NDA0MjI2LCJqdGkiOiJkNmI5ZjU4ZGIxZDk0MDg2OGQzYWNhOThmODU1OTU0MiIsInVzZXJfaWQiOjJ9.S9N0TzbdXC80pXex0HTtypUfH4mSiXYdjNleilMNGpI HTTP/1.1" 200 0
+INFO 2024-09-15 20:43:53,034 basehttp:213 "OPTIONS /users/login HTTP/1.1" 200 0
+INFO 2024-09-15 20:43:53,613 basehttp:213 "POST /users/login HTTP/1.1" 200 294
+INFO 2024-09-15 20:43:53,622 basehttp:213 "OPTIONS /users/info?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTcyNjQ5MDYzMywiaWF0IjoxNzI2NDA0MjMzLCJqdGkiOiIzMjFmNjZjNzQ5YTA0NDI5YmNjMTBhYTRmODZmNGE2YiIsInVzZXJfaWQiOjJ9.vwV5K62XIeP2eW-E1lqi1oqqrIOUZSyIdwAaLuAdgjk HTTP/1.1" 200 0
+INFO 2024-09-15 20:44:46,752 basehttp:213 "OPTIONS /users/login HTTP/1.1" 200 0
+INFO 2024-09-15 20:44:47,206 basehttp:213 "POST /users/login HTTP/1.1" 200 294
+INFO 2024-09-15 20:44:47,219 basehttp:213 "OPTIONS /users/info?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTcyNjQ5MDY4NywiaWF0IjoxNzI2NDA0Mjg3LCJqdGkiOiJlOWQzZDNhZjY4OGE0NDkxODZlMDg1OGIzYTk5NGFhOCIsInVzZXJfaWQiOjJ9.ersVsy2ljsxNKB0-KkfYE7fK_AfyWeTORchSvJ7WnQ4 HTTP/1.1" 200 0
+INFO 2024-09-15 20:44:53,079 basehttp:213 "OPTIONS /users/login HTTP/1.1" 200 0
+INFO 2024-09-15 20:44:53,561 basehttp:213 "POST /users/login HTTP/1.1" 200 294
+INFO 2024-09-15 20:44:53,570 basehttp:213 "OPTIONS /users/info?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTcyNjQ5MDY5MywiaWF0IjoxNzI2NDA0MjkzLCJqdGkiOiJkMGU3N2ZmYTk5MzM0N2NlYjFlMzc3NmI2ZDY1OTBjMSIsInVzZXJfaWQiOjJ9.R1WfVXMd3Q6wlyVx0NLkTmxBQjxS6Vld8LeSUdFEJa0 HTTP/1.1" 200 0
+INFO 2024-09-15 20:45:35,161 basehttp:213 "OPTIONS /users/login HTTP/1.1" 200 0
+INFO 2024-09-15 20:45:35,592 basehttp:213 "POST /users/login HTTP/1.1" 200 294
+INFO 2024-09-15 20:45:35,600 basehttp:213 "OPTIONS /users/info?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTcyNjQ5MDczNSwiaWF0IjoxNzI2NDA0MzM1LCJqdGkiOiJkZWMwYWUyMjk5ZmQ0MmU1Yjc1NThlMmUyNGI3YjYxZiIsInVzZXJfaWQiOjJ9.oVAjdL6IxvmKA_qL2K56eZNRKKMnssUL_7i1ecSTihc HTTP/1.1" 200 0
+INFO 2024-09-15 20:45:50,513 basehttp:213 "OPTIONS /users/login HTTP/1.1" 200 0
+INFO 2024-09-15 20:45:50,958 basehttp:213 "POST /users/login HTTP/1.1" 200 294
+INFO 2024-09-15 20:45:50,966 basehttp:213 "OPTIONS /users/info HTTP/1.1" 200 0
+INFO 2024-09-15 20:47:06,304 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\apps\users\serlializer.py changed, reloading.
+INFO 2024-09-15 20:47:07,410 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-15 20:47:13,541 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\apps\users\views.py changed, reloading.
+INFO 2024-09-15 20:47:14,450 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-15 20:47:15,153 basehttp:213 "OPTIONS /users/login HTTP/1.1" 200 0
+INFO 2024-09-15 20:47:15,590 basehttp:213 "POST /users/login HTTP/1.1" 200 294
+INFO 2024-09-15 20:47:15,601 basehttp:213 "OPTIONS /users/info HTTP/1.1" 200 0
+WARNING 2024-09-15 20:48:01,407 log:248 Not Found: /users/info/
+WARNING 2024-09-15 20:48:01,408 basehttp:213 "POST /users/info/ HTTP/1.1" 404 3377
+WARNING 2024-09-15 20:48:05,715 log:248 Not Found: /users/info/
+WARNING 2024-09-15 20:48:05,716 basehttp:213 "POST /users/info/ HTTP/1.1" 404 3377
+ERROR 2024-09-15 20:48:23,109 log:248 Internal Server Error: /users/info
+Traceback (most recent call last):
+  File "C:\Users\Carl3\.conda\envs\lpm_api\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Carl3\.conda\envs\lpm_api\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Carl3\.conda\envs\lpm_api\lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\Carl3\.conda\envs\lpm_api\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Carl3\.conda\envs\lpm_api\lib\site-packages\rest_framework\views.py", line 511, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "C:\Users\Carl3\.conda\envs\lpm_api\lib\site-packages\rest_framework\views.py", line 423, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `StreamingHttpResponse` to be returned from the view, but received a `<class 'dict'>`
+ERROR 2024-09-15 20:48:23,111 basehttp:213 "POST /users/info HTTP/1.1" 500 89562
+INFO 2024-09-15 20:49:01,307 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\apps\users\views.py changed, reloading.
+INFO 2024-09-15 20:49:02,191 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-15 20:49:03,763 basehttp:213 "POST /users/info HTTP/1.1" 200 185
+INFO 2024-09-15 20:49:11,574 basehttp:213 "OPTIONS /users/login HTTP/1.1" 200 0
+INFO 2024-09-15 20:49:12,113 basehttp:213 "POST /users/login HTTP/1.1" 200 294
+INFO 2024-09-15 20:49:12,125 basehttp:213 "OPTIONS /users/info HTTP/1.1" 200 0
+INFO 2024-09-15 20:49:47,668 basehttp:213 "POST /users/info HTTP/1.1" 200 185
+INFO 2024-09-15 20:49:48,853 basehttp:213 "POST /users/info HTTP/1.1" 200 185
+INFO 2024-09-15 20:49:49,744 basehttp:213 "POST /users/info HTTP/1.1" 200 185
+INFO 2024-09-15 20:49:55,343 basehttp:213 "OPTIONS /users/login HTTP/1.1" 200 0
+INFO 2024-09-15 20:49:55,836 basehttp:213 "POST /users/login HTTP/1.1" 200 294
+INFO 2024-09-15 20:49:55,845 basehttp:213 "OPTIONS /users/info HTTP/1.1" 200 0
+INFO 2024-09-15 20:55:59,535 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\settings\dev.py changed, reloading.
+INFO 2024-09-15 20:56:00,420 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-15 20:56:06,653 basehttp:213 "OPTIONS /users/login HTTP/1.1" 200 0
+INFO 2024-09-15 20:56:07,178 basehttp:213 "POST /users/login HTTP/1.1" 200 294
+INFO 2024-09-15 20:56:07,189 basehttp:213 "OPTIONS /users/info HTTP/1.1" 200 0
+INFO 2024-09-15 20:56:19,827 basehttp:213 "OPTIONS /users/login HTTP/1.1" 200 0
+INFO 2024-09-15 20:56:20,340 basehttp:213 "POST /users/login HTTP/1.1" 200 294
+INFO 2024-09-15 20:56:20,349 basehttp:213 "OPTIONS /users/info HTTP/1.1" 200 0
+INFO 2024-09-15 20:56:26,795 basehttp:213 "OPTIONS /users/login HTTP/1.1" 200 0
+INFO 2024-09-15 20:56:27,275 basehttp:213 "POST /users/login HTTP/1.1" 200 294
+INFO 2024-09-15 20:56:27,290 basehttp:213 "OPTIONS /users/info HTTP/1.1" 200 0
+INFO 2024-09-15 20:56:48,633 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\settings\dev.py changed, reloading.
+INFO 2024-09-15 20:56:49,419 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-15 20:57:46,747 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\settings\dev.py changed, reloading.
+INFO 2024-09-15 20:57:47,599 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-15 20:57:54,517 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\settings\dev.py changed, reloading.
+INFO 2024-09-15 20:57:55,331 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-15 20:58:05,491 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\settings\dev.py changed, reloading.
+INFO 2024-09-15 20:58:06,351 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-15 20:58:08,358 basehttp:213 "OPTIONS /users/login HTTP/1.1" 200 0
+INFO 2024-09-15 20:58:08,816 basehttp:213 "POST /users/login HTTP/1.1" 200 294
+INFO 2024-09-15 20:58:08,826 basehttp:213 "OPTIONS /users/info HTTP/1.1" 200 0
+ERROR 2024-09-15 20:59:48,772 log:248 Internal Server Error: /users/info
+Traceback (most recent call last):
+  File "C:\Users\Carl3\.conda\envs\lpm_api\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Carl3\.conda\envs\lpm_api\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Carl3\.conda\envs\lpm_api\lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\Carl3\.conda\envs\lpm_api\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Carl3\.conda\envs\lpm_api\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Carl3\.conda\envs\lpm_api\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Carl3\.conda\envs\lpm_api\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Carl3\.conda\envs\lpm_api\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Carl3\.conda\envs\lpm_api\lib\site-packages\rest_framework\generics.py", line 203, in get
+    return self.list(request, *args, **kwargs)
+  File "C:\Users\Carl3\.conda\envs\lpm_api\lib\site-packages\rest_framework\mixins.py", line 38, in list
+    queryset = self.filter_queryset(self.get_queryset())
+  File "C:\Users\Carl3\.conda\envs\lpm_api\lib\site-packages\rest_framework\generics.py", line 67, in get_queryset
+    assert self.queryset is not None, (
+AssertionError: 'UserInfoView' should either include a `queryset` attribute, or override the `get_queryset()` method.
+ERROR 2024-09-15 20:59:48,774 basehttp:213 "GET /users/info HTTP/1.1" 500 111133
+WARNING 2024-09-15 20:59:49,056 log:248 Not Found: /favicon.ico
+WARNING 2024-09-15 20:59:49,058 basehttp:213 "GET /favicon.ico HTTP/1.1" 404 2507
+INFO 2024-09-15 21:01:04,465 basehttp:213 "OPTIONS /users/login HTTP/1.1" 200 0
+INFO 2024-09-15 21:01:04,905 basehttp:213 "POST /users/login HTTP/1.1" 200 294
+INFO 2024-09-15 21:01:04,916 basehttp:213 "OPTIONS /users/info HTTP/1.1" 200 0
+INFO 2024-09-15 21:01:13,550 basehttp:213 "OPTIONS /users/login HTTP/1.1" 200 0
+INFO 2024-09-15 21:01:14,008 basehttp:213 "POST /users/login HTTP/1.1" 200 294
+INFO 2024-09-15 21:01:14,022 basehttp:213 "OPTIONS /users/info HTTP/1.1" 200 0
+INFO 2024-09-15 21:01:17,436 basehttp:213 "OPTIONS /users/login HTTP/1.1" 200 0
+INFO 2024-09-15 21:01:17,882 basehttp:213 "POST /users/login HTTP/1.1" 200 294
+INFO 2024-09-15 21:01:17,891 basehttp:213 "OPTIONS /users/info HTTP/1.1" 200 0
+INFO 2024-09-15 21:01:35,224 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\apps\users\views.py changed, reloading.
+INFO 2024-09-15 21:01:36,100 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-15 21:01:38,624 basehttp:213 "OPTIONS /users/login HTTP/1.1" 200 0
+INFO 2024-09-15 21:01:39,084 basehttp:213 "POST /users/login HTTP/1.1" 200 294
+INFO 2024-09-15 21:01:39,091 basehttp:213 "OPTIONS /users/info HTTP/1.1" 200 0
+INFO 2024-09-15 21:04:12,517 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\apps\users\views.py changed, reloading.
+INFO 2024-09-15 21:04:13,342 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-15 21:04:15,723 basehttp:213 "OPTIONS /users/login HTTP/1.1" 200 0
+INFO 2024-09-15 21:04:16,182 basehttp:213 "POST /users/login HTTP/1.1" 200 294
+INFO 2024-09-15 21:04:16,190 basehttp:213 "OPTIONS /users/info HTTP/1.1" 200 0
+INFO 2024-09-15 21:04:23,465 basehttp:213 "GET /users/info HTTP/1.1" 200 185
+INFO 2024-09-15 21:04:33,244 basehttp:213 "GET /users/info HTTP/1.1" 200 185
+INFO 2024-09-15 21:04:34,535 basehttp:213 "GET /users/info HTTP/1.1" 200 185
+INFO 2024-09-15 21:04:35,541 basehttp:213 "GET /users/info HTTP/1.1" 200 185
+INFO 2024-09-15 21:04:37,188 basehttp:213 "GET /users/info HTTP/1.1" 200 185
+INFO 2024-09-15 21:04:39,110 basehttp:213 "OPTIONS /users/login HTTP/1.1" 200 0
+INFO 2024-09-15 21:04:39,541 basehttp:213 "POST /users/login HTTP/1.1" 200 294
+INFO 2024-09-15 21:04:39,548 basehttp:213 "OPTIONS /users/info HTTP/1.1" 200 0
+INFO 2024-09-15 21:05:47,787 basehttp:213 "OPTIONS /users/login HTTP/1.1" 200 0
+INFO 2024-09-15 21:05:48,319 basehttp:213 "POST /users/login HTTP/1.1" 200 294
+INFO 2024-09-15 21:05:48,330 basehttp:213 "OPTIONS /users/info?delim=__ HTTP/1.1" 200 0
+INFO 2024-09-15 21:06:23,270 basehttp:213 "OPTIONS /users/login HTTP/1.1" 200 0
+INFO 2024-09-15 21:06:23,792 basehttp:213 "POST /users/login HTTP/1.1" 200 294
+INFO 2024-09-15 21:06:23,807 basehttp:213 "OPTIONS /users/info HTTP/1.1" 200 0
+INFO 2024-09-15 21:07:07,580 basehttp:213 "OPTIONS /users/login HTTP/1.1" 200 0
+INFO 2024-09-15 21:07:08,109 basehttp:213 "POST /users/login HTTP/1.1" 200 294
+INFO 2024-09-15 21:07:08,122 basehttp:213 "OPTIONS /users/info HTTP/1.1" 200 0
+INFO 2024-09-15 21:08:57,921 basehttp:213 "POST /users/login HTTP/1.1" 200 294
+INFO 2024-09-15 21:08:57,932 basehttp:213 "OPTIONS /users/info HTTP/1.1" 200 0
+INFO 2024-09-15 21:09:07,515 basehttp:213 "OPTIONS /users/login HTTP/1.1" 200 0
+INFO 2024-09-15 21:09:07,996 basehttp:213 "POST /users/login HTTP/1.1" 200 294
+INFO 2024-09-15 21:09:08,011 basehttp:213 "OPTIONS /users/info HTTP/1.1" 200 0
+INFO 2024-09-15 21:10:48,705 basehttp:213 "OPTIONS /users/login HTTP/1.1" 200 0
+INFO 2024-09-15 21:10:49,225 basehttp:213 "POST /users/login HTTP/1.1" 200 294
+INFO 2024-09-15 21:10:49,238 basehttp:213 "OPTIONS /users/info HTTP/1.1" 200 0
+INFO 2024-09-15 21:10:59,372 basehttp:213 "OPTIONS /users/login HTTP/1.1" 200 0
+INFO 2024-09-15 21:10:59,834 basehttp:213 "POST /users/login HTTP/1.1" 200 294
+INFO 2024-09-15 21:10:59,842 basehttp:213 "OPTIONS /users/info HTTP/1.1" 200 0
+INFO 2024-09-15 21:11:44,325 basehttp:213 "OPTIONS /users/login HTTP/1.1" 200 0
+INFO 2024-09-15 21:11:44,824 basehttp:213 "POST /users/login HTTP/1.1" 200 294
+INFO 2024-09-15 21:11:44,834 basehttp:213 "OPTIONS /users/info HTTP/1.1" 200 0
+INFO 2024-09-15 21:13:02,650 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\settings\dev.py changed, reloading.
+INFO 2024-09-15 21:13:03,546 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-15 21:13:27,823 basehttp:213 "OPTIONS /users/login HTTP/1.1" 200 0
+INFO 2024-09-15 21:14:03,998 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\settings\dev.py changed, reloading.
+INFO 2024-09-15 21:14:04,912 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-15 21:14:05,612 basehttp:213 "OPTIONS /users/login HTTP/1.1" 200 0
+INFO 2024-09-15 21:14:06,053 basehttp:213 "POST /users/login HTTP/1.1" 200 294
+INFO 2024-09-15 21:14:06,063 basehttp:213 "OPTIONS /users/info HTTP/1.1" 200 0
+INFO 2024-09-15 21:14:06,067 basehttp:213 "GET /users/info HTTP/1.1" 200 185
+INFO 2024-09-15 21:14:13,630 basehttp:213 "OPTIONS /users/logout HTTP/1.1" 200 0
+WARNING 2024-09-15 21:14:13,638 log:248 Not Found: /users/logout
+WARNING 2024-09-15 21:14:13,639 basehttp:213 "POST /users/logout HTTP/1.1" 404 3380
+INFO 2024-09-15 21:14:18,581 basehttp:213 "OPTIONS /users/info HTTP/1.1" 200 0
+INFO 2024-09-15 21:14:18,583 basehttp:213 "GET /users/info HTTP/1.1" 200 185
+INFO 2024-09-15 21:14:22,462 basehttp:213 "OPTIONS /users/logout HTTP/1.1" 200 0
+WARNING 2024-09-15 21:14:22,469 log:248 Not Found: /users/logout
+WARNING 2024-09-15 21:14:22,469 basehttp:213 "POST /users/logout HTTP/1.1" 404 3380
+INFO 2024-09-15 21:15:19,488 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\apps\users\urls.py changed, reloading.
+INFO 2024-09-15 21:15:20,343 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-15 21:15:24,117 basehttp:213 "OPTIONS /users/logout HTTP/1.1" 200 0
+ERROR 2024-09-15 21:15:24,160 log:248 Internal Server Error: /users/logout
+Traceback (most recent call last):
+  File "C:\Users\Carl3\.conda\envs\lpm_api\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Carl3\.conda\envs\lpm_api\lib\site-packages\django\utils\deprecation.py", line 131, in __call__
+    response = self.process_response(request, response)
+  File "C:\Users\Carl3\.conda\envs\lpm_api\lib\site-packages\django\middleware\common.py", line 108, in process_response
+    return self.response_redirect_class(self.get_full_path_with_slash(request))
+  File "C:\Users\Carl3\.conda\envs\lpm_api\lib\site-packages\django\middleware\common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to localhost:8000/users/logout/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR 2024-09-15 21:15:24,162 basehttp:213 "POST /users/logout HTTP/1.1" 500 82144
+INFO 2024-09-15 21:18:14,669 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\apps\users\urls.py changed, reloading.
+INFO 2024-09-15 21:18:15,537 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-15 21:19:57,496 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\apps\users\views.py changed, reloading.
+INFO 2024-09-15 21:19:58,398 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-15 21:20:25,607 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\apps\users\urls.py changed, reloading.
+INFO 2024-09-15 21:20:26,529 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-15 21:20:36,655 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\apps\users\urls.py changed, reloading.
+INFO 2024-09-15 21:20:37,580 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-15 21:20:39,042 basehttp:213 "OPTIONS /users/logout HTTP/1.1" 200 0
+ERROR 2024-09-15 21:20:39,084 log:248 Internal Server Error: /users/logout
+Traceback (most recent call last):
+  File "C:\Users\Carl3\.conda\envs\lpm_api\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Carl3\.conda\envs\lpm_api\lib\site-packages\django\utils\deprecation.py", line 131, in __call__
+    response = self.process_response(request, response)
+  File "C:\Users\Carl3\.conda\envs\lpm_api\lib\site-packages\django\middleware\common.py", line 108, in process_response
+    return self.response_redirect_class(self.get_full_path_with_slash(request))
+  File "C:\Users\Carl3\.conda\envs\lpm_api\lib\site-packages\django\middleware\common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to localhost:8000/users/logout/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR 2024-09-15 21:20:39,088 basehttp:213 "POST /users/logout HTTP/1.1" 500 82144
+INFO 2024-09-15 21:20:52,400 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\apps\users\urls.py changed, reloading.
+INFO 2024-09-15 21:20:53,347 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-15 21:20:56,972 basehttp:213 "OPTIONS /users/logout HTTP/1.1" 200 0
+WARNING 2024-09-15 21:20:56,984 log:248 Bad Request: /users/logout
+WARNING 2024-09-15 21:20:56,985 basehttp:213 "POST /users/logout HTTP/1.1" 400 40
+INFO 2024-09-15 21:21:15,728 basehttp:213 "OPTIONS /users/info HTTP/1.1" 200 0
+INFO 2024-09-15 21:21:15,731 basehttp:213 "GET /users/info HTTP/1.1" 200 185
+INFO 2024-09-15 21:21:18,227 basehttp:213 "OPTIONS /users/logout HTTP/1.1" 200 0
+WARNING 2024-09-15 21:21:18,229 log:248 Method Not Allowed: /users/logout
+WARNING 2024-09-15 21:21:18,229 basehttp:213 "GET /users/logout HTTP/1.1" 405 45
+INFO 2024-09-15 21:21:24,877 basehttp:213 "OPTIONS /users/logout HTTP/1.1" 200 0
+WARNING 2024-09-15 21:21:24,879 log:248 Method Not Allowed: /users/logout
+WARNING 2024-09-15 21:21:24,880 basehttp:213 "GET /users/logout HTTP/1.1" 405 45
+INFO 2024-09-15 21:21:43,165 basehttp:213 "OPTIONS /users/logout HTTP/1.1" 200 0
+WARNING 2024-09-15 21:21:43,168 log:248 Method Not Allowed: /users/logout
+WARNING 2024-09-15 21:21:43,169 basehttp:213 "GET /users/logout HTTP/1.1" 405 45
+INFO 2024-09-15 21:21:48,081 basehttp:213 "OPTIONS /users/logout HTTP/1.1" 200 0
+WARNING 2024-09-15 21:21:48,083 log:248 Method Not Allowed: /users/logout
+WARNING 2024-09-15 21:21:48,083 basehttp:213 "GET /users/logout HTTP/1.1" 405 45
+INFO 2024-09-15 21:22:00,491 basehttp:213 "OPTIONS /users/info HTTP/1.1" 200 0
+INFO 2024-09-15 21:22:00,493 basehttp:213 "GET /users/info HTTP/1.1" 200 185
+INFO 2024-09-15 21:22:02,650 basehttp:213 "OPTIONS /users/logout HTTP/1.1" 200 0
+WARNING 2024-09-15 21:22:02,652 log:248 Method Not Allowed: /users/logout
+WARNING 2024-09-15 21:22:02,653 basehttp:213 "GET /users/logout HTTP/1.1" 405 45
+INFO 2024-09-15 21:22:34,072 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\apps\users\serlializer.py changed, reloading.
+INFO 2024-09-15 21:22:35,045 autoreload:668 Watching for file changes with StatReloader
+WARNING 2024-09-15 21:22:56,448 log:248 Method Not Allowed: /users/logout
+WARNING 2024-09-15 21:22:56,449 basehttp:213 "GET /users/logout HTTP/1.1" 405 45
+WARNING 2024-09-15 21:23:01,420 log:248 Method Not Allowed: /users/logout
+WARNING 2024-09-15 21:23:01,421 basehttp:213 "GET /users/logout HTTP/1.1" 405 45
+WARNING 2024-09-15 21:23:05,194 log:248 Bad Request: /users/logout
+WARNING 2024-09-15 21:23:05,195 basehttp:213 "POST /users/logout HTTP/1.1" 400 40
+WARNING 2024-09-15 21:23:10,700 log:248 Method Not Allowed: /users/logout
+WARNING 2024-09-15 21:23:10,701 basehttp:213 "GET /users/logout HTTP/1.1" 405 45
+INFO 2024-09-15 21:23:33,938 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\apps\users\views.py changed, reloading.
+INFO 2024-09-15 21:23:34,876 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-15 21:23:42,916 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\apps\users\urls.py changed, reloading.
+INFO 2024-09-15 21:23:43,683 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-15 21:24:40,961 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\apps\users\urls.py changed, reloading.
+INFO 2024-09-15 21:24:41,778 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-15 21:27:04,601 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-15 21:27:34,849 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\apps\users\urls.py changed, reloading.
+INFO 2024-09-15 21:27:35,762 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-15 21:27:39,210 basehttp:213 "OPTIONS /users/logout HTTP/1.1" 200 0
+INFO 2024-09-15 21:27:39,221 basehttp:213 "GET /users/logout HTTP/1.1" 200 32
+INFO 2024-09-15 21:28:23,956 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\apps\users\views.py changed, reloading.
+INFO 2024-09-15 21:28:24,971 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-15 21:28:27,190 basehttp:213 "OPTIONS /users/logout HTTP/1.1" 200 0
+INFO 2024-09-15 21:28:27,201 basehttp:213 "GET /users/logout HTTP/1.1" 200 43
+INFO 2024-09-15 21:28:33,396 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\apps\users\views.py changed, reloading.
+INFO 2024-09-15 21:28:34,394 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-15 21:28:42,401 basehttp:213 "OPTIONS /users/logout HTTP/1.1" 200 0
+INFO 2024-09-15 21:28:42,409 basehttp:213 "GET /users/logout HTTP/1.1" 200 44
+INFO 2024-09-15 21:28:44,043 basehttp:213 "OPTIONS /users/login HTTP/1.1" 200 0
+INFO 2024-09-15 21:28:44,504 basehttp:213 "POST /users/login HTTP/1.1" 200 294
+INFO 2024-09-15 21:28:44,512 basehttp:213 "OPTIONS /users/info HTTP/1.1" 200 0
+INFO 2024-09-15 21:28:44,516 basehttp:213 "GET /users/info HTTP/1.1" 200 185
+INFO 2024-09-15 21:28:46,686 basehttp:213 "OPTIONS /users/logout HTTP/1.1" 200 0
+INFO 2024-09-15 21:28:46,688 basehttp:213 "GET /users/logout HTTP/1.1" 200 44
+INFO 2024-09-15 21:28:48,985 basehttp:213 "OPTIONS /users/login HTTP/1.1" 200 0
+INFO 2024-09-15 21:28:49,533 basehttp:213 "POST /users/login HTTP/1.1" 200 294
+INFO 2024-09-15 21:28:49,541 basehttp:213 "OPTIONS /users/info HTTP/1.1" 200 0
+INFO 2024-09-15 21:28:49,545 basehttp:213 "GET /users/info HTTP/1.1" 200 185
+INFO 2024-09-15 21:28:51,406 basehttp:213 "OPTIONS /users/logout HTTP/1.1" 200 0
+INFO 2024-09-15 21:28:51,409 basehttp:213 "GET /users/logout HTTP/1.1" 200 44
+INFO 2024-09-15 21:28:52,213 basehttp:213 "OPTIONS /users/login HTTP/1.1" 200 0
+INFO 2024-09-15 21:28:52,689 basehttp:213 "POST /users/login HTTP/1.1" 200 294
+INFO 2024-09-15 21:28:52,699 basehttp:213 "OPTIONS /users/info HTTP/1.1" 200 0
+INFO 2024-09-15 21:28:52,703 basehttp:213 "GET /users/info HTTP/1.1" 200 185
+INFO 2024-09-15 21:29:20,507 basehttp:213 "OPTIONS /vue-admin-template/table/list HTTP/1.1" 200 0
+WARNING 2024-09-15 21:29:20,517 log:248 Not Found: /vue-admin-template/table/list
+WARNING 2024-09-15 21:29:20,518 basehttp:213 "GET /vue-admin-template/table/list HTTP/1.1" 404 2561

@@ -5,89 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6c022528-2da9-40eb-9b60-712f3ec98714" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uric_api.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uric_api/settings/base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uric_api/apps/users/serlializer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/uric.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/uric.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/test_ssh.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/主机导入模板.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uric_api/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/uric_api/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uric_api/apps/conf_center/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/uric_sql.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uric_api/apps/conf_center/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uric_api/apps/conf_center/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uric_api/apps/conf_center/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uric_api/apps/conf_center/migrations/0002_auto_20240207_1857.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uric_api/apps/conf_center/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uric_api/apps/conf_center/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uric_api/apps/conf_center/serializers.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uric_api/apps/conf_center/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uric_api/apps/conf_center/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uric_api/apps/conf_center/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uric_api/apps/consumer/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uric_api/apps/consumer/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uric_api/apps/consumer/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uric_api/apps/consumer/consumers.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uric_api/apps/consumer/middleware.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uric_api/apps/consumer/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uric_api/apps/consumer/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uric_api/apps/consumer/routing.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uric_api/apps/consumer/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uric_api/apps/consumer/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uric_api/apps/host/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uric_api/apps/host/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uric_api/apps/host/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uric_api/apps/host/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uric_api/apps/host/migrations/0002_host_users.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uric_api/apps/host/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uric_api/apps/host/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uric_api/apps/host/routing.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uric_api/apps/host/serializers.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uric_api/apps/host/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uric_api/apps/host/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uric_api/apps/host/utils/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uric_api/apps/host/utils/check_ssh.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uric_api/apps/host/utils/host_excel.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uric_api/apps/host/utils/key.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uric_api/apps/host/utils/ssh.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uric_api/apps/host/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uric_api/apps/mtask/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uric_api/apps/mtask/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uric_api/apps/mtask/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uric_api/apps/mtask/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uric_api/apps/mtask/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uric_api/apps/mtask/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uric_api/apps/mtask/serializers.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uric_api/apps/mtask/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uric_api/apps/mtask/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uric_api/apps/mtask/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uric_api/apps/release/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uric_api/apps/release/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uric_api/apps/release/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uric_api/apps/release/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uric_api/apps/release/migrations/0002_auto_20240207_1857.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uric_api/apps/release/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uric_api/apps/release/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uric_api/apps/release/serializers.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uric_api/apps/release/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uric_api/apps/release/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uric_api/apps/release/utils/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uric_api/apps/release/utils/git_oprations.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uric_api/apps/release/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uric_api/apps/users/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/uric_api/apps/users/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uric_api/apps/users/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/uric_api/apps/users/migrations/0001_initial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uric_api/apps/users/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/uric_api/apps/users/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/uric_api/apps/users/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/uric_api/apps/users/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uric_api/apps/users/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/uric_api/apps/users/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uric_api/settings/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/uric_api/settings/base.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/uric_api/settings/dev.py" beforeDir="false" afterPath="$PROJECT_DIR$/uric_api/settings/dev.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uric_api/settings/prod.py" beforeDir="false" afterPath="$PROJECT_DIR$/uric_api/settings/prod.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uric_api/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/uric_api/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../uric_web/.env.development" beforeDir="false" afterPath="$PROJECT_DIR$/../uric_web/.env.development" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../uric_web/src/api/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/../uric_web/src/api/user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../uric_web/src/store/modules/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/../uric_web/src/store/modules/user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../uric_web/src/views/login/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../uric_web/src/views/login/index.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,6 +23,13 @@
   </component>
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -198,7 +132,7 @@
       <option name="presentableId" value="Default" />
       <updated>1726381092893</updated>
       <workItem from="1726381094682" duration="3392000" />
-      <workItem from="1726397474350" duration="1917000" />
+      <workItem from="1726397474350" duration="7636000" />
     </task>
     <servers />
   </component>

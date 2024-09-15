@@ -28,4 +28,11 @@ ALLOWED_HOSTS = ["127.0.0.1:8000","localhost","localhost:8080" ]
 CORS_ORIGIN_WHITELIST = (
     # 'www.uric.cn:8080', # 如果这样写不行的话，就加上协议(http://www.uric.cn:8080，因为不同的corsheaders版本可能有不同的要求)
     'http://127.0.0.1:8000',
+    'http://localhost:9528',
+    'https://localhost:9528',
 )
+CORS_ALLOW_HEADERS = [
+    'token',  # 添加你的自定义请求头
+    'content-type',  # 添加你的自定义请求头
+    # 其他允许的请求头
+]
