@@ -1,41 +1,43 @@
+import Vue from 'vue'
+
+import 'normalize.css/normalize.css' // A modern alternative to CSS resets
+
+import ElementUI from 'element-ui'
+import 'element-ui/lib/theme-chalk/index.css'
+import locale from 'element-ui/lib/locale/lang/en' // lang i18n
+
+import '@/styles/index.scss' // global css
+
 import App from './App'
+import store from './store'
 import router from './router'
-import Vue from 'vue/dist/vue.esm.js'
 
-import 'xterm/css/xterm.css'
-import 'xterm/lib/xterm'
+import '@/icons' // icon
+import '@/permission' // permission control
 
-// 加载项目的业务配置文件
-import settings from "./settings";
-Vue.prototype.$settings = settings;  // prototype 原型链
+/**
+ * If you don't want to use mock-server
+ * you want to use MockJs for mock api
+ * you can execute: mockXHR()
+ *
+ * Currently MockJs will be used in the production environment,
+ * please remove it before going online ! ! !
+ */
+if (process.env.NODE_ENV === 'production') {
+  const { mockXHR } = require('../mock')
+  mockXHR()
+}
 
-// ajax
-import axios from "axios"
-axios.defaults.withCredentials = false; // 是否在ajax请求时允许携带cookie到服务端
-axios.defaults.baseURL = settings.host;
-axios.defaults.timeout = 30000;             // 请求超时的时间
-Vue.prototype.$axios = axios;
+// set ElementUI lang to EN
+Vue.use(ElementUI, { locale })
+// 如果想要中文版 element-ui，按如下方式声明
+// Vue.use(ElementUI)
 
 Vue.config.productionTip = false
 
-import 'ant-design-vue/dist/antd.css';
-// import Antd from 'ant-design-vue';
-import Antd from 'ant-design-vue';
-Vue.use(Antd);
-
-
-// echarts图标插件
-import * as echarts from 'echarts';
-Vue.prototype.$echarts = echarts;
-
-
-/* eslint-disable no-new */
 new Vue({
   el: '#app',
   router,
-  components: { App },
-  template: '<App/>'
+  store,
+  render: h => h(App)
 })
-
-
-
