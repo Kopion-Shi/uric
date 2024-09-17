@@ -42,6 +42,9 @@ INSTALLED_APPS = [
     'corsheaders',
     "home",
     'users',
+    'host',
+    'channels',
+    'mtask',
 
 ]
 
@@ -202,4 +205,12 @@ SIMPLE_JWT = {
     # token刷新后的有效时间
     'REFRESH_TOKEN_LIFETIME': datetime.timedelta(days=1),
 }
-
+CHANNEL_LAYERS = {
+    'default': {
+        'BACKEND': 'channels_redis.core.RedisChannelLayer',
+        'CONFIG': {
+            "hosts": [('127.0.0.1', 6379)],
+        },
+    },
+}
+ASGI_APPLICATION = 'uric_api.apps.routing.application'

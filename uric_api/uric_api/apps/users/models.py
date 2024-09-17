@@ -10,6 +10,7 @@ class User(AbstractUser):
     avatar = models.ImageField(upload_to='avatar', verbose_name='用户头像', null=True, blank=True)
 
     class Meta:
+        app_label = 'users'
         db_table = 'uric_user'
         verbose_name = '用户信息'
         verbose_name_plural = verbose_name
@@ -37,8 +38,8 @@ class Menu(models.Model):
 class Permission(models.Model):
     url = models.CharField(max_length=32)
     title = models.CharField(max_length=32)
-    menus = models.ForeignKey('Menu', on_delete=models.CASCADE, null=True, blank=True)
-    parent = models.ForeignKey('self', on_delete=models.CASCADE, null=True, blank=True)
+    menus = models.ForeignKey('Menu',related_name='menus', on_delete=models.CASCADE, null=True, blank=True)
+    parent = models.ForeignKey('self', related_name='permission',on_delete=models.CASCADE, null=True, blank=True)
 
     url_name = models.CharField(max_length=32, unique=True)
 
@@ -52,8 +53,14 @@ class Permission(models.Model):
 
 
 class Role(models.Model):
-    name = models.CharField(max_length=12)
-    permissions = models.ManyToManyField(to='Permission')
+    name_choices = (
+        (1, 'admin'),
+        (2, 'editor'),
+        (3, 'gust'),
+    )
+
+    name = models.CharField(choices=name_choices, max_length=12)
+    permissions = models.ManyToManyField('Permission',related_name='permissions')
 
     def __str__(self):
         return self.name

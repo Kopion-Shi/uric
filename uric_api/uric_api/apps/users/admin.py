@@ -1,6 +1,6 @@
 from django.contrib import admin
 
-from .models import User, Menu, Permission
+from uric_api.apps.users.models import User, Menu, Permission
 
 
 # Register your models here.

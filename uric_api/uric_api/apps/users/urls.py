@@ -1,7 +1,7 @@
 from django.urls import path
 from rest_framework_simplejwt.views import token_verify, token_refresh
 
-from .views import CustomTokenObtainPairView, UserInfoView,LogoutView
+from uric_api.apps.users.views import CustomTokenObtainPairView, UserInfoView,LogoutView
 
 urlpatterns = [
     path('login', CustomTokenObtainPairView.as_view(), name='login'),

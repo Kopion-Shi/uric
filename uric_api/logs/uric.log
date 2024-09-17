@@ -6307,3 +6307,245 @@ INFO 2024-09-15 21:28:52,703 basehttp:213 "GET /users/info HTTP/1.1" 200 185
 INFO 2024-09-15 21:29:20,507 basehttp:213 "OPTIONS /vue-admin-template/table/list HTTP/1.1" 200 0
 WARNING 2024-09-15 21:29:20,517 log:248 Not Found: /vue-admin-template/table/list
 WARNING 2024-09-15 21:29:20,518 basehttp:213 "GET /vue-admin-template/table/list HTTP/1.1" 404 2561
+INFO 2024-09-17 15:02:06,574 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-17 15:09:23,445 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\apps\users\models.py changed, reloading.
+INFO 2024-09-17 15:09:25,478 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-17 15:11:39,366 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\apps\users\models.py changed, reloading.
+INFO 2024-09-17 15:11:40,183 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-17 15:11:58,786 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\apps\users\models.py changed, reloading.
+INFO 2024-09-17 15:11:59,659 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-17 15:22:10,943 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\apps\users\models.py changed, reloading.
+INFO 2024-09-17 15:22:12,322 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-17 15:23:49,615 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\apps\users\models.py changed, reloading.
+INFO 2024-09-17 15:23:50,492 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-17 15:35:13,754 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\apps\users\views.py changed, reloading.
+INFO 2024-09-17 15:35:14,786 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-17 15:45:00,185 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-17 15:45:05,812 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\apps\users\views.py changed, reloading.
+INFO 2024-09-17 15:45:06,822 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-17 15:45:10,720 autoreload:668 Watching for file changes with StatReloader
+WARNING 2024-09-17 15:45:12,743 log:248 Not Found: /
+WARNING 2024-09-17 15:45:12,743 basehttp:213 "GET / HTTP/1.1" 404 2456
+WARNING 2024-09-17 15:45:12,827 log:248 Not Found: /favicon.ico
+WARNING 2024-09-17 15:45:12,828 basehttp:213 "GET /favicon.ico HTTP/1.1" 404 2507
+INFO 2024-09-17 15:45:20,151 basehttp:213 "GET /admin/ HTTP/1.1" 200 19018
+INFO 2024-09-17 15:45:20,168 basehttp:213 "GET /static/admin/simpleui-x/elementui/theme-chalk/index.css HTTP/1.1" 304 0
+INFO 2024-09-17 15:45:20,171 basehttp:213 "GET /static/admin/simpleui-x/fontawesome-free-6.2.0-web/css/all.min.css HTTP/1.1" 304 0
+INFO 2024-09-17 15:45:20,171 basehttp:213 "GET /static/admin/simpleui-x/css/index.css?_=3.2 HTTP/1.1" 304 0
+INFO 2024-09-17 15:45:20,171 basehttp:213 "GET /static/admin/simpleui-x/waves/waves.min.css?_=2.1 HTTP/1.1" 304 0
+INFO 2024-09-17 15:45:20,175 basehttp:213 "GET /static/admin/simpleui-x/js/vue.min.js?_=2024.8.28 HTTP/1.1" 304 0
+INFO 2024-09-17 15:45:20,175 basehttp:213 "GET /static/admin/simpleui-x/img/logo.png HTTP/1.1" 304 0
+INFO 2024-09-17 15:45:20,175 basehttp:213 "GET /static/admin/simpleui-x/elementui/index.js?_=2024.8.28 HTTP/1.1" 304 0
+INFO 2024-09-17 15:45:20,178 basehttp:213 "GET /static/admin/simpleui-x/automatic/dicts.js?_=2024.8.28 HTTP/1.1" 304 0
+INFO 2024-09-17 15:45:20,179 basehttp:213 "GET /static/admin/simpleui-x/automatic/segment.js?_=2024.8.28 HTTP/1.1" 304 0
+INFO 2024-09-17 15:45:20,180 basehttp:213 "GET /static/admin/simpleui-x/js/cookie.js?_=2024.8.28 HTTP/1.1" 304 0
+INFO 2024-09-17 15:45:20,180 basehttp:213 "GET /static/admin/simpleui-x/locale/en-us.js?_=2024.8.28 HTTP/1.1" 304 0
+INFO 2024-09-17 15:45:20,180 basehttp:213 "GET /static/admin/simpleui-x/locale/zh-hans.js?_=2024.8.28 HTTP/1.1" 304 0
+INFO 2024-09-17 15:45:20,185 basehttp:213 "GET /static/admin/simpleui-x/waves/waves.min.js?_=2024.8.28 HTTP/1.1" 304 0
+INFO 2024-09-17 15:45:20,185 basehttp:213 "GET /static/admin/simpleui-x/theme/theme.js?_=2024.8.28 HTTP/1.1" 304 0
+INFO 2024-09-17 15:45:20,185 basehttp:213 "GET /static/admin/simpleui-x/js/menu.js?_=2024.8.28 HTTP/1.1" 304 0
+INFO 2024-09-17 15:45:20,187 basehttp:213 "GET /static/admin/simpleui-x/js/index.js?_=2024.8.28 HTTP/1.1" 304 0
+INFO 2024-09-17 15:45:20,309 basehttp:213 "GET /static/admin/simpleui-x/fontawesome-free-6.2.0-web/webfonts/fa-solid-900.woff2 HTTP/1.1" 304 0
+INFO 2024-09-17 15:45:20,309 basehttp:213 "GET /static/admin/simpleui-x/fontawesome-free-6.2.0-web/webfonts/fa-regular-400.woff2 HTTP/1.1" 304 0
+INFO 2024-09-17 15:45:20,309 basehttp:213 "GET /static/admin/simpleui-x/fontawesome-free-6.2.0-web/webfonts/fa-brands-400.woff2 HTTP/1.1" 304 0
+INFO 2024-09-17 15:45:20,312 basehttp:213 "GET /static/admin/simpleui-x/elementui/theme-chalk/fonts/element-icons.woff HTTP/1.1" 304 0
+INFO 2024-09-17 15:45:23,026 basehttp:213 "GET /admin/users/menu/ HTTP/1.1" 200 25273
+INFO 2024-09-17 15:45:23,042 basehttp:213 "GET /static/admin/simpleui-x/locale/en-us.js?_=2.1.2 HTTP/1.1" 304 0
+INFO 2024-09-17 15:45:23,042 basehttp:213 "GET /static/admin/simpleui-x/js/language.js?_=2.1.2 HTTP/1.1" 304 0
+INFO 2024-09-17 15:45:23,042 basehttp:213 "GET /static/admin/simpleui-x/locale/zh-hans.js HTTP/1.1" 304 0
+INFO 2024-09-17 15:45:23,042 basehttp:213 "GET /static/admin/simpleui-x/theme/simpleui.css HTTP/1.1" 304 0
+INFO 2024-09-17 15:45:23,042 basehttp:213 "GET /static/admin/simpleui-x/css/base.css?_=2.7 HTTP/1.1" 304 0
+INFO 2024-09-17 15:45:23,042 basehttp:213 "GET /static/admin/css/base.css?_=2.7 HTTP/1.1" 304 0
+INFO 2024-09-17 15:45:23,047 basehttp:213 "GET /static/admin/css/changelists.css?_=20180905 HTTP/1.1" 304 0
+INFO 2024-09-17 15:45:23,050 basehttp:213 "GET /static/admin/css/responsive.css?_=20180905 HTTP/1.1" 304 0
+INFO 2024-09-17 15:45:23,051 basehttp:213 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2024-09-17 15:45:23,053 basehttp:213 "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2024-09-17 15:45:23,053 basehttp:213 "GET /static/admin/simpleui-x/js/cookie.js HTTP/1.1" 304 0
+INFO 2024-09-17 15:45:23,055 basehttp:213 "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2024-09-17 15:45:23,058 basehttp:213 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2024-09-17 15:45:23,059 basehttp:213 "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2024-09-17 15:45:23,061 basehttp:213 "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2024-09-17 15:45:23,063 basehttp:213 "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2024-09-17 15:45:23,067 basehttp:213 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2024-09-17 15:45:23,070 basehttp:213 "GET /static/admin/js/vendor/jquery/jquery.min.js HTTP/1.1" 304 0
+INFO 2024-09-17 15:45:23,071 basehttp:213 "GET /static/admin/simpleui-x/automatic/dicts.js HTTP/1.1" 304 0
+INFO 2024-09-17 15:45:23,071 basehttp:213 "GET /static/admin/simpleui-x/automatic/segment.js HTTP/1.1" 304 0
+INFO 2024-09-17 15:45:23,072 basehttp:213 "GET /static/admin/simpleui-x/js/axios.min.js HTTP/1.1" 304 0
+INFO 2024-09-17 15:45:23,106 basehttp:213 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2024-09-17 15:45:23,586 basehttp:213 "GET /admin/users/permission/ HTTP/1.1" 200 25267
+INFO 2024-09-17 15:45:23,631 basehttp:213 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2024-09-17 15:45:24,189 basehttp:213 "GET /admin/users/user/ HTTP/1.1" 200 26066
+INFO 2024-09-17 15:45:24,227 basehttp:213 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2024-09-17 15:45:26,805 basehttp:213 "GET /admin/users/user/add/ HTTP/1.1" 200 20477
+INFO 2024-09-17 15:45:26,824 basehttp:213 "GET /static/admin/css/forms.css HTTP/1.1" 304 0
+INFO 2024-09-17 15:45:26,825 basehttp:213 "GET /static/admin/js/calendar.js HTTP/1.1" 304 0
+INFO 2024-09-17 15:45:26,825 basehttp:213 "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 304 0
+INFO 2024-09-17 15:45:26,825 basehttp:213 "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+INFO 2024-09-17 15:45:26,826 basehttp:213 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+INFO 2024-09-17 15:45:26,833 basehttp:213 "GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+INFO 2024-09-17 15:45:26,837 basehttp:213 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+INFO 2024-09-17 15:45:26,846 basehttp:213 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2024-09-17 15:45:26,929 basehttp:213 "GET /static/admin/img/icon-clock.svg HTTP/1.1" 304 0
+INFO 2024-09-17 15:45:26,929 basehttp:213 "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 304 0
+WARNING 2024-09-17 15:47:10,578 log:248 Method Not Allowed: /users/info
+WARNING 2024-09-17 15:47:10,579 basehttp:213 "POST /users/info HTTP/1.1" 405 46
+INFO 2024-09-17 15:47:15,708 basehttp:213 "GET /users/info HTTP/1.1" 200 174
+INFO 2024-09-17 15:47:24,568 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\apps\users\views.py changed, reloading.
+INFO 2024-09-17 15:47:26,000 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-17 15:47:28,158 basehttp:213 "GET /users/info HTTP/1.1" 200 208
+INFO 2024-09-17 15:49:24,866 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\apps\users\serlializer.py changed, reloading.
+INFO 2024-09-17 15:49:26,148 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-17 15:49:46,227 basehttp:213 "OPTIONS /users/login HTTP/1.1" 200 0
+INFO 2024-09-17 15:50:33,957 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\apps\users\views.py changed, reloading.
+INFO 2024-09-17 15:50:34,820 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-17 15:50:35,813 basehttp:213 "OPTIONS /users/login HTTP/1.1" 200 0
+INFO 2024-09-17 15:50:36,282 basehttp:213 "POST /users/login HTTP/1.1" 200 294
+INFO 2024-09-17 15:50:36,294 basehttp:213 "OPTIONS /users/info HTTP/1.1" 200 0
+INFO 2024-09-17 15:50:36,298 basehttp:213 "GET /users/info HTTP/1.1" 200 174
+INFO 2024-09-17 15:53:45,538 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\settings\base.py changed, reloading.
+INFO 2024-09-17 15:53:46,635 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-17 15:55:40,495 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\urls.py changed, reloading.
+INFO 2024-09-17 15:55:41,573 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-17 15:56:29,593 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-17 15:57:08,444 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\apps\host\urls.py changed, reloading.
+INFO 2024-09-17 15:57:09,623 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-17 16:03:01,360 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\apps\host\urls.py changed, reloading.
+INFO 2024-09-17 16:03:02,436 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-17 16:03:21,818 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-17 16:04:27,456 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\apps\host\urls.py changed, reloading.
+INFO 2024-09-17 16:04:28,544 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-17 16:04:38,651 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\apps\host\urls.py changed, reloading.
+INFO 2024-09-17 16:04:39,600 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-17 16:51:29,554 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-17 16:53:52,006 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-17 16:55:16,807 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\apps\host\serializers.py changed, reloading.
+INFO 2024-09-17 16:55:17,714 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-17 17:18:41,382 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-17 17:19:50,946 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\apps\host\serializers.py changed, reloading.
+INFO 2024-09-17 17:19:53,930 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-17 17:20:10,669 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-17 17:21:43,520 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\apps\host\serializers.py changed, reloading.
+INFO 2024-09-17 17:21:44,568 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-17 17:21:58,036 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\apps\host\serializers.py changed, reloading.
+INFO 2024-09-17 17:21:58,961 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-17 17:22:15,663 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\apps\host\serializers.py changed, reloading.
+INFO 2024-09-17 17:22:16,618 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-17 17:23:47,995 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-17 17:25:25,096 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\apps\host\serializers.py changed, reloading.
+INFO 2024-09-17 17:25:27,971 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-17 17:25:37,157 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\apps\host\serializers.py changed, reloading.
+INFO 2024-09-17 17:25:38,099 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-17 17:25:48,305 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\apps\host\serializers.py changed, reloading.
+INFO 2024-09-17 17:25:49,327 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-17 17:26:55,528 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-17 17:27:16,594 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\apps\host\serializers.py changed, reloading.
+INFO 2024-09-17 17:27:17,627 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-17 17:27:20,297 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-17 17:28:59,644 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\apps\host\models.py changed, reloading.
+INFO 2024-09-17 17:29:00,557 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-17 17:29:38,614 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\apps\host\models.py changed, reloading.
+INFO 2024-09-17 17:29:39,589 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-17 17:30:31,919 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\apps\host\models.py changed, reloading.
+INFO 2024-09-17 17:30:32,953 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-17 17:30:58,230 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\settings\base.py changed, reloading.
+INFO 2024-09-17 17:30:59,234 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-17 17:31:34,609 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\settings\base.py changed, reloading.
+INFO 2024-09-17 17:31:35,439 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-17 17:32:30,691 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\settings\base.py changed, reloading.
+INFO 2024-09-17 17:32:31,481 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-17 17:33:05,791 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\settings\base.py changed, reloading.
+INFO 2024-09-17 17:33:06,727 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-17 17:33:48,100 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-17 17:37:00,784 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-17 17:44:53,884 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\settings\base.py changed, reloading.
+INFO 2024-09-17 17:44:56,452 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-17 17:45:14,255 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\settings\base.py changed, reloading.
+INFO 2024-09-17 17:45:15,044 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-17 17:45:58,663 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\settings\base.py changed, reloading.
+INFO 2024-09-17 17:45:59,758 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-17 17:46:18,645 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\settings\base.py changed, reloading.
+INFO 2024-09-17 17:46:19,709 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-17 17:46:29,320 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\settings\base.py changed, reloading.
+INFO 2024-09-17 17:46:30,473 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-17 17:46:36,005 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\settings\base.py changed, reloading.
+INFO 2024-09-17 17:46:37,846 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-17 17:47:10,747 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\apps\host\models.py changed, reloading.
+INFO 2024-09-17 17:47:11,764 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-17 17:48:50,833 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\apps\host\models.py changed, reloading.
+INFO 2024-09-17 17:48:51,817 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-17 17:50:25,654 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\apps\host\models.py changed, reloading.
+INFO 2024-09-17 17:50:26,606 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-17 17:51:05,058 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\apps\host\models.py changed, reloading.
+INFO 2024-09-17 17:51:06,090 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-17 17:52:05,494 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\apps\host\models.py changed, reloading.
+INFO 2024-09-17 17:52:06,391 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-17 17:52:39,654 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\apps\host\models.py changed, reloading.
+INFO 2024-09-17 17:52:40,574 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-17 18:00:32,989 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-17 18:01:03,828 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\apps\host\models.py changed, reloading.
+INFO 2024-09-17 18:01:04,990 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-17 18:01:31,417 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\apps\host\models.py changed, reloading.
+INFO 2024-09-17 18:01:32,578 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-17 18:01:38,108 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\apps\host\models.py changed, reloading.
+INFO 2024-09-17 18:01:39,184 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-17 18:02:09,875 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\apps\host\models.py changed, reloading.
+INFO 2024-09-17 18:02:11,372 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-17 18:02:29,441 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\apps\host\models.py changed, reloading.
+INFO 2024-09-17 18:02:30,831 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-17 18:03:33,695 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-17 18:04:12,002 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\settings\base.py changed, reloading.
+INFO 2024-09-17 18:04:13,309 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-17 18:04:41,992 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\settings\base.py changed, reloading.
+INFO 2024-09-17 18:04:43,303 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-17 18:05:43,303 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\settings\base.py changed, reloading.
+INFO 2024-09-17 18:05:46,865 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-17 18:06:45,522 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\settings\base.py changed, reloading.
+INFO 2024-09-17 18:06:46,730 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-17 18:07:45,497 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\apps\host\models.py changed, reloading.
+INFO 2024-09-17 18:07:46,744 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-17 18:08:02,928 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-17 18:08:32,164 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\apps\users\models.py changed, reloading.
+INFO 2024-09-17 18:08:33,325 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-17 18:08:59,061 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-17 18:10:35,995 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-17 18:12:00,397 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-17 18:13:40,676 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-17 18:13:52,275 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\apps\users\apps.py changed, reloading.
+INFO 2024-09-17 18:13:53,144 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-17 18:13:55,345 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-17 18:14:04,896 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\apps\users\apps.py changed, reloading.
+INFO 2024-09-17 18:14:05,703 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-17 18:14:32,689 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\apps\users\apps.py changed, reloading.
+INFO 2024-09-17 18:14:33,509 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-17 18:14:42,575 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-17 18:16:59,163 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\apps\host\apps.py changed, reloading.
+INFO 2024-09-17 18:16:59,985 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-17 18:18:00,303 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-17 18:18:37,587 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\apps\host\apps.py changed, reloading.
+INFO 2024-09-17 18:18:38,523 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-17 18:18:42,716 autoreload:668 Watching for file changes with StatReloader
+WARNING 2024-09-17 18:18:51,027 log:248 Not Found: /
+WARNING 2024-09-17 18:18:51,028 basehttp:213 "GET / HTTP/1.1" 404 2604
+INFO 2024-09-17 18:30:09,427 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\settings\base.py changed, reloading.
+INFO 2024-09-17 18:33:50,473 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-17 18:34:38,274 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\settings\base.py changed, reloading.
+INFO 2024-09-17 18:34:40,280 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-17 18:34:47,804 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-17 18:36:23,545 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\urls.py changed, reloading.
+INFO 2024-09-17 18:36:25,514 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-17 18:37:39,123 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\apps\host\admin.py changed, reloading.
+INFO 2024-09-17 18:37:41,107 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-17 18:40:50,824 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\apps\host\views.py changed, reloading.
+INFO 2024-09-17 18:40:52,576 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-17 18:42:51,788 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\apps\host\views.py changed, reloading.
+INFO 2024-09-17 18:42:53,717 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-17 18:43:36,430 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\apps\mtask\views.py changed, reloading.
+INFO 2024-09-17 18:43:38,336 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-17 18:43:56,500 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\apps\mtask\views.py changed, reloading.
+INFO 2024-09-17 18:43:58,382 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-17 18:44:45,924 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\settings\base.py changed, reloading.
+INFO 2024-09-17 18:44:48,042 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-17 18:46:40,471 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\apps\mtask\urls.py changed, reloading.
+INFO 2024-09-17 18:46:42,341 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-17 18:47:33,977 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\apps\mtask\views.py changed, reloading.
+INFO 2024-09-17 18:47:35,735 autoreload:668 Watching for file changes with StatReloader

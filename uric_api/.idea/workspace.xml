@@ -5,16 +5,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6c022528-2da9-40eb-9b60-712f3ec98714" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/uric_api/apps/users/serlializer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/f253624a-086a-48ca-962e-56dded470326.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/f253624a-086a-48ca-962e-56dded470326/storage_v2/_src_/schema/uric.d-g2AA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/jenkins.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uric_api/apps/host/consumer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uric_api/apps/host/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uric_api/apps/host/migrations/0002_pkeymodel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uric_api/apps/host/serializers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uric_api/apps/host/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uric_api/apps/host/ws_urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uric_api/apps/mtask/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uric_api/apps/mtask/serializers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uric_api/apps/mtask/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uric_api/apps/routing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uric_api/apps/users/migrations/0002_alter_permission_menus_alter_permission_parent_and_more.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uric_api/utils/key.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uric_api/utils/ssh.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/2fe73165-3b9f-41e0-a9ba-8f98fc941935.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/uric.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/uric.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uric_api/apps/users/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/uric_api/apps/users/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uric_api/apps/users/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/uric_api/apps/users/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uric_api/apps/users/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/uric_api/apps/users/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uric_api/apps/users/serlializer.py" beforeDir="false" afterPath="$PROJECT_DIR$/uric_api/apps/users/serlializer.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/uric_api/apps/users/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/uric_api/apps/users/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/uric_api/apps/users/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/uric_api/apps/users/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/uric_api/settings/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/uric_api/settings/base.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uric_api/settings/dev.py" beforeDir="false" afterPath="$PROJECT_DIR$/uric_api/settings/dev.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../uric_web/src/api/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/../uric_web/src/api/user.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../uric_web/src/store/modules/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/../uric_web/src/store/modules/user.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../uric_web/src/views/login/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../uric_web/src/views/login/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uric_api/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/uric_api/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +46,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="Dockerfile" />
       </list>
     </option>
   </component>
@@ -60,34 +79,62 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Django Server.uric_api.executor": "Run",
-    "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "dev",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "D:/00_github/python_web/uric/uric_api/uric_api/settings",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Django Server.uric_api.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tests.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;#1 on dev&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/00_github/python_web/uric/uric_api/uric_api/settings&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\00_github\python_web\uric\uric_api\uric_api\settings" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\00_github\python_web\uric\uric_api\uric_api\apps\host" />
+    </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Django Server.uric_api">
+    <configuration name="tests" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="uric_api" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/uric_api/apps/host" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/uric_api/apps/host/tests.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="uric_api" type="Python.DjangoServer" factoryName="Django server">
       <module name="uric_api" />
       <option name="ENV_FILES" value="" />
@@ -114,6 +161,11 @@
       <option name="customRunCommand" value="" />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.tests" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -133,6 +185,9 @@
       <updated>1726381092893</updated>
       <workItem from="1726381094682" duration="3392000" />
       <workItem from="1726397474350" duration="7636000" />
+      <workItem from="1726556500881" duration="4621000" />
+      <workItem from="1726561150496" duration="2042000" />
+      <workItem from="1726563221046" duration="7924000" />
     </task>
     <servers />
   </component>
@@ -161,5 +216,19 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/uric_api/apps/host/tests.py</url>
+          <line>11</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/uric_api$tests.coverage" NAME="tests Coverage Results" MODIFIED="1726561808969" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/uric_api/apps/host" />
   </component>
 </project>
