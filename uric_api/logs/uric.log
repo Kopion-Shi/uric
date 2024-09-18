@@ -6557,3 +6557,13 @@ INFO 2024-09-18 20:09:27,984 autoreload:668 Watching for file changes with StatR
 INFO 2024-09-18 20:11:06,499 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\apps\mtask\apps.py changed, reloading.
 INFO 2024-09-18 20:11:08,385 autoreload:668 Watching for file changes with StatReloader
 INFO 2024-09-18 20:11:12,449 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-18 20:13:26,643 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\settings\base.py changed, reloading.
+INFO 2024-09-18 20:13:28,796 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-18 20:24:15,087 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-18 20:24:34,157 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\apps\host\models.py changed, reloading.
+INFO 2024-09-18 20:24:35,762 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-18 20:24:48,955 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-18 20:25:24,584 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\apps\host\models.py changed, reloading.
+INFO 2024-09-18 20:25:28,844 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-18 20:26:56,595 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-18 20:27:13,504 autoreload:668 Watching for file changes with StatReloader

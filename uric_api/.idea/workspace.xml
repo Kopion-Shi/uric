@@ -4,14 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c022528-2da9-40eb-9b60-712f3ec98714" name="Changes" comment="工具类提交">
+    <list default="true" id="6c022528-2da9-40eb-9b60-712f3ec98714" name="Changes" comment="解决路径问题">
+      <change afterPath="$PROJECT_DIR$/uric_api/apps/conf_center/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uric_api/apps/conf_center/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uric_api/apps/conf_center/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uric_api/apps/conf_center/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uric_api/apps/conf_center/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uric_api/apps/conf_center/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uric_api/apps/conf_center/serializers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uric_api/apps/conf_center/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uric_api/apps/conf_center/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uric_api/apps/conf_center/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f253624a-086a-48ca-962e-56dded470326.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f253624a-086a-48ca-962e-56dded470326.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/uric.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/uric.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uric_api/apps/mtask/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/uric_api/apps/mtask/apps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uric_api/apps/mtask/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/uric_api/apps/mtask/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uric_api/apps/mtask/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/uric_api/apps/mtask/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uric_api/apps/mtask/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/uric_api/apps/mtask/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uric_api/apps/host/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/uric_api/apps/host/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uric_api/settings/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/uric_api/settings/base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uric_api/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/uric_api/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +64,9 @@
   &quot;associatedIndex&quot;: 6
 }</component>
   <component name="ProjectId" id="2m5zBj9J48VoMr8j4H1ELX3SrZF" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -167,7 +180,7 @@
       <workItem from="1726556500881" duration="4621000" />
       <workItem from="1726561150496" duration="2042000" />
       <workItem from="1726563221046" duration="8884000" />
-      <workItem from="1726661068357" duration="397000" />
+      <workItem from="1726661068357" duration="1361000" />
     </task>
     <task id="LOCAL-00001" summary="工具类提交">
       <option name="closed" value="true" />
@@ -177,7 +190,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726571425666</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="解决路径问题">
+      <option name="closed" value="true" />
+      <created>1726661514369</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1726661514369</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -208,7 +229,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="工具类提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="工具类提交" />
+    <MESSAGE value="解决路径问题" />
+    <option name="LAST_COMMIT_MESSAGE" value="解决路径问题" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

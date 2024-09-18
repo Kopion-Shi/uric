@@ -45,6 +45,7 @@ INSTALLED_APPS = [
     'host',
     'channels',
     'mtask',
+    'conf_center',
 
 ]
 

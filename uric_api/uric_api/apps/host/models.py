@@ -5,6 +5,7 @@ from uric_api.apps.users.models import User
 
 # Create your models here.
 from uric_api.utils.models import BaseModel
+from uric_api.apps.conf_center.models import Environment
 
 
 class HostCategory(BaseModel):
@@ -19,13 +20,14 @@ class HostCategory(BaseModel):
 
 class Host(BaseModel):
     # 真正在数据库中的字段实际上叫 category_id，而category则代表了关联的哪个分类模型对象
-    category = models.ForeignKey('HostCategory', on_delete=models.DO_NOTHING, verbose_name='主机类别',
+    category = models.ForeignKey(to=HostCategory, on_delete=models.DO_NOTHING, verbose_name='主机类别',
                                  related_name='hc',
                                  null=True, blank=True)
     ip_addr = models.CharField(blank=True, null=True, max_length=500, verbose_name='连接地址')
     port = models.IntegerField(verbose_name='端口')
     username = models.CharField(max_length=50, verbose_name='登录用户')
     users = models.ManyToManyField(User)
+    environment = models.ForeignKey(to=Environment, on_delete=models.DO_NOTHING, default=1, verbose_name='从属环境')
 
     class Meta:
         db_table = "host"
