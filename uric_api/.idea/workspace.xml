@@ -4,35 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c022528-2da9-40eb-9b60-712f3ec98714" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/f253624a-086a-48ca-962e-56dded470326.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/f253624a-086a-48ca-962e-56dded470326/storage_v2/_src_/schema/uric.d-g2AA.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/jenkins.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uric_api/apps/host/consumer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uric_api/apps/host/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uric_api/apps/host/migrations/0002_pkeymodel.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uric_api/apps/host/serializers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uric_api/apps/host/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uric_api/apps/host/ws_urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uric_api/apps/mtask/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uric_api/apps/mtask/serializers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uric_api/apps/mtask/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uric_api/apps/routing.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uric_api/apps/users/migrations/0002_alter_permission_menus_alter_permission_parent_and_more.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uric_api/utils/key.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uric_api/utils/ssh.py" afterDir="false" />
+    <list default="true" id="6c022528-2da9-40eb-9b60-712f3ec98714" name="Changes" comment="工具类提交">
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/2fe73165-3b9f-41e0-a9ba-8f98fc941935.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/uric.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/uric.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uric_api/apps/users/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/uric_api/apps/users/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uric_api/apps/users/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/uric_api/apps/users/apps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uric_api/apps/users/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/uric_api/apps/users/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uric_api/apps/users/serlializer.py" beforeDir="false" afterPath="$PROJECT_DIR$/uric_api/apps/users/serlializer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uric_api/apps/users/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/uric_api/apps/users/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uric_api/apps/users/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/uric_api/apps/users/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uric_api/settings/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/uric_api/settings/base.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uric_api/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/uric_api/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uric_api/apps/mtask/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/uric_api/apps/mtask/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uric_api/apps/mtask/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/uric_api/apps/mtask/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uric_api/apps/mtask/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/uric_api/apps/mtask/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uric_api/apps/mtask/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/uric_api/apps/mtask/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,8 +24,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="Dockerfile" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -187,8 +166,18 @@
       <workItem from="1726397474350" duration="7636000" />
       <workItem from="1726556500881" duration="4621000" />
       <workItem from="1726561150496" duration="2042000" />
-      <workItem from="1726563221046" duration="7924000" />
+      <workItem from="1726563221046" duration="8884000" />
+      <workItem from="1726661068357" duration="397000" />
     </task>
+    <task id="LOCAL-00001" summary="工具类提交">
+      <option name="closed" value="true" />
+      <created>1726571425666</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1726571425666</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -216,6 +205,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="工具类提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="工具类提交" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

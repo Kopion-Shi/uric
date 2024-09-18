@@ -10,6 +10,7 @@ from rest_framework.views import APIView
 
 from uric_api.apps.host.models import Host
 from uric_api.apps.mtask.models import CmdTemplate, CmdTemplateCategory
+from uric_api.apps.mtask.serializers import CmdTemplateModelSerialzer, CmdTemplateCategoryModelSerialzer
 from uric_api.utils.key import PkeyManager
 from uric_api.utils.ssh import SSHParamiko
 
