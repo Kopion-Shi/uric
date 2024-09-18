@@ -24,5 +24,6 @@ urlpatterns = [
     path("host/", include("host.urls")),
     path('mtask/', include('mtask.urls')),
     path('config/', include('conf_center.urls')),
+    path('release/', include('release.urls')),
 
 ]

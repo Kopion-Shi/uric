@@ -6567,3 +6567,34 @@ INFO 2024-09-18 20:25:24,584 autoreload:266 D:\00_github\python_web\uric\uric_ap
 INFO 2024-09-18 20:25:28,844 autoreload:668 Watching for file changes with StatReloader
 INFO 2024-09-18 20:26:56,595 autoreload:668 Watching for file changes with StatReloader
 INFO 2024-09-18 20:27:13,504 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-18 20:30:09,158 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\settings\base.py changed, reloading.
+INFO 2024-09-18 20:30:10,703 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-18 20:30:52,471 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\settings\base.py changed, reloading.
+INFO 2024-09-18 20:30:53,963 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-18 20:30:57,706 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\settings\base.py changed, reloading.
+INFO 2024-09-18 20:30:59,355 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-18 20:31:15,575 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\urls.py changed, reloading.
+INFO 2024-09-18 20:31:17,162 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-18 20:31:22,378 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\urls.py changed, reloading.
+INFO 2024-09-18 20:31:24,082 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-18 20:31:59,773 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\apps\release\models.py changed, reloading.
+INFO 2024-09-18 20:32:01,429 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-18 20:33:01,126 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\apps\release\models.py changed, reloading.
+INFO 2024-09-18 20:33:02,737 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-18 20:35:12,588 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\apps\release\views.py changed, reloading.
+INFO 2024-09-18 20:35:14,264 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-18 20:36:26,990 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\apps\release\views.py changed, reloading.
+INFO 2024-09-18 20:36:28,496 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-18 20:37:16,125 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\apps\release\apps.py changed, reloading.
+INFO 2024-09-18 20:37:17,706 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-18 20:38:05,847 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-18 20:40:05,378 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\apps\release\views.py changed, reloading.
+INFO 2024-09-18 20:40:06,955 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-18 20:40:47,156 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\apps\release\views.py changed, reloading.
+INFO 2024-09-18 20:40:48,693 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-18 20:42:56,740 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\apps\release\views.py changed, reloading.
+INFO 2024-09-18 20:42:58,480 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-18 20:45:35,334 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\apps\release\views.py changed, reloading.
+INFO 2024-09-18 20:45:37,075 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-18 20:45:58,755 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\settings\dev.py changed, reloading.
+INFO 2024-09-18 20:46:00,344 autoreload:668 Watching for file changes with StatReloader

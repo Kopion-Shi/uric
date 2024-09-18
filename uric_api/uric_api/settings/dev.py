@@ -36,3 +36,13 @@ CORS_ALLOW_HEADERS = [
     'content-type',  # 添加你的自定义请求头
     # 其他允许的请求头
 ]
+
+JENKINS = {
+    "server_url": 'http://192.168.101.8:8888/',
+    "username": 'admin',
+    "password": '11217915472cb72a7edb9a4de8113a5928',
+}
+GITLAB = {
+    "url": "http://192.168.101.8:8993/",
+    "token": "LAgbKLyaysE4UjPyX1EV",
+}

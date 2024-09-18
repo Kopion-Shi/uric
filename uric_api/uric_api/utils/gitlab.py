@@ -1,14 +1,19 @@
 import gitlab
+from django.conf import settings
 
-
-class Gitlabapi(object):
+class GitlabApi(object):
     VISIBILITY = {
         "private": "私有",
         "internal": "内部",
         "public": "公开"
     }
 
-    def __init__(self, url, token):
+    def __init__(self, url=None, token=None):
+        if url is None:
+            url = settings.GITLAB.get("url")
+        if token is None:
+            token = settings.GITLAB.get("token")
+
         self.url = url
         self.token = token
         self.conn = gitlab.Gitlab(self.url, self.token)
@@ -61,13 +66,13 @@ class Gitlabapi(object):
             projectslist.append(pro.attributes)
         return projectslist
 
-    def create_project(self, name):
+    def create_project(self, data):
         """
         创建项目
-        :param name:
+        :param data:
         :return:
         """
-        res = self.conn.projects.create({"name": name})
+        res = self.conn.projects.create(data)
         return res.attributes
 
     def get_project_brances(self, project_id):
@@ -284,10 +289,9 @@ class Gitlabapi(object):
     def search_project_merge(self, project_id, state, sort):
         '''
         搜索项目合并请求
-        :param id:
+        :param project_id:
         :param state: state of the mr,It can be one of all,merged,opened or closed
         :param sort: sort order (asc or desc)
-        :param order_by: sort by created_at or updated_at
         :return:
         '''
         stateinfo = ["merged", "opened", "closed"]
@@ -341,10 +345,3 @@ class Gitlabapi(object):
         return result
 
 
-if __name__ == '__main__':
-    url = "http://192.168.101.8:8993/"
-    token = "LAgbKLyaysE4UjPyX1EV"
-    gl = Gitlabapi(url, token)
-    # projects = gl.get_projects()
-    projects = gl.get_projects_visibility("internal")
-    print(projects)

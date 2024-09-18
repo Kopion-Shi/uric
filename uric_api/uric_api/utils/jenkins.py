@@ -1,11 +1,13 @@
 import jenkins
+from django.conf import settings
+
 
 class Jenkinsapi(object):
-    def __init__(self,url, user, token):
-        self.server_url = url
-        self.user = user
-        self.token = token
-        self.conn = jenkins.Jenkins(self.server_url, username=self.user, password=self.token)
+    def __init__(self, server_url=None, username=None, password=None):
+        self.server_url = settings.JENKINS['server_url'] if server_url is None else server_url
+        self.username = settings.JENKINS['username'] if username is None else username
+        self.password = settings.JENKINS['password'] if password is None else password
+        self.conn = jenkins.Jenkins(url=self.server_url, username=self.username, password=self.password)
 
     def get_jobs(self):
         """
@@ -46,61 +48,18 @@ class Jenkinsapi(object):
         '''
         获取xml文件
         '''
-        res = self.conn.get_job_config(job)
-        print(res)
+        return self.conn.get_job_config(job)
 
     def create_job(self,name,config_xml):
         '''
         任务名字
         xml格式的字符串
         '''
-        self.conn.create_job(name, config_xml)
+        return self.conn.create_job(name, config_xml)
 
     def update_job(self,name,config_xml):
         res = self.conn.reconfig_job(name,config_xml)
-        print(res)
+        return res
 
 
-if __name__ == '__main__':
-    server_url = 'http://192.168.101.8:8888/'
-    username = 'admin'
-    password = '11217915472cb72a7edb9a4de8113a5928'
-    server = Jenkinsapi(server_url, username, password)
 
-    # jobs = server.get_jobs()
-    # print(jobs)
-
-    # job = server.get_job_info("project-1")
-    # print(job)
-
-    # build_number = server.build_job("project-1")
-    # print(build_number)
-
-    # info = server.get_build_info("project-1", 2)
-    # print(info)
-
-    # 先获取已有构建项目的配置文档
-    # config_xml = server.get_job_config("project-1")
-    # print(config_xml)
-
-    config_xml = """<project>
-<description>测试构建项目</description>
-<keepDependencies>false</keepDependencies>
-<properties/>
-<scm class="hudson.scm.NullSCM"/>
-<canRoam>true</canRoam>
-<disabled>false</disabled>
-<blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
-<blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
-<triggers/>
-<concurrentBuild>false</concurrentBuild>
-<builders>
-<hudson.tasks.Shell>
-  <command>echo "hello, project-2"</command>
-  <configuredLocalRules/>
-</hudson.tasks.Shell>
-</builders>
-<publishers/>
-<buildWrappers/>
-</project>"""
-    server.create_job("project-2", config_xml=config_xml)
