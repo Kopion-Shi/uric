@@ -57,3 +57,5 @@ EMAIL_PORT = 25  # 发件箱的SMTP服务器端口
 EMAIL_HOST_USER = '2521532473@qq.com'  # 发送邮件的邮箱地址
 EMAIL_HOST_PASSWORD = 'hlxqpyuxyvntdjef'  # 发送邮件的邮箱密码(这里使用的是授权码)
 EMAIL_TO_USER_LIST = ['zhougang@zjaxtynkjyxgs128.wecom.work']   # 此字段是可选的，用来配置收件人列表
+MONITOR_SCRIPT = BASE_DIR.parent / "scripts/monitor.py"
+REMOTE_MONITOR_SCRIPT_PATH = "~/monitor.py"
