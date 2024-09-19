@@ -47,7 +47,8 @@ INSTALLED_APPS = [
     'channels',
     'mtask',
     'conf_center',
-    'release'
+    'release',
+    'monitor'
 ]
 
 MIDDLEWARE = [
