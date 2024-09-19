@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'rest_framework_simplejwt',
     'corsheaders',
+    'django_celery_beat',
     "home",
     'users',
     'host',
@@ -103,7 +104,7 @@ USE_I18N = True
 
 USE_L10N = True
 
-USE_TZ = True
+
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.2/howto/static-files/
@@ -197,7 +198,7 @@ LANGUAGE_CODE = 'zh-Hans'
 
 # 修改时区
 TIME_ZONE = 'Asia/Shanghai'
-
+USE_TZ = False  # 如果用的sqlit数据库，那么改为True，sqlit数据库不支持
 DEFAULT_KEY_NAME = "global"
 
 SIMPLE_JWT = {

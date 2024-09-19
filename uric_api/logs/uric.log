@@ -6598,3 +6598,15 @@ INFO 2024-09-18 20:45:35,334 autoreload:266 D:\00_github\python_web\uric\uric_ap
 INFO 2024-09-18 20:45:37,075 autoreload:668 Watching for file changes with StatReloader
 INFO 2024-09-18 20:45:58,755 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\settings\dev.py changed, reloading.
 INFO 2024-09-18 20:46:00,344 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-18 20:51:01,543 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\settings\dev.py changed, reloading.
+INFO 2024-09-18 20:51:03,285 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-18 20:53:28,028 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-18 20:53:52,016 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\settings\base.py changed, reloading.
+INFO 2024-09-18 20:53:54,438 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-18 20:57:17,233 autoreload:266 C:\Users\Carl3\.conda\envs\lpm_api\Lib\site-packages\django_celery_beat\clockedschedule.py changed, reloading.
+INFO 2024-09-18 20:57:21,958 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-18 20:57:30,233 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-18 21:00:06,467 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\settings\base.py changed, reloading.
+INFO 2024-09-18 21:00:08,714 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-18 21:00:27,638 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\settings\base.py changed, reloading.
+INFO 2024-09-18 21:00:29,909 autoreload:668 Watching for file changes with StatReloader

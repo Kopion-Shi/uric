@@ -5,7 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6c022528-2da9-40eb-9b60-712f3ec98714" name="Changes" comment="代码发布">
-      <change beforePath="$PROJECT_DIR$/uric_api/settings/dev.py" beforeDir="false" afterPath="$PROJECT_DIR$/uric_api/settings/dev.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/celery_tasks/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/celery_tasks/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/celery_tasks/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/celery_tasks/task.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/uric.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/uric.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uric_api/settings/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/uric_api/settings/base.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,7 +172,8 @@
       <workItem from="1726556500881" duration="4621000" />
       <workItem from="1726561150496" duration="2042000" />
       <workItem from="1726563221046" duration="8884000" />
-      <workItem from="1726661068357" duration="2787000" />
+      <workItem from="1726661068357" duration="3689000" />
+      <workItem from="1726744904710" duration="3073000" />
     </task>
     <task id="LOCAL-00001" summary="工具类提交">
       <option name="closed" value="true" />
@@ -206,7 +215,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726663790825</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="代码发布">
+      <option name="closed" value="true" />
+      <created>1726663868307</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1726663868307</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
