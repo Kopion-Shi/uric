@@ -2,11 +2,11 @@ from django.conf import settings
 from rest_framework.views import APIView
 from rest_framework.viewsets import ModelViewSet
 from rest_framework.response import Response
-from .models import MonitorHost, MonitorParams
-from .serializers import MonitorParamsModelSerializer, MonitorHostModelSerlaizer
-from ..host.models import Host
-from ...utils.key import PkeyManager
-from ...utils.ssh import SSHParamiko
+from uric_api.apps.monitor.models import MonitorHost, MonitorParams
+from uric_api.apps.monitor.serializers import MonitorParamsModelSerializer, MonitorHostModelSerlaizer
+from uric_api.apps.host.models import Host
+from uric_api.utils.key import PkeyManager
+from uric_api.utils.ssh import SSHParamiko
 
 
 # Create your views here.

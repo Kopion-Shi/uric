@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c022528-2da9-40eb-9b60-712f3ec98714" name="Changes" comment="系统监控及邮件通知">
-      <change beforePath="$PROJECT_DIR$/uric_api/utils/ssh.py" beforeDir="false" afterPath="$PROJECT_DIR$/uric_api/utils/ssh.py" afterDir="false" />
+    <list default="true" id="6c022528-2da9-40eb-9b60-712f3ec98714" name="Changes" comment="上传监控脚本">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/uric.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/uric.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uric_api/apps/monitor/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/uric_api/apps/monitor/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uric_api/apps/monitor/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/uric_api/apps/monitor/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -165,7 +168,7 @@
       <workItem from="1726561150496" duration="2042000" />
       <workItem from="1726563221046" duration="8884000" />
       <workItem from="1726661068357" duration="3689000" />
-      <workItem from="1726744904710" duration="4415000" />
+      <workItem from="1726744904710" duration="6646000" />
     </task>
     <task id="LOCAL-00001" summary="工具类提交">
       <option name="closed" value="true" />
@@ -247,7 +250,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726750832721</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="上传监控脚本">
+      <option name="closed" value="true" />
+      <created>1726751129017</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1726751129017</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -283,7 +294,8 @@
     <MESSAGE value="代码发布" />
     <MESSAGE value="redis和amqp配置完成" />
     <MESSAGE value="系统监控及邮件通知" />
-    <option name="LAST_COMMIT_MESSAGE" value="系统监控及邮件通知" />
+    <MESSAGE value="上传监控脚本" />
+    <option name="LAST_COMMIT_MESSAGE" value="上传监控脚本" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
