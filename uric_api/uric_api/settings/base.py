@@ -48,7 +48,8 @@ INSTALLED_APPS = [
     'mtask',
     'conf_center',
     'release',
-    'monitor'
+    'monitor',
+    'drf_spectacular'
 ]
 
 MIDDLEWARE = [
@@ -104,8 +105,6 @@ AUTH_PASSWORD_VALIDATORS = [
 USE_I18N = True
 
 USE_L10N = True
-
-
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.2/howto/static-files/
@@ -179,6 +178,7 @@ LOGGING = {
 CORS_ALLOW_CREDENTIALS = False  # 是否允许ajax跨域请求时携带cookie，False表示不用，我们后面也用不到cookie，所以关掉它就可以了，以防有人通过cookie来搞我们的网站
 
 REST_FRAMEWORK = {
+    'DEFAULT_SCHEMA_CLASS': 'drf_spectacular.openapi.AutoSchema',  # 自动生成接口文档
     # 自定义异常处理
     'EXCEPTION_HANDLER': 'uric_api.utils.exceptions.custom_exception_handler',
     # 自定义认证
@@ -217,3 +217,19 @@ CHANNEL_LAYERS = {
     },
 }
 ASGI_APPLICATION = 'uric_api.apps.routing.application'
+
+SPECTACULAR_SETTINGS = {
+    'TITLE': '平台的API',
+    'DESCRIPTION': '这是项目的API文档',
+    'VERSION': '3.0.0',
+    'SERVE_INCLUDE_SCHEMA': False,
+    'SCHEMA_PATH_PREFIX': None,
+    # 或者如果有统一的前缀，可以设置成
+    # 'SCHEMA_PATH_PREFIX': '^/api/',
+    "SWAGGER_UI_SETTINGS": {
+        "deepLinking": True,
+        "persistAuthorization": True,
+        "displayOperationId": True,
+    },
+    # 修改图标
+    "SWAGGER_UI_FAVICON_HREF": "https://xxxxx/xxxx/xxx/20231102152526.png", }

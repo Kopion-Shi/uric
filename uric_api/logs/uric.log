@@ -6951,3 +6951,43 @@ INFO 2024-09-19 21:54:10,235 runserver:145 HTTP GET /static/admin/js/vendor/jque
 INFO 2024-09-19 21:54:10,238 runserver:145 HTTP GET /static/admin/simpleui-x/automatic/dicts.js 304 [0.02, 127.0.0.1:7937]
 INFO 2024-09-19 21:54:10,240 runserver:145 HTTP GET /static/admin/simpleui-x/automatic/segment.js 304 [0.01, 127.0.0.1:7932]
 INFO 2024-09-19 21:54:10,242 runserver:145 HTTP GET /static/admin/simpleui-x/js/axios.min.js 304 [0.01, 127.0.0.1:7942]
+INFO 2024-09-21 19:35:35,241 autoreload:668 Watching for file changes with StatReloader
+WARNING 2024-09-21 19:35:40,879 log:248 Not Found: /
+WARNING 2024-09-21 19:35:40,881 runserver:149 HTTP GET / 404 [0.03, 127.0.0.1:1595]
+WARNING 2024-09-21 19:35:40,950 log:248 Not Found: /favicon.ico
+WARNING 2024-09-21 19:35:40,951 runserver:149 HTTP GET /favicon.ico 404 [0.01, 127.0.0.1:1595]
+INFO 2024-09-21 19:35:48,608 runserver:141 HTTP GET /admin/ 200 [0.19, 127.0.0.1:1694]
+INFO 2024-09-21 19:35:48,632 runserver:145 HTTP GET /static/admin/simpleui-x/elementui/theme-chalk/index.css 304 [0.01, 127.0.0.1:1694]
+INFO 2024-09-21 19:35:48,636 runserver:145 HTTP GET /static/admin/simpleui-x/waves/waves.min.css?_=2.1 304 [0.01, 127.0.0.1:1695]
+INFO 2024-09-21 19:35:48,639 runserver:145 HTTP GET /static/admin/simpleui-x/fontawesome-free-6.2.0-web/css/all.min.css 304 [0.01, 127.0.0.1:1694]
+INFO 2024-09-21 19:35:48,641 runserver:145 HTTP GET /static/admin/simpleui-x/css/index.css?_=3.2 304 [0.00, 127.0.0.1:1695]
+INFO 2024-09-21 19:35:48,645 runserver:145 HTTP GET /static/admin/simpleui-x/img/logo.png 304 [0.00, 127.0.0.1:1694]
+INFO 2024-09-21 19:35:48,647 runserver:145 HTTP GET /static/admin/simpleui-x/js/vue.min.js?_=2024.8.28 304 [0.00, 127.0.0.1:1695]
+INFO 2024-09-21 19:35:48,651 runserver:145 HTTP GET /static/admin/simpleui-x/elementui/index.js?_=2024.8.28 304 [0.00, 127.0.0.1:1694]
+INFO 2024-09-21 19:35:48,655 runserver:145 HTTP GET /static/admin/simpleui-x/automatic/dicts.js?_=2024.8.28 304 [0.01, 127.0.0.1:1695]
+INFO 2024-09-21 19:35:48,660 runserver:145 HTTP GET /static/admin/simpleui-x/automatic/segment.js?_=2024.8.28 304 [0.01, 127.0.0.1:1694]
+INFO 2024-09-21 19:35:48,664 runserver:145 HTTP GET /static/admin/simpleui-x/locale/en-us.js?_=2024.8.28 304 [0.01, 127.0.0.1:1695]
+INFO 2024-09-21 19:35:48,668 runserver:145 HTTP GET /static/admin/simpleui-x/locale/zh-hans.js?_=2024.8.28 304 [0.01, 127.0.0.1:1694]
+INFO 2024-09-21 19:35:48,671 runserver:145 HTTP GET /static/admin/simpleui-x/js/cookie.js?_=2024.8.28 304 [0.00, 127.0.0.1:1695]
+INFO 2024-09-21 19:35:48,675 runserver:145 HTTP GET /static/admin/simpleui-x/theme/theme.js?_=2024.8.28 304 [0.01, 127.0.0.1:1694]
+INFO 2024-09-21 19:35:48,679 runserver:145 HTTP GET /static/admin/simpleui-x/waves/waves.min.js?_=2024.8.28 304 [0.00, 127.0.0.1:1695]
+INFO 2024-09-21 19:35:48,682 runserver:145 HTTP GET /static/admin/simpleui-x/js/menu.js?_=2024.8.28 304 [0.00, 127.0.0.1:1694]
+INFO 2024-09-21 19:35:48,685 runserver:145 HTTP GET /static/admin/simpleui-x/js/index.js?_=2024.8.28 304 [0.01, 127.0.0.1:1705]
+INFO 2024-09-21 19:35:48,798 runserver:145 HTTP GET /static/admin/simpleui-x/elementui/theme-chalk/fonts/element-icons.woff 304 [0.00, 127.0.0.1:1705]
+INFO 2024-09-21 19:35:48,802 runserver:145 HTTP GET /static/admin/simpleui-x/fontawesome-free-6.2.0-web/webfonts/fa-brands-400.woff2 304 [0.01, 127.0.0.1:1694]
+INFO 2024-09-21 19:35:48,804 runserver:145 HTTP GET /static/admin/simpleui-x/fontawesome-free-6.2.0-web/webfonts/fa-solid-900.woff2 304 [0.01, 127.0.0.1:1695]
+INFO 2024-09-21 19:35:48,808 runserver:145 HTTP GET /static/admin/simpleui-x/fontawesome-free-6.2.0-web/webfonts/fa-regular-400.woff2 304 [0.01, 127.0.0.1:1705]
+INFO 2024-09-21 19:44:22,101 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\settings\base.py changed, reloading.
+INFO 2024-09-21 19:44:25,228 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-21 19:45:08,429 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\settings\base.py changed, reloading.
+INFO 2024-09-21 19:45:11,281 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-21 19:45:30,272 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\settings\base.py changed, reloading.
+INFO 2024-09-21 19:45:33,706 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-21 19:46:07,734 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\settings\base.py changed, reloading.
+INFO 2024-09-21 19:46:09,855 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-21 19:46:50,104 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\urls.py changed, reloading.
+INFO 2024-09-21 19:46:52,730 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-21 19:47:05,362 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\urls.py changed, reloading.
+INFO 2024-09-21 19:47:08,569 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-21 19:47:36,780 runserver:141 HTTP GET /doc/swagger/ 200 [0.05, 127.0.0.1:8822]
+INFO 2024-09-21 19:47:40,962 runserver:141 HTTP GET /doc/schema/ 200 [0.12, 127.0.0.1:8822]
