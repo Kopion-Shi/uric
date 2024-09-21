@@ -1,9 +1,9 @@
 from rest_framework import serializers
-from .models import Environment
+
+from uric_api.apps.conf_center.models import Environment
 
 
 class EnvironmentModelSerializer(serializers.ModelSerializer):
     class Meta:
         model = Environment
         fields = ["id", "name", "tag", "description"]
-        # fields = "__all__"

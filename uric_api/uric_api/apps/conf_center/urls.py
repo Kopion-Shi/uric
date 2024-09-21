@@ -1,6 +1,10 @@
 from django.urls import path
-from . import views
+from rest_framework.routers import DefaultRouter
+from uric_api.apps.conf_center import views
+
+router = DefaultRouter()
+router.register("env", views.EnvironmentAPIView, basename="env")
 
 urlpatterns = [
-    path('environment', views.EnvironmentAPIView.as_view()),
-]
+
+] + router.urls

@@ -1,5 +1,6 @@
 from rest_framework import serializers
-from .models import CmdTemplateCategory, CmdTemplate
+
+from uric_api.apps.mtask.models import CmdTemplate, CmdTemplateCategory
 
 
 class CmdTemplateModelSerialzer(serializers.ModelSerializer):

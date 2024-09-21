@@ -1,9 +1,12 @@
 from django.db import models
-from uric_api.utils.models import BaseModel
 
+# Create your models here.
+from django.db import models
+from uric_api.utils.models import BaseModel
 
 class CmdTemplateCategory(BaseModel):
     class Meta:
+        app_label = 'mtask'
         db_table = "cmd_template_category"
         verbose_name = "模板分类"
         verbose_name_plural = verbose_name

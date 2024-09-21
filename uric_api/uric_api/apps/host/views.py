@@ -1,22 +1,21 @@
+from io import BytesIO
+
 # Create your views here.
 from rest_framework.generics import ListAPIView, CreateAPIView
 from rest_framework.permissions import IsAuthenticated
+from rest_framework.response import Response
+from rest_framework.views import APIView
 from rest_framework.viewsets import ModelViewSet
 
-from .models import HostCategory, Host
-from .serializers import HostCategoryModelSeiralizer, HostModelSerializers
+from uric_api.apps.host.models import HostCategory, Host
+from uric_api.apps.host.serializers import HostCategoryModelSeiralizer, HostModelSerializers
 
 
 class HostCategoryListAPIView(ListAPIView, CreateAPIView):
+    """主机类别"""
     queryset = HostCategory.objects.filter(is_show=True, is_deleted=False).order_by("orders", "-id").all()
     serializer_class = HostCategoryModelSeiralizer
     permission_classes = [IsAuthenticated]
-
-    def get(self, request, *args, **kwargs):
-        return super().get(request, *args, **kwargs)
-
-    def post(self, request, *args, **kwargs):
-        return super().post(request, *args, **kwargs)
 
 
 class HostModelViewSet(ModelViewSet):
@@ -24,140 +23,105 @@ class HostModelViewSet(ModelViewSet):
     permission_classes = [IsAuthenticated]
 
     def get_queryset(self):
+        # 重写qureyset方法，补充过滤主机列表参数，获取主机列表
         category_id = self.request.query_params.get("category", None)
-        name_id = self.request.query_params.get("name", None)
-        ip_addr = self.request.query_params.get("ip_addr", None)
-        print(category_id,name_id,ip_addr)
-        queryset = Host.objects.filter(is_deleted=False)
-        # 有分类的查询参数，则按分类来查询
+        queryset = Host.objects
         if category_id is not None:
             queryset = queryset.filter(category_id=category_id)
-        #  有环境的查询参数，则按环境来查询
-        if name_id is not None:
-            queryset = queryset.filter(name=name_id)
-        if ip_addr is not None:
-            queryset = queryset.filter(ip_addr=ip_addr)
+
         return queryset.all()
+from openpyxl import load_workbook
 
 
-import xlwt
-from rest_framework.views import APIView
-from rest_framework.response import Response
-from io import BytesIO
-from host.utils.host_excel import read_host_excel_data
-from django.http.response import HttpResponse
-from django.utils.encoding import escape_uri_path
+def read_host_excel_data(io_data, default_password=''):
+    """
+    从excel中读取主机列表信息
+    io_data: 主机列表的字节流
+    default_password: 主机的默认登录密码
+    """
+
+    # 加载某一个excel文件
+    wb = load_workbook(io_data)
+    # 获取worksheet对象的两种方式
+    worksheet = wb.worksheets[1]
+
+    # c1 = worksheet.cell(2, 1)  # 第二行第一列
+    # print("c1 data:::", c1.value)
+
+    # 查询出数据库现有的所有分类数据[ID，name]
+    # 由于拿到的是分类名称，所以我们要找到对应名称的分类id，才能去数据库里面存储
+    category_list = HostCategory.objects.values_list('id', 'name')
+
+    # 主机列表
+    host_info_list = []
+    for row in worksheet.iter_rows(2):
+        if not row[0].value: continue
+        one_row_dict = {}  # 单个主机信息字典
+
+        for category_data in category_list:
+            # print(category_data[1],type(category_data[1]),category,type(category))
+            if category_data[1].strip() == row[0].value:
+                one_row_dict['category'] = category_data[0]
+                break
+
+        one_row_dict["name"] = row[1].value  # 主机别名
+        one_row_dict['ip_addr'] = row[2].value  # 主机地址
+        one_row_dict['port'] = row[3].value  # 主机端口号
+        one_row_dict['username'] = row[4].value  # 登录账户名
+
+        excel_pwd = row[5].value
+        try:
+            pwd = str(excel_pwd)  # 这样强转容易报错，最好捕获一下异常，并记录单元格位置，给用户保存信息时，可以提示用户哪个单元格的数据有问题
+        except Exception as e:
+            pwd = default_password
+
+        if not pwd.strip():
+            pwd = default_password
+
+        one_row_dict['password'] = pwd
+        one_row_dict['description'] = row[6].value
+        print("one_row_dict", one_row_dict)
+
+        host_info_list.append(one_row_dict)
+
+    # 校验主机数据
+    # 将做好的主机信息字典数据通过我们添加主机时的序列化器进行校验
+    res_data = {}  # 存放上传成功之后需要返回的主机数据和某些错误信息数据
+    serializers_host_res_data = []
+    res_error_data = []
+    for k, host_data in enumerate(host_info_list):
+        # 反序列化校验每一个主机信息
+        serailizer = HostModelSerializers(data=host_data)
+        if serailizer.is_valid():
+            new_host_obj = serailizer.save()
+            serializers_host_res_data.append(new_host_obj)
+        else:
+            # 报错，并且错误信息中应该体验错误的数据位置
+            res_error_data.append({
+                'error': f'该{k + 1}行数据有误,其他没有问题的数据，已经添加成功了，请求失败数据改完之后，重新上传这个错误数据，成功的数据不需要上传了'})
+
+    # # 再次调用序列化器进行数据的序列化，返回给客户端
+    serializer = HostModelSerializers(instance=serializers_host_res_data, many=True)
+    res_data['data'] = serializer.data
+    res_data['error'] = res_error_data
+
+    return res_data
 
 
-class HostExcelView(APIView):
-    permission_classes = [IsAuthenticated]
-
+class ExcelHostView(APIView):
     def post(self, request):
         """批量导入主机列表"""
         # 接受客户端上传的数据
-        host_excel = request.data.get("host[]")
+        host_excel = request.FILES.get("host_excel")
         default_password = request.data.get("default_password")
+        print("host_excel:::", host_excel, type(host_excel))
+        print("default_password:::", default_password, type(default_password))
 
-        # 把上传文件全部写入到字节流，就不需要保存到服务端硬盘了。
-        sio = BytesIO()
-        for i in host_excel:
-            sio.write(i)
-
-        data = read_host_excel_data(sio, default_password)
-
+        # # 把上传文件全部写入到字节流，就不需要保存到服务端硬盘了。
+        io_data = BytesIO()
+        for line in host_excel:
+            io_data.write(line)
+        #
+        data = read_host_excel_data(io_data, default_password)
+        #
         return Response(data)
-
-    def get(self, request):
-        # 1 读取数据库数据
-        all_host_data = Host.objects.all().values('id', 'category', 'name', 'ip_addr', 'port', 'username',
-                                                  'description')
-
-        # 2 写入excel并保存
-        # 创建excel
-        xls = xlwt.Workbook(encoding='utf-8')
-        # 创建工作簿
-        sheet = xls.add_sheet('主机数据列表')
-        # 给工作簿首行写入表头
-        sheet.write(0, 0, 'id')
-        sheet.write(0, 1, 'category')
-        sheet.write(0, 2, 'name')
-        sheet.write(0, 3, 'ip_addr')
-        sheet.write(0, 4, 'port')
-        sheet.write(0, 5, 'username')
-        sheet.write(0, 6, 'description')
-
-        # 写入数据，从第一行开始
-        excel_row = 1  # 因为表头已经占据了下标为1的首行，所以此处从下标1开始写入主机数据
-        for host_obj in all_host_data:
-            sheet.write(excel_row, 0, host_obj.get('id'))
-            sheet.write(excel_row, 1, host_obj.get('category'))
-            sheet.write(excel_row, 2, host_obj.get('name'))
-            sheet.write(excel_row, 3, host_obj.get('ip_addr'))
-            sheet.write(excel_row, 4, host_obj.get('port'))
-            sheet.write(excel_row, 5, host_obj.get('username'))
-            sheet.write(excel_row, 6, host_obj.get('description'))
-            excel_row += 1
-
-        # 将数据写入io数据流，不用在本地生成excel文件，不然效率就低了
-        sio = BytesIO()
-        xls.save(sio)
-        sio.seek(0)
-
-        # 3 将excel数据响应回客户端
-        response = HttpResponse(sio.getvalue(), content_type='application/vnd.ms-excel')
-
-        # 3.1 文件名称中文设置
-        response['Content-Disposition'] = 'attachment; filename={}'.format(escape_uri_path('主机列表数据.xls'))
-        response.write(sio.getvalue())  # 必须要给response写入一下数据，不然不生效
-        return response
-
-
-from rest_framework.viewsets import ViewSet
-from host.utils.key import AppSetting
-from django.conf import settings
-from rest_framework import status
-
-
-class HostFileView(ViewSet):
-    # 方法分发之前，先实例化ssh连接，获取要操作的主机id和链接
-    def dispatch(self, request, *args, **kwargs):
-        # 获取url路径中的pk值
-        pk = kwargs.get('pk')
-        host_obj = Host.objects.get(pk=pk)
-        primary_key, public_key = AppSetting.get(settings.DEFAULT_KEY_NAME)
-        cli = host_obj.get_ssh(primary_key)
-        self.cli = cli
-        ret = super().dispatch(request, *args, **kwargs)
-
-        return ret
-
-    def get_folders(self, request, pk):
-        """获取远程主机的目录列表"""
-        cmd = request.query_params.get('cmd')
-        res_code, res_data = self.cli.exec_command(cmd)
-        print(f"res_code={res_code}, res_data={res_data}")
-
-        return Response([res_code, res_data])
-
-    def upload_file(self, request, pk):
-        """上传文件到远程服务器"""
-        # 上传的存储目录路径
-        folder_path = request.query_params.get('folder_path')
-        # 上传文件
-        file_obj = request.FILES.get('file')
-        folder_path += f'/{file_obj.name}'
-
-        try:
-            self.cli.put_file_by_fl(file_obj, folder_path, self.file_upload_callback)
-        except:
-            return Response({'error': '文件上传失败,请联系管理员或者查看一下用户权限'},
-                            status=status.HTTP_500_INTERNAL_SERVER_ERROR)
-
-        return Response({"msg": "上传文件成功"})
-
-    def file_upload_callback(self, n, k):
-        print('>>>>>>>>>>>', n, k)
-
-    def delete_file(self, request, pk):
-        """删除远程服务器的文件"""
-        return Response({"msg": "ok"})

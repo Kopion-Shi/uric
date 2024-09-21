@@ -1,8 +1,12 @@
 from django.urls import path
-from . import views
-from rest_framework_jwt.views import obtain_jwt_token,verify_jwt_token,refresh_jwt_token
+from rest_framework_simplejwt.views import token_verify, token_refresh
+
+from uric_api.apps.users.views import CustomTokenObtainPairView, UserInfoView,LogoutView
+
 urlpatterns = [
-    path('login/', obtain_jwt_token),
-    path('verify/', verify_jwt_token),  # 这是只是校验token有效性
-    path('refresh_jwt_token/', refresh_jwt_token),  # 校验并生成新的token
+    path('login', CustomTokenObtainPairView.as_view(), name='login'),
+    path('logout', LogoutView.as_view(), name='logout'),
+    path('info', UserInfoView.as_view(), name='loginfo'),
+    path('verify/', token_verify),  # 这是只是校验token有效性
+    path('refresh_jwt_token/', token_refresh),  # 校验并生成新的token
 ]

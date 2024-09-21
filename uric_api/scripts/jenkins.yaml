@@ -1,0 +1,36 @@
+version: '3.7'   # docker-compose版本，目前最新版本是3.9版本，此处我们使用3.7即可。
+services:          # 容器服务列表，一个docker-complse.yaml文件中只能有一个services
+  jenkins:         # 服务名
+    image: 'jenkins/jenkins:lts-jdk11'   # 当前容器的基础镜像
+    container_name: jenkins   # 容器名
+    restart: always                   # 设置开机自启，注意：如果公司安装的不是docker，而是podman的话。podman是没有这个配置的，如果要设置容器开机自启，只能借助python的supervisor这样的进程管理器来启动。
+    user: root                          # 以root用户身份启动容器
+    environment:                    # 容器内系统环境变量。
+      - TZ=Asia/Shanghai       # 设置时区和国际化本地化
+    ports:                                # 容器内部与宿主机之间的端口映射： 宿主机端口:容器端口
+#      - '8888:8080'
+#      - '5555:50000'                # 如果是windows下使用docker-desktop要调整50000端口为其他端口，因为50000被windows虚拟机hyper-V占用了。linux或macOS没这个问题
+      - '9095:8080'
+    volumes:                          # 逻辑卷配置，设置目录映射：宿主机路径: 容器内部路径
+      - '/d/200_cache/docker/docker_volume/Jenkins/jenkins_home:/var/jenkins_home'
+   #换源https://mirrors.tuna.tsinghua.edu.cn/jenkins/updates/update-center.json
+
+  gitlab:
+    image: 'gitlab/gitlab-ce:latest' # gitlab的镜像，如果已经有了，指定自己的镜像版本即可
+    container_name: gitlab # 生成的docker容器的名字
+    restart: always
+    environment:
+      GITLAB_OMNIBUS_CONFIG: |
+        external_url 'http://192.168.101.8:8993' # 此处填写所在服务器ip若有域名可以写域名
+        gitlab_rails['gitlab_shell_ssh_port'] = 2224
+    ports:
+      - '8993:8993' # 此处端口号须与 external_url 中保持一致，左边和右边都要一样
+      - '2224:22' # 这里的2224和上面的2224一致，但是右边必须是22，不能是其他
+    volumes:
+      #将相关配置映射到当前目录下的config目录
+      - './conf/gitlab:/etc/gitlab'
+      #将日志映射到当前目录下的logs目录
+      - './logs/gitlab:/var/log/gitlab'
+      #将数据映射到当前目录下的data目录
+      - './data/gitlab:/var/opt/gitlab'
+
