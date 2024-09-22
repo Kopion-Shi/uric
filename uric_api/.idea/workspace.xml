@@ -4,12 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c022528-2da9-40eb-9b60-712f3ec98714" name="Changes" comment="admin注册新方法">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+    <list default="true" id="6c022528-2da9-40eb-9b60-712f3ec98714" name="Changes" comment="生成swagger文档">
+      <change afterPath="$PROJECT_DIR$/uric_api/utils/middleware.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../uric_web/src/views/task_release/index.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/uric.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/uric.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uric_api/apps/users/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/uric_api/apps/users/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/uric_api/settings/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/uric_api/settings/base.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uric_api/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/uric_api/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../uric_web/src/api/table.js" beforeDir="false" afterPath="$PROJECT_DIR$/../uric_web/src/api/table.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../uric_web/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../uric_web/src/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../uric_web/tests/unit/.eslintrc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../uric_web/tests/unit/components/Breadcrumb.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../uric_web/tests/unit/components/Hamburger.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../uric_web/tests/unit/components/SvgIcon.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../uric_web/tests/unit/utils/formatTime.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../uric_web/tests/unit/utils/param2Obj.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../uric_web/tests/unit/utils/parseTime.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../uric_web/tests/unit/utils/validate.spec.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,7 +182,8 @@
       <workItem from="1726563221046" duration="8884000" />
       <workItem from="1726661068357" duration="3689000" />
       <workItem from="1726744904710" duration="7055000" />
-      <workItem from="1726918509833" duration="713000" />
+      <workItem from="1726918509833" duration="2212000" />
+      <workItem from="1726967568515" duration="9352000" />
     </task>
     <task id="LOCAL-00001" summary="工具类提交">
       <option name="closed" value="true" />
@@ -268,7 +281,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726754433880</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="生成swagger文档">
+      <option name="closed" value="true" />
+      <created>1726919328375</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1726919328375</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -306,7 +327,8 @@
     <MESSAGE value="系统监控及邮件通知" />
     <MESSAGE value="上传监控脚本" />
     <MESSAGE value="admin注册新方法" />
-    <option name="LAST_COMMIT_MESSAGE" value="admin注册新方法" />
+    <MESSAGE value="生成swagger文档" />
+    <option name="LAST_COMMIT_MESSAGE" value="生成swagger文档" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

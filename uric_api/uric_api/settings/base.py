@@ -61,6 +61,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'uric_api.utils.middleware.CustomMiddleware',
 ]
 
 ROOT_URLCONF = 'uric_api.urls'

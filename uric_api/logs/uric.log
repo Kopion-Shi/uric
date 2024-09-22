@@ -6991,3 +6991,448 @@ INFO 2024-09-21 19:47:05,362 autoreload:266 D:\00_github\python_web\uric\uric_ap
 INFO 2024-09-21 19:47:08,569 autoreload:668 Watching for file changes with StatReloader
 INFO 2024-09-21 19:47:36,780 runserver:141 HTTP GET /doc/swagger/ 200 [0.05, 127.0.0.1:8822]
 INFO 2024-09-21 19:47:40,962 runserver:141 HTTP GET /doc/schema/ 200 [0.12, 127.0.0.1:8822]
+INFO 2024-09-22 09:13:14,262 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-22 09:14:07,725 runserver:141 HTTP OPTIONS /users/login 200 [0.01, 127.0.0.1:3356]
+INFO 2024-09-22 09:14:08,340 runserver:141 HTTP POST /users/login 200 [0.60, 127.0.0.1:3356]
+INFO 2024-09-22 09:14:08,357 runserver:141 HTTP OPTIONS /users/info 200 [0.00, 127.0.0.1:3356]
+INFO 2024-09-22 09:14:08,364 runserver:141 HTTP GET /users/info 200 [0.00, 127.0.0.1:3356]
+INFO 2024-09-22 09:18:30,437 runserver:141 HTTP OPTIONS /users/login 200 [0.00, 127.0.0.1:6978]
+INFO 2024-09-22 09:18:30,965 runserver:141 HTTP POST /users/login 200 [0.52, 127.0.0.1:6978]
+INFO 2024-09-22 09:18:30,984 runserver:141 HTTP OPTIONS /users/info 200 [0.00, 127.0.0.1:6978]
+INFO 2024-09-22 09:18:30,993 runserver:141 HTTP GET /users/info 200 [0.00, 127.0.0.1:6978]
+INFO 2024-09-22 09:18:57,036 runserver:141 HTTP GET /users/info 200 [0.00, 127.0.0.1:6978]
+INFO 2024-09-22 09:19:02,808 runserver:141 HTTP GET /users/info 200 [0.00, 127.0.0.1:6978]
+INFO 2024-09-22 09:19:03,353 runserver:141 HTTP OPTIONS /vue-admin-template/table/list 200 [0.00, 127.0.0.1:6978]
+WARNING 2024-09-22 09:19:03,382 log:248 Not Found: /vue-admin-template/table/list
+WARNING 2024-09-22 09:19:03,386 runserver:149 HTTP GET /vue-admin-template/table/list 404 [0.03, 127.0.0.1:6978]
+INFO 2024-09-22 09:19:04,981 runserver:141 HTTP GET /users/info 200 [0.00, 127.0.0.1:6978]
+INFO 2024-09-22 09:19:56,215 runserver:141 HTTP GET /users/info 200 [0.00, 127.0.0.1:6978]
+INFO 2024-09-22 09:21:22,796 runserver:141 HTTP GET /users/info 200 [0.00, 127.0.0.1:10813]
+INFO 2024-09-22 09:21:24,011 runserver:141 HTTP GET /users/info 200 [0.00, 127.0.0.1:10813]
+WARNING 2024-09-22 09:21:24,562 log:248 Not Found: /vue-admin-template/table/list
+WARNING 2024-09-22 09:21:24,563 runserver:149 HTTP GET /vue-admin-template/table/list 404 [0.01, 127.0.0.1:10813]
+INFO 2024-09-22 09:21:25,621 runserver:141 HTTP GET /users/info 200 [0.00, 127.0.0.1:10813]
+INFO 2024-09-22 09:21:27,003 runserver:141 HTTP GET /users/info 200 [0.00, 127.0.0.1:10813]
+WARNING 2024-09-22 09:21:27,546 log:248 Not Found: /vue-admin-template/table/list
+WARNING 2024-09-22 09:21:27,548 runserver:149 HTTP GET /vue-admin-template/table/list 404 [0.01, 127.0.0.1:10813]
+INFO 2024-09-22 09:22:00,910 runserver:141 HTTP GET /users/info 200 [0.01, 127.0.0.1:10813]
+WARNING 2024-09-22 09:22:00,977 log:248 Not Found: /vue-admin-template/table/list
+WARNING 2024-09-22 09:22:00,979 runserver:149 HTTP GET /vue-admin-template/table/list 404 [0.01, 127.0.0.1:10813]
+INFO 2024-09-22 09:22:56,422 runserver:141 HTTP GET /users/info 200 [0.00, 127.0.0.1:10813]
+WARNING 2024-09-22 09:22:56,502 log:248 Not Found: /vue-admin-template/table/list
+WARNING 2024-09-22 09:22:56,503 runserver:149 HTTP GET /vue-admin-template/table/list 404 [0.01, 127.0.0.1:10813]
+INFO 2024-09-22 09:23:14,236 runserver:141 HTTP GET /users/info 200 [0.00, 127.0.0.1:10813]
+WARNING 2024-09-22 09:23:14,328 log:248 Not Found: /vue-admin-template/table/list
+WARNING 2024-09-22 09:23:14,329 runserver:149 HTTP GET /vue-admin-template/table/list 404 [0.01, 127.0.0.1:10813]
+INFO 2024-09-22 09:24:00,501 runserver:141 HTTP GET /users/info 200 [0.00, 127.0.0.1:10813]
+WARNING 2024-09-22 09:24:00,589 log:248 Not Found: /vue-admin-template/table/list
+WARNING 2024-09-22 09:24:00,591 runserver:149 HTTP GET /vue-admin-template/table/list 404 [0.01, 127.0.0.1:10813]
+INFO 2024-09-22 09:24:38,923 runserver:141 HTTP GET /users/info 200 [0.00, 127.0.0.1:10813]
+WARNING 2024-09-22 09:24:39,013 log:248 Not Found: /vue-admin-template/table/list
+WARNING 2024-09-22 09:24:39,018 runserver:149 HTTP GET /vue-admin-template/table/list 404 [0.02, 127.0.0.1:10813]
+INFO 2024-09-22 09:25:12,036 runserver:141 HTTP GET /users/info 200 [0.01, 127.0.0.1:10813]
+WARNING 2024-09-22 09:25:12,119 log:248 Not Found: /vue-admin-template/table/list
+WARNING 2024-09-22 09:25:12,122 runserver:149 HTTP GET /vue-admin-template/table/list 404 [0.01, 127.0.0.1:10813]
+INFO 2024-09-22 09:26:26,057 runserver:141 HTTP GET /users/info 200 [0.00, 127.0.0.1:14916]
+WARNING 2024-09-22 09:26:26,139 log:248 Not Found: /vue-admin-template/table/list
+WARNING 2024-09-22 09:26:26,141 runserver:149 HTTP GET /vue-admin-template/table/list 404 [0.01, 127.0.0.1:14916]
+INFO 2024-09-22 09:28:59,704 runserver:141 HTTP GET /users/info 200 [0.00, 127.0.0.1:3520]
+INFO 2024-09-22 09:29:16,202 runserver:141 HTTP GET /users/info 200 [0.00, 127.0.0.1:3520]
+INFO 2024-09-22 15:44:05,203 runserver:141 HTTP OPTIONS /users/info 200 [0.02, 127.0.0.1:5117]
+INFO 2024-09-22 15:44:05,220 runserver:141 HTTP GET /users/info 200 [0.01, 127.0.0.1:5117]
+INFO 2024-09-22 15:44:09,437 runserver:141 HTTP GET /users/info 200 [0.00, 127.0.0.1:5117]
+INFO 2024-09-22 15:45:13,638 runserver:141 HTTP GET /users/info 200 [0.00, 127.0.0.1:5516]
+INFO 2024-09-22 15:45:17,358 runserver:141 HTTP GET /users/info 200 [0.00, 127.0.0.1:5516]
+INFO 2024-09-22 15:45:20,537 runserver:141 HTTP GET /users/info 200 [0.00, 127.0.0.1:5516]
+INFO 2024-09-22 15:45:22,307 runserver:141 HTTP GET /users/info 200 [0.00, 127.0.0.1:5516]
+INFO 2024-09-22 15:45:25,832 runserver:141 HTTP GET /users/info 200 [0.00, 127.0.0.1:5516]
+INFO 2024-09-22 15:45:46,536 runserver:141 HTTP GET /users/info 200 [0.00, 127.0.0.1:5516]
+INFO 2024-09-22 15:45:53,785 runserver:141 HTTP GET /users/info 200 [0.00, 127.0.0.1:5516]
+INFO 2024-09-22 15:45:54,334 runserver:141 HTTP OPTIONS /vue-admin-template/table/list 200 [0.00, 127.0.0.1:5516]
+WARNING 2024-09-22 15:45:54,351 log:248 Not Found: /vue-admin-template/table/list
+WARNING 2024-09-22 15:45:54,353 runserver:149 HTTP GET /vue-admin-template/table/list 404 [0.01, 127.0.0.1:5516]
+INFO 2024-09-22 15:45:54,605 runserver:141 HTTP GET /users/info 200 [0.00, 127.0.0.1:5516]
+INFO 2024-09-22 15:46:02,845 runserver:141 HTTP GET /users/info 200 [0.00, 127.0.0.1:5516]
+INFO 2024-09-22 15:46:04,434 runserver:141 HTTP GET /users/info 200 [0.00, 127.0.0.1:5516]
+INFO 2024-09-22 15:46:49,786 runserver:141 HTTP GET /users/info 200 [0.00, 127.0.0.1:5516]
+INFO 2024-09-22 15:47:11,525 runserver:141 HTTP GET /users/info 200 [0.00, 127.0.0.1:5516]
+INFO 2024-09-22 15:47:15,330 runserver:141 HTTP GET /users/info 200 [0.00, 127.0.0.1:5516]
+INFO 2024-09-22 15:47:17,890 runserver:141 HTTP GET /users/info 200 [0.00, 127.0.0.1:5516]
+INFO 2024-09-22 15:47:43,023 runserver:141 HTTP GET /users/info 200 [0.00, 127.0.0.1:5516]
+INFO 2024-09-22 15:47:44,706 runserver:141 HTTP GET /users/info 200 [0.00, 127.0.0.1:5516]
+WARNING 2024-09-22 15:47:45,273 log:248 Not Found: /vue-admin-template/table/list
+WARNING 2024-09-22 15:47:45,275 runserver:149 HTTP GET /vue-admin-template/table/list 404 [0.01, 127.0.0.1:5516]
+INFO 2024-09-22 15:47:46,073 runserver:141 HTTP GET /users/info 200 [0.00, 127.0.0.1:5516]
+INFO 2024-09-22 15:47:47,715 runserver:141 HTTP GET /users/info 200 [0.00, 127.0.0.1:5516]
+WARNING 2024-09-22 15:47:48,264 log:248 Not Found: /vue-admin-template/table/list
+WARNING 2024-09-22 15:47:48,266 runserver:149 HTTP GET /vue-admin-template/table/list 404 [0.01, 127.0.0.1:5516]
+INFO 2024-09-22 15:47:49,109 runserver:141 HTTP GET /users/info 200 [0.00, 127.0.0.1:5516]
+INFO 2024-09-22 15:49:05,398 runserver:141 HTTP GET /users/info 200 [0.00, 127.0.0.1:6993]
+INFO 2024-09-22 15:49:08,859 runserver:141 HTTP GET /users/info 200 [0.00, 127.0.0.1:6993]
+INFO 2024-09-22 15:49:29,214 runserver:141 HTTP GET /users/info 200 [0.01, 127.0.0.1:6993]
+INFO 2024-09-22 15:49:38,197 runserver:141 HTTP GET /users/info 200 [0.00, 127.0.0.1:6993]
+INFO 2024-09-22 15:49:47,176 runserver:141 HTTP GET /users/info 200 [0.00, 127.0.0.1:6993]
+INFO 2024-09-22 15:49:55,510 runserver:141 HTTP GET /users/info 200 [0.01, 127.0.0.1:6993]
+INFO 2024-09-22 15:50:15,150 runserver:141 HTTP GET /users/info 200 [0.01, 127.0.0.1:6993]
+INFO 2024-09-22 15:50:57,546 runserver:141 HTTP GET /users/info 200 [0.00, 127.0.0.1:6993]
+INFO 2024-09-22 15:51:03,331 runserver:141 HTTP GET /users/info 200 [0.00, 127.0.0.1:6993]
+WARNING 2024-09-22 15:51:03,883 log:248 Not Found: /vue-admin-template/table/list
+WARNING 2024-09-22 15:51:03,885 runserver:149 HTTP GET /vue-admin-template/table/list 404 [0.01, 127.0.0.1:6993]
+INFO 2024-09-22 15:51:32,038 runserver:141 HTTP GET /users/info 200 [0.00, 127.0.0.1:6993]
+INFO 2024-09-22 15:51:34,989 runserver:141 HTTP GET /users/info 200 [0.00, 127.0.0.1:6993]
+WARNING 2024-09-22 15:51:35,542 log:248 Not Found: /vue-admin-template/table/list
+WARNING 2024-09-22 15:51:35,543 runserver:149 HTTP GET /vue-admin-template/table/list 404 [0.01, 127.0.0.1:6993]
+INFO 2024-09-22 15:51:35,648 runserver:141 HTTP GET /users/info 200 [0.00, 127.0.0.1:6993]
+INFO 2024-09-22 15:51:39,055 runserver:141 HTTP GET /users/info 200 [0.00, 127.0.0.1:6993]
+WARNING 2024-09-22 15:51:39,606 log:248 Not Found: /vue-admin-template/table/list
+WARNING 2024-09-22 15:51:39,608 runserver:149 HTTP GET /vue-admin-template/table/list 404 [0.01, 127.0.0.1:6993]
+INFO 2024-09-22 15:53:20,027 runserver:141 HTTP GET /users/info 200 [0.00, 127.0.0.1:8519]
+WARNING 2024-09-22 15:53:20,143 log:248 Not Found: /vue-admin-template/table/list
+WARNING 2024-09-22 15:53:20,145 runserver:149 HTTP GET /vue-admin-template/table/list 404 [0.01, 127.0.0.1:8519]
+INFO 2024-09-22 15:53:35,575 runserver:141 HTTP GET /users/info 200 [0.00, 127.0.0.1:8519]
+WARNING 2024-09-22 15:53:35,680 log:248 Not Found: /vue-admin-template/table/list
+WARNING 2024-09-22 15:53:35,682 runserver:149 HTTP GET /vue-admin-template/table/list 404 [0.01, 127.0.0.1:8519]
+INFO 2024-09-22 15:53:40,002 runserver:141 HTTP GET /users/info 200 [0.01, 127.0.0.1:8519]
+INFO 2024-09-22 15:53:40,598 runserver:141 HTTP GET /users/info 200 [0.00, 127.0.0.1:8519]
+WARNING 2024-09-22 15:53:40,651 log:248 Not Found: /vue-admin-template/table/list
+WARNING 2024-09-22 15:53:40,653 runserver:149 HTTP GET /vue-admin-template/table/list 404 [0.02, 127.0.0.1:8519]
+INFO 2024-09-22 15:55:54,857 runserver:141 HTTP OPTIONS /release/app 200 [0.00, 127.0.0.1:9112]
+INFO 2024-09-22 15:55:54,875 runserver:147 HTTP GET /release/app 301 [0.02, 127.0.0.1:9112]
+INFO 2024-09-22 15:55:54,879 runserver:141 HTTP OPTIONS /release/app/ 200 [0.00, 127.0.0.1:9112]
+INFO 2024-09-22 15:55:54,953 runserver:141 HTTP GET /release/app/ 200 [0.07, 127.0.0.1:9112]
+INFO 2024-09-22 15:56:12,987 runserver:141 HTTP GET /users/info 200 [0.00, 127.0.0.1:9112]
+INFO 2024-09-22 15:56:13,448 runserver:141 HTTP GET /users/info 200 [0.00, 127.0.0.1:9112]
+INFO 2024-09-22 15:56:13,546 runserver:141 HTTP GET /release/app/ 200 [0.02, 127.0.0.1:9112]
+INFO 2024-09-22 15:56:34,652 runserver:141 HTTP OPTIONS /users/info 200 [0.00, 127.0.0.1:9112]
+INFO 2024-09-22 15:56:34,659 runserver:141 HTTP GET /users/info 200 [0.00, 127.0.0.1:9112]
+INFO 2024-09-22 15:56:35,625 runserver:141 HTTP OPTIONS /users/info 200 [0.00, 127.0.0.1:9112]
+INFO 2024-09-22 15:56:35,631 runserver:141 HTTP GET /users/info 200 [0.00, 127.0.0.1:9112]
+INFO 2024-09-22 15:56:36,177 runserver:141 HTTP OPTIONS /release/app 200 [0.00, 127.0.0.1:9112]
+INFO 2024-09-22 15:56:36,189 runserver:147 HTTP GET /release/app 301 [0.01, 127.0.0.1:9112]
+INFO 2024-09-22 15:56:36,207 runserver:141 HTTP OPTIONS /release/app/ 200 [0.00, 127.0.0.1:9112]
+INFO 2024-09-22 15:56:36,228 runserver:141 HTTP GET /release/app/ 200 [0.02, 127.0.0.1:9112]
+INFO 2024-09-22 16:03:26,273 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\settings\base.py changed, reloading.
+INFO 2024-09-22 16:03:38,158 autoreload:668 Watching for file changes with StatReloader
+ERROR 2024-09-22 16:07:26,754 runserver:154 HTTP GET /release/app/ 500 [0.03, 127.0.0.1:13514]
+INFO 2024-09-22 16:08:17,299 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\settings\base.py changed, reloading.
+INFO 2024-09-22 16:08:20,553 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-22 16:08:25,688 runserver:141 HTTP GET /release/app/ 200 [0.03, 127.0.0.1:13779]
+INFO 2024-09-22 16:10:09,057 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\utils\middleware.py changed, reloading.
+INFO 2024-09-22 16:10:11,831 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-22 16:10:27,378 runserver:141 HTTP GET /release/app/ 200 [0.03, 127.0.0.1:14379]
+INFO 2024-09-22 16:10:35,773 runserver:141 HTTP GET /release/app/ 200 [0.04, 127.0.0.1:14379]
+INFO 2024-09-22 16:10:39,687 runserver:141 HTTP GET /release/app/ 200 [0.01, 127.0.0.1:14379]
+INFO 2024-09-22 16:10:47,552 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\utils\middleware.py changed, reloading.
+INFO 2024-09-22 16:10:49,813 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-22 16:11:00,116 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\utils\middleware.py changed, reloading.
+INFO 2024-09-22 16:11:02,303 autoreload:668 Watching for file changes with StatReloader
+ERROR 2024-09-22 16:11:08,199 log:248 Internal Server Error: /release/app/
+Traceback (most recent call last):
+  File "C:\Users\Carl3\.conda\envs\lpm_api\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Carl3\.conda\envs\lpm_api\lib\site-packages\django\utils\deprecation.py", line 131, in __call__
+    response = self.process_response(request, response)
+  File "C:\Users\Carl3\.conda\envs\lpm_api\lib\site-packages\django\middleware\common.py", line 107, in process_response
+    if response.status_code == 404 and self.should_redirect_with_slash(request):
+AttributeError: 'dict' object has no attribute 'status_code'
+ERROR 2024-09-22 16:11:08,204 runserver:154 HTTP GET /release/app/ 500 [0.16, 127.0.0.1:14555]
+INFO 2024-09-22 16:11:29,734 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\utils\middleware.py changed, reloading.
+INFO 2024-09-22 16:11:31,775 autoreload:668 Watching for file changes with StatReloader
+ERROR 2024-09-22 16:11:39,095 log:248 Internal Server Error: /release/app/
+Traceback (most recent call last):
+  File "C:\Users\Carl3\.conda\envs\lpm_api\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\00_github\python_web\uric\uric_api\uric_api\utils\middleware.py", line 14, in __call__
+    if response['status_code'] == 200:
+  File "C:\Users\Carl3\.conda\envs\lpm_api\lib\site-packages\django\http\response.py", line 199, in __getitem__
+    return self.headers[header]
+  File "C:\Users\Carl3\.conda\envs\lpm_api\lib\site-packages\django\utils\datastructures.py", line 308, in __getitem__
+    return self._store[key.lower()][1]
+KeyError: 'status_code'
+ERROR 2024-09-22 16:11:39,102 runserver:154 HTTP GET /release/app/ 500 [0.13, 127.0.0.1:14656]
+ERROR 2024-09-22 16:11:56,820 log:248 Internal Server Error: /release/app/
+Traceback (most recent call last):
+  File "C:\Users\Carl3\.conda\envs\lpm_api\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\00_github\python_web\uric\uric_api\uric_api\utils\middleware.py", line 14, in __call__
+    if response['status_code'] == 200:
+  File "C:\Users\Carl3\.conda\envs\lpm_api\lib\site-packages\django\http\response.py", line 199, in __getitem__
+    return self.headers[header]
+  File "C:\Users\Carl3\.conda\envs\lpm_api\lib\site-packages\django\utils\datastructures.py", line 308, in __getitem__
+    return self._store[key.lower()][1]
+KeyError: 'status_code'
+ERROR 2024-09-22 16:11:56,823 runserver:154 HTTP GET /release/app/ 500 [0.04, 127.0.0.1:14656]
+INFO 2024-09-22 16:12:05,668 autoreload:668 Watching for file changes with StatReloader
+ERROR 2024-09-22 16:12:08,658 log:248 Internal Server Error: /release/app/
+Traceback (most recent call last):
+  File "C:\Users\Carl3\.conda\envs\lpm_api\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\00_github\python_web\uric\uric_api\uric_api\utils\middleware.py", line 14, in __call__
+    if response['status_code'] == 200:
+  File "C:\Users\Carl3\.conda\envs\lpm_api\lib\site-packages\django\http\response.py", line 199, in __getitem__
+    return self.headers[header]
+  File "C:\Users\Carl3\.conda\envs\lpm_api\lib\site-packages\django\utils\datastructures.py", line 308, in __getitem__
+    return self._store[key.lower()][1]
+KeyError: 'status_code'
+ERROR 2024-09-22 16:12:08,661 runserver:154 HTTP GET /release/app/ 500 [0.19, 127.0.0.1:14738]
+INFO 2024-09-22 16:13:46,130 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\utils\middleware.py changed, reloading.
+INFO 2024-09-22 16:13:48,349 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-22 16:14:01,004 autoreload:668 Watching for file changes with StatReloader
+ERROR 2024-09-22 16:14:05,414 log:248 Internal Server Error: /release/app/
+Traceback (most recent call last):
+  File "C:\Users\Carl3\.conda\envs\lpm_api\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\00_github\python_web\uric\uric_api\uric_api\utils\middleware.py", line 15, in __call__
+    'code': 20000 if response['status_code'] == 200 else 30000,
+  File "C:\Users\Carl3\.conda\envs\lpm_api\lib\site-packages\django\http\response.py", line 199, in __getitem__
+    return self.headers[header]
+  File "C:\Users\Carl3\.conda\envs\lpm_api\lib\site-packages\django\utils\datastructures.py", line 308, in __getitem__
+    return self._store[key.lower()][1]
+KeyError: 'status_code'
+ERROR 2024-09-22 16:14:05,418 runserver:154 HTTP GET /release/app/ 500 [0.05, 127.0.0.1:2603]
+INFO 2024-09-22 16:15:11,895 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\utils\middleware.py changed, reloading.
+INFO 2024-09-22 16:15:14,004 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-22 16:16:57,471 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\utils\middleware.py changed, reloading.
+INFO 2024-09-22 16:16:59,610 autoreload:668 Watching for file changes with StatReloader
+ERROR 2024-09-22 16:17:04,176 log:248 Internal Server Error: /release/app/
+Traceback (most recent call last):
+  File "C:\Users\Carl3\.conda\envs\lpm_api\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\00_github\python_web\uric\uric_api\uric_api\utils\middleware.py", line 15, in __call__
+    'code': 20000 if response['status_code'] == 200 else 30000,
+  File "C:\Users\Carl3\.conda\envs\lpm_api\lib\site-packages\django\http\response.py", line 199, in __getitem__
+    return self.headers[header]
+  File "C:\Users\Carl3\.conda\envs\lpm_api\lib\site-packages\django\utils\datastructures.py", line 308, in __getitem__
+    return self._store[key.lower()][1]
+KeyError: 'status_code'
+ERROR 2024-09-22 16:17:04,178 runserver:154 HTTP GET /release/app/ 500 [0.07, 127.0.0.1:3231]
+INFO 2024-09-22 16:18:33,406 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\utils\middleware.py changed, reloading.
+INFO 2024-09-22 16:18:35,611 autoreload:668 Watching for file changes with StatReloader
+ERROR 2024-09-22 16:18:37,715 log:248 Internal Server Error: /release/app/
+Traceback (most recent call last):
+  File "C:\Users\Carl3\.conda\envs\lpm_api\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\00_github\python_web\uric\uric_api\uric_api\utils\middleware.py", line 13, in __call__
+    print("响应后处理",response.keys)
+AttributeError: 'Response' object has no attribute 'keys'
+ERROR 2024-09-22 16:18:37,718 runserver:154 HTTP GET /release/app/ 500 [0.17, 127.0.0.1:3665]
+INFO 2024-09-22 16:26:30,945 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\settings\base.py changed, reloading.
+INFO 2024-09-22 16:26:33,331 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-22 16:26:36,487 runserver:141 HTTP GET /release/app/ 200 [0.03, 127.0.0.1:7029]
+INFO 2024-09-22 16:26:38,740 runserver:141 HTTP GET /release/app/ 200 [0.02, 127.0.0.1:7029]
+INFO 2024-09-22 16:27:15,459 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-22 16:27:18,003 runserver:141 HTTP GET /release/app/ 200 [0.03, 127.0.0.1:7282]
+INFO 2024-09-22 16:27:20,178 runserver:141 HTTP GET /release/app/ 200 [0.02, 127.0.0.1:7282]
+INFO 2024-09-22 16:27:21,609 runserver:141 HTTP GET /release/app/ 200 [0.02, 127.0.0.1:7282]
+INFO 2024-09-22 16:27:31,115 runserver:141 HTTP GET /release/app/ 200 [0.03, 127.0.0.1:7282]
+INFO 2024-09-22 16:27:32,390 runserver:141 HTTP GET /release/app/ 200 [0.02, 127.0.0.1:7282]
+INFO 2024-09-22 16:34:00,907 runserver:141 HTTP GET /release/app/ 200 [0.04, 127.0.0.1:9652]
+INFO 2024-09-22 16:34:10,876 runserver:141 HTTP GET /release/app/ 200 [0.02, 127.0.0.1:9652]
+INFO 2024-09-22 16:34:12,248 runserver:141 HTTP GET /release/app/ 200 [0.02, 127.0.0.1:9652]
+INFO 2024-09-22 16:34:13,421 runserver:141 HTTP GET /release/app/ 200 [0.02, 127.0.0.1:9652]
+INFO 2024-09-22 16:34:19,004 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-22 16:34:22,454 runserver:141 HTTP GET /release/app/ 200 [0.03, 127.0.0.1:9746]
+INFO 2024-09-22 16:34:38,942 runserver:141 HTTP GET /release/app/ 200 [0.02, 127.0.0.1:9746]
+INFO 2024-09-22 16:34:41,207 runserver:141 HTTP GET /release/app/ 200 [0.04, 127.0.0.1:9746]
+INFO 2024-09-22 16:34:57,282 runserver:141 HTTP GET /release/app/ 200 [0.02, 127.0.0.1:9746]
+INFO 2024-09-22 16:35:02,348 runserver:141 HTTP GET /release/app/ 200 [0.02, 127.0.0.1:9746]
+INFO 2024-09-22 16:35:35,893 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-22 16:35:37,930 runserver:141 HTTP GET /release/app/ 200 [0.03, 127.0.0.1:10176]
+INFO 2024-09-22 16:35:39,029 runserver:141 HTTP GET /release/app/ 200 [0.02, 127.0.0.1:10176]
+INFO 2024-09-22 16:35:40,067 runserver:141 HTTP GET /release/app/ 200 [0.01, 127.0.0.1:10176]
+INFO 2024-09-22 16:35:41,111 runserver:141 HTTP GET /release/app/ 200 [0.02, 127.0.0.1:10176]
+INFO 2024-09-22 16:35:46,678 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\settings\base.py changed, reloading.
+INFO 2024-09-22 16:35:48,967 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-22 16:39:22,406 runserver:141 HTTP GET /release/app/ 200 [0.03, 127.0.0.1:11245]
+INFO 2024-09-22 16:39:33,274 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\utils\middleware.py changed, reloading.
+INFO 2024-09-22 16:39:35,712 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-22 16:39:38,908 runserver:141 HTTP GET /release/app/ 200 [0.03, 127.0.0.1:11326]
+INFO 2024-09-22 16:40:18,964 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\utils\middleware.py changed, reloading.
+INFO 2024-09-22 16:40:20,994 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-22 16:40:24,266 runserver:141 HTTP GET /release/app/ 200 [0.11, 127.0.0.1:11575]
+INFO 2024-09-22 16:40:27,908 runserver:141 HTTP GET /release/app/ 200 [0.03, 127.0.0.1:11575]
+INFO 2024-09-22 16:40:29,488 runserver:141 HTTP GET /release/app/ 200 [0.02, 127.0.0.1:11575]
+INFO 2024-09-22 16:40:42,910 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\utils\middleware.py changed, reloading.
+INFO 2024-09-22 16:40:45,217 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-22 16:40:48,379 runserver:141 HTTP GET /release/app/ 200 [0.03, 127.0.0.1:11687]
+INFO 2024-09-22 16:41:00,721 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\utils\middleware.py changed, reloading.
+INFO 2024-09-22 16:41:02,815 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-22 16:41:10,069 runserver:141 HTTP GET /release/app/ 200 [0.02, 127.0.0.1:11758]
+INFO 2024-09-22 16:41:28,063 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\utils\middleware.py changed, reloading.
+INFO 2024-09-22 16:41:30,407 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-22 16:41:32,466 runserver:141 HTTP GET /release/app/ 200 [0.03, 127.0.0.1:11841]
+INFO 2024-09-22 16:41:34,349 runserver:141 HTTP GET /release/app/ 200 [0.03, 127.0.0.1:11841]
+INFO 2024-09-22 16:41:48,677 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\utils\middleware.py changed, reloading.
+INFO 2024-09-22 16:41:50,849 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-22 16:41:54,030 runserver:141 HTTP GET /release/app/ 200 [0.03, 127.0.0.1:11975]
+INFO 2024-09-22 16:42:11,990 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\utils\middleware.py changed, reloading.
+INFO 2024-09-22 16:42:14,157 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-22 16:42:16,986 runserver:141 HTTP GET /release/app/ 200 [0.02, 127.0.0.1:12062]
+INFO 2024-09-22 16:42:23,210 runserver:141 HTTP GET /release/app/ 200 [0.04, 127.0.0.1:12062]
+INFO 2024-09-22 16:42:37,904 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\utils\middleware.py changed, reloading.
+INFO 2024-09-22 16:42:40,348 autoreload:668 Watching for file changes with StatReloader
+ERROR 2024-09-22 16:42:44,544 log:248 Internal Server Error: /release/app/
+Traceback (most recent call last):
+  File "C:\Users\Carl3\.conda\envs\lpm_api\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\00_github\python_web\uric\uric_api\uric_api\utils\middleware.py", line 18, in __call__
+    'data': response.data + '111111'
+TypeError: can only concatenate list (not "str") to list
+ERROR 2024-09-22 16:42:44,546 runserver:154 HTTP GET /release/app/ 500 [0.05, 127.0.0.1:12305]
+INFO 2024-09-22 16:42:59,087 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\utils\middleware.py changed, reloading.
+INFO 2024-09-22 16:43:01,697 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-22 16:43:14,959 runserver:141 HTTP GET /release/app/ 200 [0.05, 127.0.0.1:12408]
+INFO 2024-09-22 16:47:00,707 runserver:141 HTTP GET /release/app/ 200 [0.01, 127.0.0.1:13226]
+INFO 2024-09-22 16:48:39,217 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\settings\base.py changed, reloading.
+INFO 2024-09-22 16:48:41,353 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-22 16:48:46,262 runserver:141 HTTP GET /release/app/ 200 [0.02, 127.0.0.1:13522]
+INFO 2024-09-22 16:48:56,979 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-22 16:49:03,187 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-22 16:49:11,212 runserver:141 HTTP GET /release/app/ 200 [0.03, 127.0.0.1:13610]
+INFO 2024-09-22 16:49:18,091 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\settings\base.py changed, reloading.
+INFO 2024-09-22 16:49:20,156 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-22 16:49:23,643 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\settings\base.py changed, reloading.
+INFO 2024-09-22 16:49:25,620 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-22 16:49:51,480 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-22 16:49:53,976 runserver:141 HTTP GET /release/app/ 200 [0.02, 127.0.0.1:13769]
+INFO 2024-09-22 16:49:58,664 runserver:141 HTTP GET /release/app/ 200 [0.02, 127.0.0.1:13769]
+INFO 2024-09-22 16:49:59,850 runserver:141 HTTP GET /release/app/ 200 [0.04, 127.0.0.1:13769]
+INFO 2024-09-22 16:50:17,145 runserver:141 HTTP OPTIONS /users/info 200 [0.00, 127.0.0.1:13848]
+INFO 2024-09-22 16:50:17,150 runserver:141 HTTP GET /users/info 200 [0.00, 127.0.0.1:13848]
+INFO 2024-09-22 16:50:17,230 runserver:141 HTTP OPTIONS /release/app 200 [0.00, 127.0.0.1:13848]
+ERROR 2024-09-22 16:50:17,301 log:248 Internal Server Error: /release/app
+Traceback (most recent call last):
+  File "C:\Users\Carl3\.conda\envs\lpm_api\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\00_github\python_web\uric\uric_api\uric_api\utils\middleware.py", line 14, in __call__
+    print(response.data)
+AttributeError: 'HttpResponseNotFound' object has no attribute 'data'
+ERROR 2024-09-22 16:50:17,305 runserver:154 HTTP GET /release/app 500 [0.07, 127.0.0.1:13848]
+INFO 2024-09-22 16:51:40,226 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\apps\users\views.py changed, reloading.
+INFO 2024-09-22 16:51:42,746 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-22 16:51:44,911 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\apps\users\views.py changed, reloading.
+INFO 2024-09-22 16:51:47,412 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-22 16:51:53,171 runserver:141 HTTP OPTIONS /users/info 200 [0.01, 127.0.0.1:14156]
+INFO 2024-09-22 16:51:53,180 runserver:141 HTTP GET /users/info 200 [0.01, 127.0.0.1:14156]
+INFO 2024-09-22 16:52:08,406 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\utils\middleware.py changed, reloading.
+INFO 2024-09-22 16:52:10,728 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-22 16:52:13,892 runserver:141 HTTP OPTIONS /users/login 200 [0.00, 127.0.0.1:14241]
+INFO 2024-09-22 16:52:14,360 runserver:141 HTTP POST /users/login 200 [0.47, 127.0.0.1:14241]
+INFO 2024-09-22 16:52:14,373 runserver:141 HTTP OPTIONS /users/info 200 [0.00, 127.0.0.1:14241]
+INFO 2024-09-22 16:52:14,380 runserver:141 HTTP GET /users/info 200 [0.00, 127.0.0.1:14241]
+INFO 2024-09-22 16:52:16,280 runserver:141 HTTP OPTIONS /users/login 200 [0.00, 127.0.0.1:14241]
+INFO 2024-09-22 16:52:16,734 runserver:141 HTTP POST /users/login 200 [0.45, 127.0.0.1:14241]
+INFO 2024-09-22 16:52:16,746 runserver:141 HTTP OPTIONS /users/info 200 [0.00, 127.0.0.1:14241]
+INFO 2024-09-22 16:52:16,753 runserver:141 HTTP GET /users/info 200 [0.00, 127.0.0.1:14241]
+INFO 2024-09-22 16:52:58,502 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\utils\middleware.py changed, reloading.
+INFO 2024-09-22 16:53:00,631 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-22 16:53:04,444 runserver:141 HTTP OPTIONS /users/login 200 [0.00, 127.0.0.1:14393]
+INFO 2024-09-22 16:53:04,894 runserver:141 HTTP POST /users/login 200 [0.45, 127.0.0.1:14393]
+INFO 2024-09-22 16:53:04,904 runserver:141 HTTP OPTIONS /users/info 200 [0.00, 127.0.0.1:14393]
+INFO 2024-09-22 16:53:04,909 runserver:141 HTTP GET /users/info 200 [0.00, 127.0.0.1:14393]
+INFO 2024-09-22 16:53:13,340 runserver:141 HTTP OPTIONS /users/login 200 [0.00, 127.0.0.1:14393]
+INFO 2024-09-22 16:53:13,885 runserver:141 HTTP POST /users/login 200 [0.54, 127.0.0.1:14393]
+INFO 2024-09-22 16:53:13,895 runserver:141 HTTP OPTIONS /users/info 200 [0.00, 127.0.0.1:14393]
+INFO 2024-09-22 16:53:13,900 runserver:141 HTTP GET /users/info 200 [0.00, 127.0.0.1:14393]
+INFO 2024-09-22 17:00:51,496 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\utils\middleware.py changed, reloading.
+INFO 2024-09-22 17:00:53,445 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-22 17:01:02,497 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\utils\middleware.py changed, reloading.
+INFO 2024-09-22 17:01:04,448 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-22 17:01:28,894 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\utils\middleware.py changed, reloading.
+INFO 2024-09-22 17:01:30,953 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-22 17:02:57,309 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\utils\middleware.py changed, reloading.
+INFO 2024-09-22 17:02:59,523 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-22 17:03:38,645 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\utils\middleware.py changed, reloading.
+INFO 2024-09-22 17:03:40,979 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-22 17:03:42,440 runserver:141 HTTP OPTIONS /users/login 200 [0.01, 127.0.0.1:3544]
+INFO 2024-09-22 17:03:42,916 runserver:141 HTTP POST /users/login 200 [0.47, 127.0.0.1:3544]
+INFO 2024-09-22 17:03:42,932 runserver:141 HTTP OPTIONS /users/info 200 [0.00, 127.0.0.1:3544]
+INFO 2024-09-22 17:03:42,942 runserver:141 HTTP GET /users/info 200 [0.01, 127.0.0.1:3544]
+INFO 2024-09-22 17:08:02,688 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\utils\middleware.py changed, reloading.
+INFO 2024-09-22 17:08:04,853 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-22 17:08:06,360 runserver:141 HTTP OPTIONS /users/login 200 [0.00, 127.0.0.1:4263]
+INFO 2024-09-22 17:08:06,843 runserver:141 HTTP POST /users/login 200 [0.48, 127.0.0.1:4263]
+INFO 2024-09-22 17:08:07,704 runserver:141 HTTP OPTIONS /users/login 200 [0.00, 127.0.0.1:4263]
+INFO 2024-09-22 17:08:08,199 runserver:141 HTTP POST /users/login 200 [0.49, 127.0.0.1:4263]
+INFO 2024-09-22 17:09:43,110 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\utils\middleware.py changed, reloading.
+INFO 2024-09-22 17:09:45,239 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-22 17:11:37,487 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\utils\middleware.py changed, reloading.
+INFO 2024-09-22 17:11:39,491 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-22 17:11:41,734 runserver:141 HTTP OPTIONS /users/login 200 [0.01, 127.0.0.1:5253]
+INFO 2024-09-22 17:11:42,188 runserver:141 HTTP POST /users/login 200 [0.45, 127.0.0.1:5253]
+INFO 2024-09-22 17:11:57,825 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\utils\middleware.py changed, reloading.
+INFO 2024-09-22 17:12:00,205 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-22 17:12:03,613 runserver:141 HTTP OPTIONS /users/login 200 [0.00, 127.0.0.1:5350]
+INFO 2024-09-22 17:12:04,069 runserver:141 HTTP POST /users/login 200 [0.45, 127.0.0.1:5350]
+INFO 2024-09-22 17:12:18,615 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\utils\middleware.py changed, reloading.
+INFO 2024-09-22 17:12:20,826 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-22 17:12:23,731 runserver:141 HTTP OPTIONS /users/login 200 [0.01, 127.0.0.1:5422]
+INFO 2024-09-22 17:12:24,308 runserver:141 HTTP POST /users/login 200 [0.57, 127.0.0.1:5422]
+INFO 2024-09-22 17:12:33,033 runserver:141 HTTP OPTIONS /users/login 200 [0.00, 127.0.0.1:5422]
+INFO 2024-09-22 17:12:33,552 runserver:141 HTTP POST /users/login 200 [0.52, 127.0.0.1:5422]
+INFO 2024-09-22 17:12:59,535 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\utils\middleware.py changed, reloading.
+INFO 2024-09-22 17:13:01,676 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-22 17:13:04,380 runserver:141 HTTP OPTIONS /users/login 200 [0.00, 127.0.0.1:5551]
+INFO 2024-09-22 17:13:04,897 runserver:141 HTTP POST /users/login 200 [0.52, 127.0.0.1:5551]
+INFO 2024-09-22 17:13:04,909 runserver:141 HTTP OPTIONS /users/info 200 [0.00, 127.0.0.1:5551]
+INFO 2024-09-22 17:13:04,917 runserver:141 HTTP GET /users/info 200 [0.00, 127.0.0.1:5551]
+INFO 2024-09-22 17:13:32,614 runserver:141 HTTP OPTIONS /users/login 200 [0.01, 127.0.0.1:5551]
+INFO 2024-09-22 17:13:33,115 runserver:141 HTTP POST /users/login 200 [0.50, 127.0.0.1:5551]
+INFO 2024-09-22 17:13:33,124 runserver:141 HTTP OPTIONS /users/info 200 [0.00, 127.0.0.1:5551]
+INFO 2024-09-22 17:13:33,130 runserver:141 HTTP GET /users/info 200 [0.00, 127.0.0.1:5551]
+INFO 2024-09-22 17:13:53,730 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\utils\middleware.py changed, reloading.
+INFO 2024-09-22 17:13:55,772 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-22 17:13:57,206 runserver:141 HTTP OPTIONS /users/login 200 [0.00, 127.0.0.1:5685]
+INFO 2024-09-22 17:13:57,687 runserver:141 HTTP POST /users/login 200 [0.48, 127.0.0.1:5685]
+INFO 2024-09-22 17:13:57,699 runserver:141 HTTP OPTIONS /users/info 200 [0.00, 127.0.0.1:5685]
+INFO 2024-09-22 17:13:57,706 runserver:141 HTTP GET /users/info 200 [0.00, 127.0.0.1:5685]
+INFO 2024-09-22 17:13:57,800 runserver:141 HTTP OPTIONS /release/app 200 [0.00, 127.0.0.1:5685]
+ERROR 2024-09-22 17:13:57,989 log:248 Internal Server Error: /release/app
+Traceback (most recent call last):
+  File "C:\Users\Carl3\.conda\envs\lpm_api\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\00_github\python_web\uric\uric_api\uric_api\utils\middleware.py", line 18, in __call__
+    'data': response.data
+AttributeError: 'HttpResponseNotFound' object has no attribute 'data'
+ERROR 2024-09-22 17:13:57,990 runserver:154 HTTP GET /release/app 500 [0.19, 127.0.0.1:5685]
+INFO 2024-09-22 17:15:13,429 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\utils\middleware.py changed, reloading.
+INFO 2024-09-22 17:15:16,081 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-22 17:15:40,017 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\utils\middleware.py changed, reloading.
+INFO 2024-09-22 17:15:44,098 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-22 17:16:42,366 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\utils\middleware.py changed, reloading.
+INFO 2024-09-22 17:16:48,212 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-22 17:17:25,204 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\utils\middleware.py changed, reloading.
+INFO 2024-09-22 17:17:29,814 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-22 17:18:10,268 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-22 17:18:20,569 runserver:141 HTTP GET /release/app/ 200 [0.04, 127.0.0.1:6506]
+INFO 2024-09-22 17:18:35,049 runserver:141 HTTP OPTIONS /users/info 200 [0.01, 127.0.0.1:6550]
+INFO 2024-09-22 17:18:35,064 runserver:141 HTTP GET /users/info 200 [0.01, 127.0.0.1:6550]
+INFO 2024-09-22 17:18:35,299 runserver:141 HTTP OPTIONS /release/app 200 [0.01, 127.0.0.1:6550]
+ERROR 2024-09-22 17:18:35,402 log:248 Internal Server Error: /release/app
+Traceback (most recent call last):
+  File "C:\Users\Carl3\.conda\envs\lpm_api\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\00_github\python_web\uric\uric_api\uric_api\utils\middleware.py", line 16, in __call__
+    if response.data:
+AttributeError: 'HttpResponseNotFound' object has no attribute 'data'
+ERROR 2024-09-22 17:18:35,411 runserver:154 HTTP GET /release/app 500 [0.10, 127.0.0.1:6550]
+INFO 2024-09-22 17:23:56,901 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\utils\middleware.py changed, reloading.
+INFO 2024-09-22 17:23:59,712 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-22 17:24:10,061 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-22 17:24:23,523 runserver:141 HTTP OPTIONS /users/info 200 [0.00, 127.0.0.1:7506]
+INFO 2024-09-22 17:24:23,532 runserver:141 HTTP GET /users/info 200 [0.01, 127.0.0.1:7506]
+INFO 2024-09-22 17:24:24,658 runserver:141 HTTP OPTIONS /users/login 200 [0.00, 127.0.0.1:7506]
+INFO 2024-09-22 17:24:25,165 runserver:141 HTTP POST /users/login 200 [0.51, 127.0.0.1:7506]
+INFO 2024-09-22 17:24:25,176 runserver:141 HTTP OPTIONS /users/info 200 [0.00, 127.0.0.1:7506]
+INFO 2024-09-22 17:24:25,182 runserver:141 HTTP GET /users/info 200 [0.00, 127.0.0.1:7506]
+INFO 2024-09-22 17:26:37,714 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\utils\middleware.py changed, reloading.
+INFO 2024-09-22 17:26:40,096 autoreload:668 Watching for file changes with StatReloader
+INFO 2024-09-22 17:26:41,531 runserver:141 HTTP OPTIONS /users/login 200 [0.00, 127.0.0.1:7973]
+INFO 2024-09-22 17:26:42,019 runserver:141 HTTP POST /users/login 200 [0.49, 127.0.0.1:7973]
+INFO 2024-09-22 17:26:42,030 runserver:141 HTTP OPTIONS /users/info 200 [0.00, 127.0.0.1:7973]
+INFO 2024-09-22 17:26:42,036 runserver:141 HTTP GET /users/info 200 [0.00, 127.0.0.1:7973]
+INFO 2024-09-22 17:26:42,112 runserver:141 HTTP OPTIONS /release/app 200 [0.00, 127.0.0.1:7973]
+INFO 2024-09-22 17:26:42,137 runserver:147 HTTP GET /release/app 301 [0.02, 127.0.0.1:7973]
+INFO 2024-09-22 17:26:42,143 runserver:141 HTTP OPTIONS /release/app/ 200 [0.00, 127.0.0.1:7973]
+INFO 2024-09-22 17:26:42,304 runserver:141 HTTP GET /release/app/ 200 [0.16, 127.0.0.1:7973]
+INFO 2024-09-22 17:27:59,811 autoreload:266 D:\00_github\python_web\uric\uric_api\uric_api\utils\middleware.py changed, reloading.

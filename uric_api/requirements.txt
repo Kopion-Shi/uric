@@ -32,11 +32,15 @@ django-timezone-field==7.0
 djangorestframework==3.15.2
 djangorestframework-jwt==1.11.0
 djangorestframework-simplejwt==5.3.1
+drf-spectacular==0.27.2
 et-xmlfile==1.1.0
 hiredis==3.0.0
 hyperlink==21.0.0
 idna==3.10
 incremental==24.7.2
+inflection==0.5.1
+jsonschema==4.23.0
+jsonschema-specifications==2023.12.1
 kombu==5.4.1
 msgpack==0.6.2
 multi_key_dict==2.0.3
@@ -48,6 +52,7 @@ pbr==6.1.0
 pillow==10.4.0
 pip==24.2
 prompt_toolkit==3.0.47
+psutil==6.0.0
 pyasn1==0.6.1
 pyasn1_modules==0.4.1
 pycparser==2.22
@@ -60,9 +65,12 @@ python-dateutil==2.9.0.post0
 python-gitlab==4.11.1
 python-jenkins==1.8.2
 pytz==2024.2
+PyYAML==6.0.2
 redis==5.0.8
+referencing==0.35.1
 requests==2.32.3
 requests-toolbelt==1.0.0
+rpds-py==0.20.0
 service-identity==24.1.0
 setuptools==73.0.1
 six==1.16.0
@@ -72,6 +80,7 @@ Twisted==24.7.0
 txaio==23.1.1
 typing_extensions==4.12.2
 tzdata==2024.1
+uritemplate==4.1.1
 urllib3==2.2.3
 vine==5.1.0
 wcwidth==0.2.13

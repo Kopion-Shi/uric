@@ -19,16 +19,14 @@ class UserInfoView(generics.ListAPIView):
 
     def get(self, request, *args, **kwargs):
         # 在这里自定义返回的数据结构
-        new_data = {
-            'code': 20000,
-            'data': {
+        data = {
                 'roles': ['admin'],
                 'introduction': 'I am a super administrator',
                 'avatar': 'https://wpimg.wallstcn.com/f778738c-e4f8-4870-b634-56703b4acafe.gif',
                 'name':''
-            }}
+            }
 
-        return Response(new_data)
+        return Response(data)
 
 
 class LogoutView(generics.GenericAPIView):
